@@ -8,11 +8,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-const iPhoneFinishes = [
+const iPhoneProMaxFinishes = [
   { name: "Black", value: "#23252a", image: "/iphone/black.png" },
   { name: "Glacier Blue", value: "#9eb7d7", image: "/iphone/blue.png" },
   { name: "Burgundy", value: "#713641", image: "/iphone/red.png" },
   { name: "Silver", value: "#ededeb", image: "/iphone/white.png" },
+];
+const iPhoneProFinishes = [
+  { name: "Silver", value: "#ededeb", image: "/iphone/white.png" },
+  { name: "Glacier Blue", value: "#9eb7d7", image: "/iphone/blue.png" },
+  { name: "Black", value: "#23252a", image: "/iphone/black.png" },
+  { name: "Burgundy", value: "#713641", image: "/iphone/red.png" },
 ];
 const dueFinishes = [
   {
@@ -35,7 +41,7 @@ const slides = [
       "Titanium precision, an uncompromised camera system, and the A20 Pro at its most capable.",
     price: "$1,199",
     specs: ["A20 Pro", "6.9-inch XDR OLED", "48MP Pro camera system"],
-    colors: iPhoneFinishes,
+    colors: iPhoneProMaxFinishes,
   },
   {
     id: "pro",
@@ -44,7 +50,7 @@ const slides = [
       "A smaller Pro, calibrated for the hand and engineered for every demanding frame.",
     price: "$1,099",
     specs: ["A20 Pro", "6.3-inch XDR OLED", "120Hz ProMotion"],
-    colors: iPhoneFinishes,
+    colors: iPhoneProFinishes,
   },
   {
     id: "duo",
