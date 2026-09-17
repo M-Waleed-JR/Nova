@@ -63,7 +63,7 @@ const slides = [
   },
 ];
 
-export default function HeroSlider() {
+export default function HeroSlider({ onExplore }) {
   const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [selectedFinishes, setSelectedFinishes] = useState({});
@@ -139,7 +139,11 @@ export default function HeroSlider() {
                               [slide.id]: colorIndex,
                             }))
                           }
-                          className={`flex h-9 w-9 items-center justify-center rounded-full transition duration-300 ${isSelected ? "ring-1 ring-white ring-offset-4 ring-offset-[#030308]" : "hover:scale-110"}`}
+                          className={`flex h-9 w-9 items-center justify-center rounded-full transition duration-300 ${
+                            isSelected
+                              ? "ring-1 ring-white ring-offset-4 ring-offset-[#030308]"
+                              : "hover:scale-110"
+                          }`}
                         >
                           <span
                             className="h-7 w-7 rounded-full border border-white/20"
@@ -153,6 +157,16 @@ export default function HeroSlider() {
                     </span>
                   </div>
                 </div>
+                <button
+                  type="button"
+                  onClick={onExplore}
+                  className="group mt-10 flex w-fit items-center gap-3 text-sm font-semibold text-white transition hover:text-white/65"
+                >
+                  Explore the store
+                  <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition duration-300 group-hover:translate-y-1 group-hover:border-white/60">
+                    <ArrowDownRight className="h-4 w-4" />
+                  </span>
+                </button>
               </div>
 
               <div className="relative order-first min-h-[42svh] overflow-hidden sm:min-h-[46svh] lg:order-none lg:col-start-2 lg:row-start-1 lg:min-h-0">
@@ -205,8 +219,6 @@ function ProductRender({ slide, finishIndex }) {
     >
       <div className="absolute inset-[7%_0_6%_4%] rounded-[2rem] bg-white/[0.025]" />
       <div className="absolute inset-x-[16%] bottom-[9%] h-20 rounded-[100%] bg-black/65 blur-2xl" />
-      <div className="absolute right-[10%] top-[10%] h-24 w-24 rounded-full border border-white/10 sm:h-36 sm:w-36" />
-      <div className="absolute right-[16%] top-[16%] h-12 w-12 rounded-full bg-white/10 blur-2xl" />
       <div className="absolute inset-[2%_0_0_0] transition-opacity duration-500">
         <Image
           fill

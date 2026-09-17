@@ -18,6 +18,15 @@ body {
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6d768a #05060b;
+}
+
 ::selection {
   background: rgba(184, 214, 255, 0.3);
 }
