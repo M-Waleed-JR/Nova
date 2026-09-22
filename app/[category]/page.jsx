@@ -1,15 +1,20 @@
 import { getProductsByCategory } from "@/lib/data";
+import { categories } from "@/lib/categories";
 import CategoryNav from "@/components/products/CategoryNav";
 import ProductCard from "@/components/products/ProductCard";
+import { notFound } from "next/navigation";
+
+export function generateStaticParams() {
+  return categories.map(({ slug }) => ({ category: slug }));
+}
 
 export default async function ProductsPage({ params }) {
   const { category } = await params;
-  const products = await getProductsByCategory(category);
+  const currentCategory = categories.find(({ slug }) => slug === category);
 
-  // Capitalize display category title
-  const formattedCategory = category
-    ? category.charAt(0).toUpperCase() + category.slice(1).replace(/-/g, " ")
-    : "Products";
+  if (!currentCategory) notFound();
+
+  const products = getProductsByCategory(category);
 
   return (
     <main className="min-h-screen bg-[#030308] text-white">
@@ -22,15 +27,15 @@ export default async function ProductsPage({ params }) {
               Collection
             </span>
             <h1 className="mt-1 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-              {formattedCategory}
+              {currentCategory.name}
             </h1>
           </div>
           <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white/70">
-            {products?.length || 0} Products
+            {products.length} Products
           </span>
         </div>
 
-        {products && products.length > 0 ? (
+        {products.length > 0 ? (
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />

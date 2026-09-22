@@ -10,16 +10,13 @@
 
 html {
   overflow-x: clip;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   background: #030308;
   color: #fff;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 * {
@@ -44,5 +41,16 @@ html {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
   }
 }

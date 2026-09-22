@@ -1,6 +1,13 @@
-# Nova
+# Nova Electronics
 
-A single-screen product carousel built with Next.js, Tailwind CSS, Swiper, and Lucide.
+A premium electronics storefront built with Next.js, Tailwind CSS, Swiper, and Lucide. It includes an interactive product hero, category collections, and an accessible quick-view modal.
+
+## Structure
+
+- `/` — product hero and featured products.
+- `/products/[category]` — statically generated category collections.
+- `lib/data.js` — normalized product catalogue and query helpers.
+- `lib/categories.js` — the shared category source used by navigation and routes.
 
 ## Development
 
