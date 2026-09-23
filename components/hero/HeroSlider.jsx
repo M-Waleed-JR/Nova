@@ -186,20 +186,33 @@ function Slide({ slide, finishIndex, onSelectFinish, priority }) {
           />
         </div>
 
-        <button
-          type="button"
-          onClick={() =>
-            document
-              .getElementById("products")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
-          className="group mt-6 flex w-fit items-center gap-3 text-sm font-semibold transition hover:text-white/65 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 sm:mt-10"
-        >
-          Explore the store
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition duration-300 group-hover:translate-y-1 group-hover:border-white/60">
-            <ArrowDownRight className="h-4 w-4" />
-          </span>
-        </button>
+        {/* Buys and Explore Btns */}
+
+        <div className="flex gap-10 mt-20 sm:mt-16">
+          {/* Buy Now BTN */}
+          <a
+            href={slide.url}
+            className="flex w-fit items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#030308] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.45)] transition hover:bg-white/90 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60"
+          >
+            Buy Now
+          </a>
+
+          {/* Explore BTN */}
+          <button
+            type="button"
+            onClick={() =>
+              document
+                .getElementById("products")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
+            className="group flex w-fit items-center gap-3 text-sm font-semibold transition hover:text-white/65 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60"
+          >
+            Explore the store
+            <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition duration-300 group-hover:translate-y-1 group-hover:border-white/60">
+              <ArrowDownRight className="h-4 w-4" />
+            </span>
+          </button>
+        </div>
       </div>
     </article>
   );

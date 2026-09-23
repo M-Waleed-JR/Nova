@@ -212,10 +212,10 @@ export default function CategoryNav({
               <Image
                 src="/logo/withOutBackground.png"
                 alt=""
-                width={36}
-                height={36}
+                width={20}
+                height={20}
                 priority
-                className="h-full w-full scale-110 object-cover transition-transform duration-300 group-hover:scale-[1.15]"
+                className=" h-8 w-9 object-cover transition-transform duration-300 group-hover:scale-[1.15]"
               />
             </div>
             <span className="hidden text-[17px] font-extrabold leading-none tracking-tight text-white transition-colors duration-200 group-hover:text-cyan-200 sm:inline-block">
