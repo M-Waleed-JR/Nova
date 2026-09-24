@@ -365,7 +365,7 @@ export default function QuickViewModal() {
                 </span>
               </div>
               <Link
-                href={`/category/${product.category || "smartphones"}/${product.id || product.slug || ""}`}
+                href={`/products/${product.id || product.slug || ""}`}
                 onClick={closeQuickView}
                 className="font-semibold text-cyan-400 hover:underline"
               >
