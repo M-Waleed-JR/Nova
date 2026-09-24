@@ -9,8 +9,8 @@ export async function generateStaticParams() {
   return [];
 }
 
-export default function ProductSlugPage({ params }) {
-  const { slug } = params;
+export default async function ProductSlugPage({ params }) {
+  const { slug } = await params;
   // Find product by slug; replace with your actual data lookup
   const product = generatedProducts?.find((p) => p.slug === slug || p.id === slug);
 
