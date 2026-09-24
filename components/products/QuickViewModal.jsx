@@ -57,9 +57,11 @@ export default function QuickViewModal() {
   useEffect(() => {
     if (!product) return undefined;
 
-    setSelectedImageIndex(0);
-    setQuantity(1);
-    setIsAdded(false);
+    setTimeout(() => {
+      setSelectedImageIndex(0);
+      setQuantity(1);
+      setIsAdded(false);
+    }, 0);
 
     const previousOverflow = document.body.style.overflow;
     const handleKeyDown = (event) => {

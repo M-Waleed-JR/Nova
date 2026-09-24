@@ -94,8 +94,11 @@ export default function CategoryNav({
 
   /* Close drawer & search on route change */
   useEffect(() => {
-    setMenuOpen(false);
-    setSearchOpen(false);
+    const timer = setTimeout(() => {
+      setMenuOpen(false);
+      setSearchOpen(false);
+    }, 0);
+    return () => clearTimeout(timer);
   }, [pathname]);
 
   /* Drawer scroll lock & Global Key Listeners (Escape + Slash) */
