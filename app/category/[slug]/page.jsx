@@ -95,64 +95,77 @@ export default async function CategoryPage({ params, searchParams }) {
             </p>
           </div>
         </div>
-
         {/* Filter & Sort Bar */}
-        <div className="mb-8 flex flex-col items-start justify-between gap-4 rounded-xl border border-zinc-800/80 bg-zinc-900/30 p-3.5 backdrop-blur-md sm:flex-row sm:items-center">
+        <div className="mb-8 flex w-full max-w-full flex-col gap-3.5 rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-3.5 backdrop-blur-md md:flex-row md:items-center md:justify-between overflow-hidden">
           {/* Brand Filter */}
-          <div className="flex flex-wrap items-center gap-1.5">
-            <span className="mr-2 text-xs font-medium text-zinc-500">
+          <div className="flex w-full min-w-0 items-center gap-2 overflow-x-auto no-scrollbar py-0.5 md:w-auto">
+            <span className="text-xs font-medium text-zinc-400 shrink-0">
               Brand:
             </span>
-            <Link
-              href={`/category/${slug}?sort=${sort}&brand=all`}
-              className={`rounded-lg px-3 py-1 text-xs font-medium transition-all ${
-                selectedBrand === "all"
-                  ? "bg-violet-600 text-white shadow-md shadow-violet-600/20"
-                  : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-              }`}
-            >
-              All
-            </Link>
-            {availableBrands.map((b) => {
-              const isActive = selectedBrand.toLowerCase() === b.toLowerCase();
-              return (
-                <Link
-                  key={b}
-                  href={`/category/${slug}?sort=${sort}&brand=${encodeURIComponent(b)}`}
-                  className={`rounded-lg px-3 py-1 text-xs font-medium transition-all ${
-                    isActive
-                      ? "bg-violet-600 text-white shadow-md shadow-violet-600/20"
-                      : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-                  }`}
-                >
-                  {b}
-                </Link>
-              );
-            })}
+            <div className="flex items-center gap-1.5 shrink-0">
+              <Link
+                href={`/category/${slug}?sort=${sort}&brand=all`}
+                className={`whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
+                  selectedBrand === "all" || !selectedBrand
+                    ? "bg-violet-600 text-white shadow-md shadow-violet-600/25"
+                    : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 border border-zinc-800/50"
+                }`}
+              >
+                All
+              </Link>
+              {availableBrands.map((b) => {
+                const isActive =
+                  selectedBrand?.toLowerCase() === b.toLowerCase();
+                return (
+                  <Link
+                    key={b}
+                    href={`/category/${slug}?sort=${sort}&brand=${encodeURIComponent(b)}`}
+                    className={`whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
+                      isActive
+                        ? "bg-violet-600 text-white shadow-md shadow-violet-600/25"
+                        : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 border border-zinc-800/50"
+                    }`}
+                  >
+                    {b}
+                  </Link>
+                );
+              })}
+            </div>
           </div>
 
-          {/* Sort Menu */}
-          <div className="flex items-center gap-2 self-end sm:self-auto">
-            <span className="text-xs font-medium text-zinc-500">Sort:</span>
-            <div className="flex flex-wrap gap-1 rounded-lg border border-zinc-800 bg-zinc-950 p-1">
+          {/* Separator Line for Mobile */}
+          <div className="h-px w-full bg-zinc-800/60 md:hidden" />
+
+          {/* Sort Menu - Fixed Horizontal Scroll for Mobile */}
+          <div className="flex w-full min-w-0 items-center gap-2 overflow-x-auto no-scrollbar py-0.5 md:w-auto">
+            <span className="text-xs font-medium text-zinc-400 shrink-0">
+              Sort:
+            </span>
+            <div className="flex items-center gap-1.5 shrink-0">
               {[
                 { label: "Featured", value: "featured" },
                 { label: "Price: Low to High", value: "price-asc" },
                 { label: "Price: High to Low", value: "price-desc" },
                 { label: "Top Rated", value: "rating" },
-              ].map((item) => (
-                <Link
-                  key={item.value}
-                  href={`/category/${slug}?sort=${item.value}&brand=${selectedBrand}`}
-                  className={`rounded-md px-2.5 py-1 text-xs font-medium transition-all ${
-                    sort === item.value
-                      ? "bg-zinc-800 text-white font-semibold"
-                      : "text-zinc-400 hover:text-zinc-200"
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              ].map((item) => {
+                const isActive =
+                  sort === item.value || (!sort && item.value === "featured");
+                return (
+                  <Link
+                    key={item.value}
+                    href={`/category/${slug}?sort=${item.value}${
+                      selectedBrand ? `&brand=${selectedBrand}` : ""
+                    }`}
+                    className={`whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-all ${
+                      isActive
+                        ? "bg-violet-600 text-white shadow-md shadow-violet-600/25 font-semibold"
+                        : "bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200 border border-zinc-800/50"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>
