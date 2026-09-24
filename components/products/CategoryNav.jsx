@@ -80,7 +80,7 @@ export default function CategoryNav({
   const isActive = (slug) => {
     const cleanSlug = slug.replace(/^\//, "");
     return (
-      pathname === `/${cleanSlug}` || pathname?.startsWith(`/${cleanSlug}/`)
+      pathname === `/category/${cleanSlug}` || pathname?.startsWith(`/category/${cleanSlug}/`)
     );
   };
 
@@ -145,7 +145,7 @@ export default function CategoryNav({
     if (!q) return;
     setSearchOpen(false);
     // Search route not implemented; filter locally instead
-    router.push(`/category/phones`); // fallback to avoid broken /search
+    router.push(`/category/smartphones`); // fallback to avoid broken /search
   };
 
   const renderSearch = (inputRef, showShortcutHint = false) => (
@@ -315,7 +315,7 @@ export default function CategoryNav({
               return (
                 <li key={category.slug} className="shrink-0">
                   <Link
-                    href={`/${category.slug}`}
+                    href={`/category/${category.slug}`}
                     aria-current={active ? "page" : undefined}
                     className={
                       "relative block rounded-full px-4 py-2 text-[13px] font-medium transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/40 " +
@@ -391,7 +391,7 @@ export default function CategoryNav({
                 return (
                   <li key={category.slug}>
                     <Link
-                      href={`/${category.slug}`}
+                      href={`/category/${category.slug}`}
                       aria-current={active ? "page" : undefined}
                       className={
                         "flex items-center justify-between rounded-xl px-3 py-3 text-[15px] font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/40 " +

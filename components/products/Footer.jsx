@@ -46,7 +46,7 @@ const COLUMNS = [
   {
     title: "Shop",
     links: [
-      { label: "Phones", href: "/category/phones" },
+      { label: "Phones", href: "/category/smartphones" },
       { label: "Laptops", href: "/category/laptops" },
       { label: "Tablets", href: "/category/tablets" },
       { label: "Audio", href: "/category/audio" },
