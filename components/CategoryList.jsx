@@ -100,7 +100,7 @@ const CategoryList = () => {
         typeof window !== "undefined" &&
         window.location.hash === "#categories"
       ) {
-        // رفع التأخير لـ 300ms يضمن تحميل قسم الـ Hero والصور بالكامل
+        // Ensure scroll to section on hash change
         const timer = setTimeout(() => {
           const element = document.getElementById("categories");
           if (element) {
@@ -114,7 +114,7 @@ const CategoryList = () => {
 
     handleHashScroll();
 
-    // الاستماع لأي تغيير في الـ Hash أثنناء التنقل
+    // Listen to hash changes for navigation
     window.addEventListener("hashchange", handleHashScroll);
     return () => window.removeEventListener("hashchange", handleHashScroll);
   }, []);

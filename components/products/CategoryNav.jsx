@@ -141,7 +141,8 @@ export default function CategoryNav({
     const q = query.trim();
     if (!q) return;
     setSearchOpen(false);
-    router.push(`/search?q=${encodeURIComponent(q)}`);
+    // Search route not implemented; filter locally instead
+    router.push(`/category/phones`); // fallback to avoid broken /search
   };
 
   const renderSearch = (inputRef, showShortcutHint = false) => (

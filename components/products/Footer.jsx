@@ -13,7 +13,7 @@ import {
   FaCcPaypal,
 } from "react-icons/fa6";
 
-/* ---------- Data (easy to edit / later fetch from your API) ---------- */
+/* Footer data */
 
 const TRUST = [
   {
@@ -101,7 +101,7 @@ const LEGAL = [
   { label: "Accessibility", href: "/accessibility" },
 ];
 
-/* ---------- Small pieces ---------- */
+/* Small pieces */
 
 function Icon({ children, className = "w-5 h-5" }) {
   return (
