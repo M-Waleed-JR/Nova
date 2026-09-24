@@ -1,6 +1,7 @@
 import HeroSlider from "@/components/hero/HeroSlider";
 import CategoryNav from "@/components/products/CategoryNav";
 import ProductCard from "@/components/products/ProductCard";
+import CategoryList from "@/components/CategoryList";
 import { getFeaturedProducts } from "@/lib/data";
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
       <div id="products" className="bg-[#030308] text-white">
         <CategoryNav />
         <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+          <div>
+            <CategoryList />
+          </div>
           <div className="mb-8 flex flex-col items-start justify-between gap-4 border-b border-white/10 pb-6 sm:flex-row sm:items-center">
             <div>
               <span className="text-xs font-semibold uppercase tracking-widest text-violet-400">

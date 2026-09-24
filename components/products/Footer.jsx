@@ -181,7 +181,7 @@ function Newsletter() {
       <p role="status" aria-live="polite" className="mt-2 h-4 text-xs">
         {status === "success" && (
           <span className="text-cyan-300">
-            You're in. Check your inbox to confirm.
+            You&apos;re in. Check your inbox to confirm.
           </span>
         )}
         {status === "error" && (
