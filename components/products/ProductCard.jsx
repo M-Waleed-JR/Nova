@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Heart, ShoppingCart, Star, Check, Eye } from "lucide-react";
 import { useQuickView } from "./QuickViewContext";
 
@@ -130,9 +131,11 @@ export default function ProductCard({ product }) {
             )}
           </div>
 
-          <h2 className="text-base font-semibold text-white tracking-tight line-clamp-1 group-hover:text-violet-200 transition-colors">
-            {title}
-          </h2>
+          <Link href={`/products/${product.id}`} className="block">
+            <h2 className="text-base font-semibold text-white tracking-tight line-clamp-1 group-hover:text-cyan-300 transition-colors">
+              {title}
+            </h2>
+          </Link>
 
           {product.description && (
             <p className="mt-1 text-xs text-white/50 line-clamp-2 leading-relaxed">
