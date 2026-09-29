@@ -77,8 +77,10 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
     const eligible = ["smartphones","laptops","tablets","gaming"];
     if (!product || !eligible.includes(product.category)) return [];
     if (!Array.isArray(product.storage) || product.storage.length === 0) return [];
+    // Only process structured storage objects; reject plain strings to prevent Option 1/2 fallbacks
+    if (typeof product.storage[0] === "string") return [];
     return product.storage.map((opt, i) => ({
-      label: opt.label || ("Option " + (i + 1)),
+      label: opt.label || ("Storage " + (i + 1)),
       priceDelta: typeof opt.priceDelta === "number" ? opt.priceDelta : 0,
     }));
   })();
@@ -378,7 +380,7 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
             )}
 
             {/* Storage Options */}
-            {storageOptions.length > 0 && (
+            {hasStorageOptions && (
             <div>
               <div className="mb-2 flex items-center justify-between text-xs">
                 <span className="text-zinc-400">Storage:</span>
