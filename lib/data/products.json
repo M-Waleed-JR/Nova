@@ -1399,14 +1399,8 @@
     "isNew": true,
     "isFeatured": false,
     "storage": [
-      {
-        "label": "32GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "64GB",
-        "priceDelta": 50
-      }
+      "32GB",
+      "64GB"
     ],
     "colors": [
       {

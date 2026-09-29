@@ -121,7 +121,7 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
       label: "Memory & Storage",
       value:
         hasStorageOptions && storageOptions[selectedStorage]
-          ? `${storageOptions[selectedStorage].label} NVMe Ultra-Fast Storage`
+          ? `${storageOptions[selectedStorage].label}`
           : baseSpecs.storage || baseSpecs.memory || "Standard Storage",
       icon: Sliders,
     },
@@ -384,7 +384,9 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
             <div>
               <div className="mb-2 flex items-center justify-between text-xs">
                 <span className="text-zinc-400">Storage:</span>
-                <span className="text-zinc-500">NVMe Storage</span>
+                <span className="text-zinc-500">
+                  {product.category === "laptops" ? "NVMe SSD" : ""}
+                </span>
               </div>
               <div className="grid grid-cols-3 gap-2.5">
                 {storageOptions.map((opt, i) => (
