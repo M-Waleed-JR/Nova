@@ -83,9 +83,14 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
     }));
   })();
 
-  const currentPrice =
-    (product.price || 999) + storageOptions[selectedStorage].priceDelta;
-  const originalPrice = getOriginalPrice({ ...product, price: currentPrice, oldPrice: product.oldPrice ? product.oldPrice + storageOptions[selectedStorage].priceDelta : undefined }) || Math.round(currentPrice * 1.15);
+  const hasStorageOptions = Array.isArray(storageOptions) && storageOptions.length > 0;
+
+  const storageDelta = (hasStorageOptions && storageOptions[selectedStorage])
+    ? (storageOptions[selectedStorage].priceDelta || 0)
+    : 0;
+
+  const currentPrice = (product?.price || 0) + storageDelta;
+  const originalPrice = getOriginalPrice({ ...product, price: currentPrice, oldPrice: product?.oldPrice ? product.oldPrice + storageDelta : undefined }) || Math.round(currentPrice * 1.15);
   const discountAmount = Math.max(0, originalPrice - currentPrice);
 
   const rating = Number(product.rating || 4.8).toFixed(1);
@@ -112,7 +117,10 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
     },
     {
       label: "Memory & Storage",
-      value: `${storageOptions[selectedStorage].label} NVMe Ultra-Fast Storage`,
+      value:
+        hasStorageOptions && storageOptions[selectedStorage]
+          ? `${storageOptions[selectedStorage].label} NVMe Ultra-Fast Storage`
+          : baseSpecs.storage || baseSpecs.memory || "Standard Storage",
       icon: Sliders,
     },
     {
