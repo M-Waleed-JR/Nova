@@ -1,5 +1,635 @@
 [
   {
+    "id": 26,
+    "name": "Nikon DSLR Camera with Zoom Lens",
+    "slug": "nikon-dslr-camera-zoom-lens",
+    "category": "cameras",
+    "brand": "Nikon",
+    "price": 2499,
+    "oldPrice": 2699,
+    "discount": 7,
+    "rating": 4.9,
+    "reviews": 76,
+    "stock": 9,
+    "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Classic DSLR with optical viewfinder and versatile zoom lens for everyday shooting.",
+    "specs": {
+      "sensor": "24MP APS-C CMOS",
+      "video": "Full HD 1080p",
+      "viewfinder": "Optical Pentaprism",
+      "lens": "Standard Zoom"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 27,
+    "name": "Sony Alpha a7 IV",
+    "slug": "sony-alpha-a7-iv",
+    "category": "cameras",
+    "brand": "Sony",
+    "price": 2499,
+    "oldPrice": 2499,
+    "discount": 0,
+    "rating": 4.8,
+    "reviews": 112,
+    "stock": 11,
+    "image": "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "33MP full-frame Exmor R sensor with Real-time Eye AF for Humans and Animals.",
+    "specs": {
+      "sensor": "33MP Full-Frame",
+      "video": "4K 60p",
+      "iso": "100-51200",
+      "lens": "Standard Zoom"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 145,
+    "name": "Canon EOS R6 Mark II",
+    "slug": "canon-eos-r6-mark-ii",
+    "category": "cameras",
+    "brand": "Canon",
+    "price": 2499,
+    "oldPrice": 2599,
+    "discount": 4,
+    "rating": 4.3,
+    "reviews": 201,
+    "stock": 38,
+    "image": "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Full-frame mirrorless camera with fast autofocus for photo and video.",
+    "specs": {
+      "sensor": "24MP Full-Frame",
+      "video": "4K 60p",
+      "stabilization": "In-body",
+      "lens": "Standard Zoom"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 149,
+    "name": "Canon RF 24-70mm f/2.8 Lens",
+    "slug": "canon-rf-24-70mm-f-2-8-lens",
+    "category": "cameras",
+    "brand": "Canon",
+    "price": 2299,
+    "oldPrice": 2399,
+    "discount": 4,
+    "rating": 4.8,
+    "reviews": 293,
+    "stock": 54,
+    "image": "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Professional standard zoom lens with a bright constant f/2.8 aperture.",
+    "specs": {
+      "mount": "Canon RF",
+      "aperture": "f/2.8",
+      "range": "24-70mm",
+      "sensor": "24MP",
+      "video": "4K",
+      "lens": "Standard Zoom"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 116,
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "slug": "apple-macbook-pro-14-inch-space-grey",
+    "category": "laptops",
+    "brand": "Apple",
+    "price": 2000,
+    "oldPrice": 2105,
+    "discount": 5,
+    "rating": 3.7,
+    "reviews": 111,
+    "stock": 24,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+    ],
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "laptops",
+      "screen": "14\" IPS",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "MacBook Pro 14\" M3",
+    "slug": "macbook-pro-14-m3",
+    "category": "laptops",
+    "brand": "Apple",
+    "price": 1999,
+    "oldPrice": 2199,
+    "discount": 9,
+    "rating": 4.9,
+    "reviews": 412,
+    "stock": 15,
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Silver aluminum laptop with a Liquid Retina XDR display and 18-hour battery life.",
+    "specs": {
+      "cpu": "Apple M3 Pro",
+      "ram": "18GB Unified",
+      "storage": "512GB SSD",
+      "screen": "14.2 inch",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ASUS ZenBook 14 OLED",
+    "slug": "asus-zenbook-14-oled",
+    "category": "laptops",
+    "brand": "ASUS",
+    "price": 1899,
+    "oldPrice": 2099,
+    "discount": 9,
+    "rating": 4.8,
+    "reviews": 134,
+    "stock": 11,
+    "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Ultra-slim silver laptop with a vivid OLED display, made for work and study.",
+    "specs": {
+      "cpu": "Intel Core Ultra 7",
+      "ram": "16GB LPDDR5X",
+      "storage": "1TB SSD",
+      "screen": "14 inch OLED",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "slug": "asus-zenbook-pro-dual-screen-laptop",
+    "category": "laptops",
+    "brand": "Asus",
+    "price": 1800,
+    "oldPrice": 2022,
+    "discount": 11,
+    "rating": 4,
+    "reviews": 111,
+    "stock": 45,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+    ],
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 1 month",
+      "type": "laptops",
+      "screen": "14\" IPS",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Vintage 35mm Rangefinder Film Camera",
+    "slug": "vintage-35mm-rangefinder-film-camera",
+    "category": "cameras",
+    "brand": "Vintage",
+    "price": 1699,
+    "oldPrice": 1799,
+    "discount": 5,
+    "rating": 4.8,
+    "reviews": 64,
+    "stock": 8,
+    "image": "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Classic all-metal rangefinder with a collapsible lens for timeless 35mm film shots.",
+    "specs": {
+      "format": "35mm Film",
+      "lens": "Collapsible Prime",
+      "focus": "Manual Rangefinder",
+      "sensor": "24MP",
+      "video": "4K"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 146,
+    "name": "Fujifilm X-T5",
+    "slug": "fujifilm-x-t5",
+    "category": "cameras",
+    "brand": "Fujifilm",
+    "price": 1699,
+    "oldPrice": 1799,
+    "discount": 6,
+    "rating": 4.6,
+    "reviews": 224,
+    "stock": 42,
+    "image": "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Retro-styled APS-C mirrorless camera with a high-resolution sensor.",
+    "specs": {
+      "sensor": "40MP APS-C",
+      "video": "6.2K",
+      "body": "Weather-sealed",
+      "lens": "Standard Zoom"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 7,
+    "name": "MacBook Air 13\" M2",
+    "slug": "macbook-air-13-m2",
+    "category": "laptops",
+    "brand": "Apple",
+    "price": 1599,
+    "oldPrice": 1799,
+    "discount": 11,
+    "rating": 4.6,
+    "reviews": 187,
+    "stock": 22,
+    "image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Ultra-thin silver aluminum laptop with backlit keyboard and all-day battery life.",
+    "specs": {
+      "cpu": "Apple M2",
+      "ram": "16GB Unified",
+      "storage": "512GB SSD",
+      "screen": "13.6 inch Liquid Retina",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": "duo",
+    "slug": "duo",
+    "name": "iPhone Duo",
+    "category": "smartphones",
+    "brand": "Apple",
+    "price": 1599,
+    "oldPrice": 1699,
+    "discount": 6,
+    "rating": 4.8,
+    "reviews": 156,
+    "stock": 8,
+    "image": "/due/black.png",
+    "images": [
+      "/due/black.png",
+      "/due/white.png"
+    ],
+    "description": "New horizons unfold: a connected, foldable screen, ultra-precise haptic response, and an entirely innovative design.",
+    "specs": {
+      "cpu": "A20 Pro",
+      "display": "Dual OLED",
+      "structure": "Flexible Titanium",
+      "storage": "512GB",
+      "ram": "12GB",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Star White",
+        "hex": "#ededeb",
+        "image": "/due/white.png"
+      },
+      {
+        "name": "Night Sky",
+        "hex": "#23252a",
+        "image": "/due/black.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 100
+      },
+      {
+        "label": "1TB",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "New DELL XPS 13 9300 Laptop",
+    "slug": "new-dell-xps-13-9300-laptop",
+    "category": "laptops",
+    "brand": "Dell",
+    "price": 1500,
+    "oldPrice": 1705,
+    "discount": 12,
+    "rating": 2.7,
+    "reviews": 111,
+    "stock": 74,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+    ],
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "laptops",
+      "screen": "14\" IPS",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "512GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 120
+      },
+      {
+        "label": "2TB SSD",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "slug": "lenovo-thinkpad-x1-carbon",
+    "category": "laptops",
+    "brand": "Lenovo",
+    "price": 1429,
+    "oldPrice": 1599,
+    "discount": 10,
+    "rating": 4.8,
+    "reviews": 95,
+    "stock": 14,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
+    ],
+    "description": "Ultralight carbon-fiber business laptop built for maximum durability.",
+    "specs": {
+      "cpu": "Intel Core i7-1365U",
+      "ram": "32GB LPDDR5",
+      "storage": "1TB SSD",
+      "screen": "14 inch WUXGA",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "512GB SSD",
+        "priceDelta": 80
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 180
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Huawei Matebook X Pro",
+    "slug": "huawei-matebook-x-pro",
+    "category": "laptops",
+    "brand": "Huawei",
+    "price": 1400,
+    "oldPrice": 1538,
+    "discount": 9,
+    "rating": 5,
+    "reviews": 111,
+    "stock": 75,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+    ],
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "specs": {
+      "warranty": "No warranty",
+      "shipping": "Ships overnight",
+      "type": "laptops",
+      "screen": "14\" IPS",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "512GB SSD",
+        "priceDelta": 80
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 180
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "slug": "samsung-galaxy-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "price": 1299,
+    "oldPrice": 1399,
+    "discount": 7,
+    "rating": 4.9,
+    "reviews": 340,
+    "stock": 25,
+    "image": "/samsung/blue.png",
+    "images": [
+      "/samsung/blue.png",
+      "/samsung/black.png",
+      "/samsung/white.png",
+      "/samsung/purple.png"
+    ],
+    "description": "Exceptional performance and unmatched power: 5G network support, a leading chip for gaming and apps, a professional-grade camera, and a stunning AMOLED display with an integrated S Pen.",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 5",
+      "screen": "6.8\" Dynamic AMOLED 2X",
+      "refresh": "120Hz",
+      "camera": "200MP Quad",
+      "battery": "5000mAh",
+      "charging": "45W Fast",
+      "storage": "512GB",
+      "ram": "12GB",
+      "processor": "Octa-core"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#007bff",
+        "image": "/samsung/blue.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/samsung/black.png"
+      },
+      {
+        "name": "Titanium White",
+        "hex": "#ededeb",
+        "image": "/samsung/white.png"
+      },
+      {
+        "name": "Orchid Purple",
+        "hex": "#800080",
+        "image": "/samsung/purple.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 100
+      },
+      {
+        "label": "1TB",
+        "priceDelta": 250
+      }
+    ]
+  },
+  {
     "id": 1,
     "name": "iPhone X Silver with AirPods",
     "slug": "iphone-x-silver-with-airpods",
@@ -59,6 +689,162 @@
       {
         "label": "512GB",
         "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": "pro-max",
+    "slug": "pro-max",
+    "name": "iPhone 18 Pro Max",
+    "category": "smartphones",
+    "brand": "Apple",
+    "price": 1199,
+    "oldPrice": 1299,
+    "discount": 8,
+    "rating": 4.9,
+    "reviews": 412,
+    "stock": 15,
+    "image": "/iphone/red.png",
+    "images": [
+      "/iphone/red.png",
+      "/iphone/black.png",
+      "/iphone/blue.png",
+      "/iphone/white.png"
+    ],
+    "description": "Ultimate precision in titanium, an unmatched camera system, and the A20 Pro chip at peak performance.",
+    "specs": {
+      "cpu": "A20 Pro",
+      "screen": "6.9\" XDR OLED",
+      "camera": "48MP Pro System",
+      "storage": "256GB",
+      "ram": "8GB",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Burgundy",
+        "hex": "#713641",
+        "image": "/iphone/red.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/iphone/black.png"
+      },
+      {
+        "name": "Blue",
+        "hex": "#9eb7d7",
+        "image": "/iphone/blue.png"
+      },
+      {
+        "name": "Silver",
+        "hex": "#ededeb",
+        "image": "/iphone/white.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "iPhone 13 Pro",
+    "slug": "iphone-13-pro",
+    "category": "smartphones",
+    "brand": "Apple",
+    "price": 1100,
+    "oldPrice": 1209,
+    "discount": 9,
+    "rating": 4.1,
+    "reviews": 111,
+    "stock": 56,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
+    ],
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Lenovo Yoga 920",
+    "slug": "lenovo-yoga-920",
+    "category": "laptops",
+    "brand": "Lenovo",
+    "price": 1100,
+    "oldPrice": 1183,
+    "discount": 7,
+    "rating": 2.9,
+    "reviews": 111,
+    "stock": 40,
+    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+    ],
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "specs": {
+      "warranty": "6 months warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "laptops",
+      "screen": "14\" IPS",
+      "processor": "Intel Core i7",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256GB SSD",
+        "priceDelta": 0
+      },
+      {
+        "label": "512GB SSD",
+        "priceDelta": 80
+      },
+      {
+        "label": "1TB SSD",
+        "priceDelta": 180
       }
     ]
   },
@@ -126,293 +912,6 @@
     ]
   },
   {
-    "id": 3,
-    "name": "Google Pixel 8 Pro",
-    "slug": "google-pixel-8-pro",
-    "category": "smartphones",
-    "brand": "Google",
-    "price": 899,
-    "oldPrice": 999,
-    "discount": 10,
-    "rating": 4.6,
-    "reviews": 201,
-    "stock": 19,
-    "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Tensor G3 processor with AI photo Magic Eraser and Best Take camera features.",
-    "specs": {
-      "screen": "6.7 inch Super Actua display",
-      "storage": "128GB",
-      "ram": "12GB",
-      "battery": "5050mAh",
-      "processor": "Octa-core"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "OnePlus 12",
-    "slug": "oneplus-12",
-    "category": "smartphones",
-    "brand": "OnePlus",
-    "price": 799,
-    "oldPrice": 899,
-    "discount": 11,
-    "rating": 4.7,
-    "reviews": 156,
-    "stock": 22,
-    "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Snapdragon 8 Gen 3 flagship with 100W SUPERVOOC charging and Hasselblad Camera System.",
-    "specs": {
-      "screen": "6.82 inch 2K 120Hz AMOLED",
-      "storage": "256GB",
-      "ram": "12GB",
-      "battery": "5400mAh",
-      "processor": "Octa-core"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Xiaomi 14 Ultra",
-    "slug": "xiaomi-14-ultra",
-    "category": "smartphones",
-    "brand": "Xiaomi",
-    "price": 999,
-    "oldPrice": 1099,
-    "discount": 9,
-    "rating": 4.8,
-    "reviews": 112,
-    "stock": 15,
-    "image": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Browse your Leica-tuned shots on a bright AMOLED display with a 1-inch main sensor.",
-    "specs": {
-      "screen": "6.73 inch AMOLED 120Hz",
-      "storage": "512GB",
-      "ram": "16GB",
-      "battery": "5000mAh",
-      "processor": "Octa-core"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "MacBook Pro 14\" M3",
-    "slug": "macbook-pro-14-m3",
-    "category": "laptops",
-    "brand": "Apple",
-    "price": 1999,
-    "oldPrice": 2199,
-    "discount": 9,
-    "rating": 4.9,
-    "reviews": 412,
-    "stock": 15,
-    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Silver aluminum laptop with a Liquid Retina XDR display and 18-hour battery life.",
-    "specs": {
-      "cpu": "Apple M3 Pro",
-      "ram": "18GB Unified",
-      "storage": "512GB SSD",
-      "screen": "14.2 inch",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "MacBook Air 13\" M2",
-    "slug": "macbook-air-13-m2",
-    "category": "laptops",
-    "brand": "Apple",
-    "price": 1599,
-    "oldPrice": 1799,
-    "discount": 11,
-    "rating": 4.6,
-    "reviews": 187,
-    "stock": 22,
-    "image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Ultra-thin silver aluminum laptop with backlit keyboard and all-day battery life.",
-    "specs": {
-      "cpu": "Apple M2",
-      "ram": "16GB Unified",
-      "storage": "512GB SSD",
-      "screen": "13.6 inch Liquid Retina",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
-    "slug": "lenovo-thinkpad-x1-carbon",
-    "category": "laptops",
-    "brand": "Lenovo",
-    "price": 1429,
-    "oldPrice": 1599,
-    "discount": 10,
-    "rating": 4.8,
-    "reviews": 95,
-    "stock": 14,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
-    ],
-    "description": "Ultralight carbon-fiber business laptop built for maximum durability.",
-    "specs": {
-      "cpu": "Intel Core i7-1365U",
-      "ram": "32GB LPDDR5",
-      "storage": "1TB SSD",
-      "screen": "14 inch WUXGA",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "256GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "512GB SSD",
-        "priceDelta": 80
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 180
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "ASUS ZenBook 14 OLED",
-    "slug": "asus-zenbook-14-oled",
-    "category": "laptops",
-    "brand": "ASUS",
-    "price": 1899,
-    "oldPrice": 2099,
-    "discount": 9,
-    "rating": 4.8,
-    "reviews": 134,
-    "stock": 11,
-    "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Ultra-slim silver laptop with a vivid OLED display, made for work and study.",
-    "specs": {
-      "cpu": "Intel Core Ultra 7",
-      "ram": "16GB LPDDR5X",
-      "storage": "1TB SSD",
-      "screen": "14 inch OLED",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
     "id": 10,
     "name": "iPad 10.2\" 9th Gen",
     "slug": "ipad-10-2-9th-gen",
@@ -439,2589 +938,6 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Samsung Galaxy Tab S9 Ultra",
-    "slug": "samsung-galaxy-tab-s9-ultra",
-    "category": "tablets",
-    "brand": "Samsung",
-    "price": 999,
-    "oldPrice": 1119,
-    "discount": 10,
-    "rating": 4.7,
-    "reviews": 142,
-    "stock": 16,
-    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp"
-    ],
-    "description": "Massive 14.6-inch Dynamic AMOLED 2X display with S Pen included and IP68 resistance.",
-    "specs": {
-      "screen": "14.6 inch AMOLED 120Hz",
-      "storage": "256GB",
-      "ram": "12GB",
-      "battery": "11200mAh",
-      "processor": "Apple M2"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "iPad Air 5th Gen",
-    "slug": "ipad-air-5th-gen",
-    "category": "tablets",
-    "brand": "Apple",
-    "price": 599,
-    "oldPrice": 649,
-    "discount": 7,
-    "rating": 4.7,
-    "reviews": 310,
-    "stock": 30,
-    "image": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Lightweight power tablet with Apple M1 chip, 12MP Ultra Wide front camera with Center Stage.",
-    "specs": {
-      "screen": "10.9 inch Liquid Retina",
-      "storage": "64GB",
-      "ram": "8GB",
-      "chip": "Apple M1",
-      "processor": "Apple M2",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Microsoft Surface Pro 9",
-    "slug": "microsoft-surface-pro-9",
-    "category": "tablets",
-    "brand": "Microsoft",
-    "price": 899,
-    "oldPrice": 999,
-    "discount": 10,
-    "rating": 4.5,
-    "reviews": 120,
-    "stock": 18,
-    "image": "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "2-in-1 tablet versatility with full Windows 11 power and built-in kickstand.",
-    "specs": {
-      "screen": "13 inch PixelSense 120Hz",
-      "storage": "256GB SSD",
-      "ram": "16GB",
-      "cpu": "Intel Core i5",
-      "processor": "Apple M2",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Beats Studio Wireless Headphones",
-    "slug": "beats-studio-wireless-headphones",
-    "category": "audio",
-    "brand": "Beats",
-    "price": 399,
-    "oldPrice": 449,
-    "discount": 11,
-    "rating": 4.9,
-    "reviews": 523,
-    "stock": 60,
-    "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Iconic silver over-ear headphones with deep bass and plush ear cushions.",
-    "specs": {
-      "type": "Over-ear Wireless",
-      "battery": "20 hours",
-      "noiseCancelling": "Active Noise Cancelling"
-    },
-    "isNew": false,
-    "isFeatured": true
-  },
-  {
-    "id": 15,
-    "name": "Apple AirPods Pro 2",
-    "slug": "apple-airpods-pro-2",
-    "category": "audio",
-    "brand": "Apple",
-    "price": 249,
-    "oldPrice": 279,
-    "discount": 11,
-    "rating": 4.8,
-    "reviews": 678,
-    "stock": 85,
-    "image": "https://images.pexels.com/photos/16149965/pexels-photo-16149965.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/16149965/pexels-photo-16149965.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Compact wireless earbuds with H2 chip, Active Noise Cancellation, and charging case.",
-    "specs": {
-      "type": "In-ear Wireless",
-      "battery": "6 hours per charge",
-      "caseBattery": "30 hours",
-      "noiseCancelling": "Active"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Bose QuietComfort Ultra",
-    "slug": "bose-quietcomfort-ultra",
-    "category": "audio",
-    "brand": "Bose",
-    "price": 429,
-    "oldPrice": 479,
-    "discount": 10,
-    "rating": 4.7,
-    "reviews": 215,
-    "stock": 25,
-    "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Breakthrough spatialized audio and world-class quiet with CustomTune technology.",
-    "specs": {
-      "type": "Over-ear Wireless",
-      "battery": "24 hours",
-      "spatialAudio": "Bose Immersive Audio",
-      "noiseCancelling": "Active"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 17,
-    "name": "Sennheiser Momentum 4 Wireless",
-    "slug": "sennheiser-momentum-4-wireless",
-    "category": "audio",
-    "brand": "Sennheiser",
-    "price": 349,
-    "oldPrice": 399,
-    "discount": 12,
-    "rating": 4.6,
-    "reviews": 140,
-    "stock": 32,
-    "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Audiophile-inspired 42mm transducer system with massive 60-hour battery life.",
-    "specs": {
-      "type": "Over-ear Wireless",
-      "battery": "60 hours",
-      "driver": "42mm Transducer",
-      "noiseCancelling": "Active"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 18,
-    "name": "Apple Watch Series 9",
-    "slug": "apple-watch-series-9",
-    "category": "smartwatches",
-    "brand": "Apple",
-    "price": 429,
-    "oldPrice": 449,
-    "discount": 4,
-    "rating": 4.8,
-    "reviews": 389,
-    "stock": 47,
-    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Space Gray watch with analog face, black sport band, and Double Tap gesture control.",
-    "specs": {
-      "screen": "45mm OLED Retina",
-      "battery": "18 hours",
-      "waterResistant": "50 meters",
-      "display": "1.9\" AMOLED"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "name": "Samsung Galaxy Watch 6 Classic",
-    "slug": "samsung-galaxy-watch-6-classic",
-    "category": "smartwatches",
-    "brand": "Samsung",
-    "price": 349,
-    "oldPrice": 399,
-    "discount": 12,
-    "rating": 4.6,
-    "reviews": 178,
-    "stock": 39,
-    "image": "https://images.pexels.com/photos/277406/pexels-photo-277406.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/277406/pexels-photo-277406.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Iconic rotating bezel with advanced sleep coaching, HR zone guidance, and ECG.",
-    "specs": {
-      "screen": "47mm Super AMOLED",
-      "battery": "40 hours",
-      "frame": "Stainless Steel",
-      "display": "1.9\" AMOLED",
-      "waterResistant": "5ATM"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "name": "Apple Watch Series 8 Blue Sport Band",
-    "slug": "apple-watch-series-8-blue-sport-band",
-    "category": "smartwatches",
-    "brand": "Apple",
-    "price": 799,
-    "oldPrice": 849,
-    "discount": 5,
-    "rating": 4.9,
-    "reviews": 198,
-    "stock": 14,
-    "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Silver smartwatch with a sky-blue sport band for workouts and health tracking.",
-    "specs": {
-      "screen": "45mm Always-On Retina",
-      "battery": "18 hours",
-      "waterResistant": "50 meters",
-      "display": "1.9\" AMOLED"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 21,
-    "name": "Garmin Fenix 7 Pro Sapphire Solar",
-    "slug": "garmin-fenix-7-pro",
-    "category": "smartwatches",
-    "brand": "Garmin",
-    "price": 899,
-    "oldPrice": 949,
-    "discount": 5,
-    "rating": 4.8,
-    "reviews": 87,
-    "stock": 12,
-    "image": "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Multisport GPS watch with solar charging lens, built-in LED flashlight, and topo maps.",
-    "specs": {
-      "screen": "1.3 inch Memory-in-Pixel",
-      "battery": "Up to 22 days",
-      "glass": "Sapphire Solar",
-      "display": "1.9\" AMOLED",
-      "waterResistant": "5ATM"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 22,
-    "name": "PlayStation 1 Retro Console",
-    "slug": "playstation-1-retro-console",
-    "category": "gaming",
-    "brand": "Sony",
-    "price": 499,
-    "oldPrice": 549,
-    "discount": 9,
-    "rating": 4.9,
-    "reviews": 812,
-    "stock": 14,
-    "image": "https://images.pexels.com/photos/4219883/pexels-photo-4219883.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/4219883/pexels-photo-4219883.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Original gray PlayStation console with a classic controller for retro gaming nights.",
-    "specs": {
-      "media": "CD-ROM",
-      "output": "Composite AV",
-      "players": "2 Controller Ports",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 23,
-    "name": "ASUS ROG Dual Monitor Gaming Setup",
-    "slug": "asus-rog-dual-monitor-gaming-setup",
-    "category": "gaming",
-    "brand": "ASUS",
-    "price": 899,
-    "oldPrice": 999,
-    "discount": 10,
-    "rating": 4.8,
-    "reviews": 88,
-    "stock": 15,
-    "image": "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Dual-screen battle station with blue RGB ambient lighting and 144Hz gaming panels.",
-    "specs": {
-      "setup": "Dual Monitor",
-      "resolution": "2560 x 1440 per screen",
-      "refreshRate": "144Hz",
-      "panel": "IPS",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 24,
-    "name": "Xbox Series X",
-    "slug": "xbox-series-x",
-    "category": "gaming",
-    "brand": "Microsoft",
-    "price": 499,
-    "oldPrice": 529,
-    "discount": 5,
-    "rating": 4.8,
-    "reviews": 540,
-    "stock": 20,
-    "image": "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "12 teraflops of raw graphic processing power with Quick Resume for seamless multi-game switching.",
-    "specs": {
-      "storage": "1TB Custom NVMe SSD",
-      "performance": "4K @ 120 FPS",
-      "architecture": "AMD Zen 2 & RDNA 2",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 25,
-    "name": "Nintendo Switch OLED Model",
-    "slug": "nintendo-switch-oled",
-    "category": "gaming",
-    "brand": "Nintendo",
-    "price": 349,
-    "oldPrice": 379,
-    "discount": 8,
-    "rating": 4.7,
-    "reviews": 620,
-    "stock": 35,
-    "image": "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "7-inch vibrant OLED screen, wide adjustable stand, LAN port dock, and 64GB storage.",
-    "specs": {
-      "screen": "7 inch OLED",
-      "storage": "64GB",
-      "modes": "TV, Tabletop, Handheld",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 26,
-    "name": "Nikon DSLR Camera with Zoom Lens",
-    "slug": "nikon-dslr-camera-zoom-lens",
-    "category": "cameras",
-    "brand": "Nikon",
-    "price": 2499,
-    "oldPrice": 2699,
-    "discount": 7,
-    "rating": 4.9,
-    "reviews": 76,
-    "stock": 9,
-    "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Classic DSLR with optical viewfinder and versatile zoom lens for everyday shooting.",
-    "specs": {
-      "sensor": "24MP APS-C CMOS",
-      "video": "Full HD 1080p",
-      "viewfinder": "Optical Pentaprism",
-      "lens": "Standard Zoom"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 27,
-    "name": "Sony Alpha a7 IV",
-    "slug": "sony-alpha-a7-iv",
-    "category": "cameras",
-    "brand": "Sony",
-    "price": 2499,
-    "oldPrice": 2499,
-    "discount": 0,
-    "rating": 4.8,
-    "reviews": 112,
-    "stock": 11,
-    "image": "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "33MP full-frame Exmor R sensor with Real-time Eye AF for Humans and Animals.",
-    "specs": {
-      "sensor": "33MP Full-Frame",
-      "video": "4K 60p",
-      "iso": "100-51200",
-      "lens": "Standard Zoom"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 28,
-    "name": "Vintage 35mm Rangefinder Film Camera",
-    "slug": "vintage-35mm-rangefinder-film-camera",
-    "category": "cameras",
-    "brand": "Vintage",
-    "price": 1699,
-    "oldPrice": 1799,
-    "discount": 5,
-    "rating": 4.8,
-    "reviews": 64,
-    "stock": 8,
-    "image": "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Classic all-metal rangefinder with a collapsible lens for timeless 35mm film shots.",
-    "specs": {
-      "format": "35mm Film",
-      "lens": "Collapsible Prime",
-      "focus": "Manual Rangefinder",
-      "sensor": "24MP",
-      "video": "4K"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 29,
-    "name": "GoPro HERO12 Black",
-    "slug": "gopro-hero12-black",
-    "category": "cameras",
-    "brand": "GoPro",
-    "price": 399,
-    "oldPrice": 449,
-    "discount": 11,
-    "rating": 4.6,
-    "reviews": 180,
-    "stock": 25,
-    "image": "https://images.pexels.com/photos/2378079/pexels-photo-2378079.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/2378079/pexels-photo-2378079.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Action camera with HDR 5.3K video, HyperSmooth 6.0 stabilization, and 33ft waterproofing.",
-    "specs": {
-      "video": "5.3K 60fps / 4K 120fps",
-      "photo": "27MP",
-      "waterproof": "10m / 33ft",
-      "sensor": "24MP",
-      "lens": "Standard Zoom"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 30,
-    "name": "Anker Rugged Solar Power Bank 10,000mAh",
-    "slug": "anker-rugged-solar-power-bank-10000mah",
-    "category": "mobile-accessories",
-    "brand": "Anker",
-    "price": 89,
-    "oldPrice": 99,
-    "discount": 10,
-    "rating": 4.8,
-    "reviews": 134,
-    "stock": 42,
-    "image": "https://images.pexels.com/photos/16814787/pexels-photo-16814787.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/16814787/pexels-photo-16814787.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Rugged 10,000mAh power bank with a solar panel for camping and outdoor trips.",
-    "specs": {
-      "capacity": "10,000mAh",
-      "charging": "Solar + USB",
-      "protection": "Rugged Shockproof Body",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 31,
-    "name": "UGREEN USB-C Fast Charger 65W",
-    "slug": "ugreen-usb-c-fast-charger-65w",
-    "category": "mobile-accessories",
-    "brand": "UGREEN",
-    "price": 39,
-    "oldPrice": 49,
-    "discount": 20,
-    "rating": 4.7,
-    "reviews": 210,
-    "stock": 65,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp"
-    ],
-    "description": "Multi-port GaN fast charger suitable for smartphones, tablets, and laptops.",
-    "specs": {
-      "ports": "2x USB-C, 1x USB-A",
-      "power": "65W Max",
-      "tech": "GaN Fast Charge",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 32,
-    "name": "Belkin Lightning Cable & Adapter Set",
-    "slug": "belkin-lightning-cable-adapter-set",
-    "category": "mobile-accessories",
-    "brand": "Belkin",
-    "price": 149,
-    "oldPrice": 169,
-    "discount": 11,
-    "rating": 4.8,
-    "reviews": 92,
-    "stock": 20,
-    "image": "https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "White Lightning cable and adapter set for fast charging and syncing your iPhone.",
-    "specs": {
-      "connector": "Lightning",
-      "output": "Fast Charge Ready",
-      "compatibility": "iPhone, iPad, AirPods",
-      "material": "TPU / Aluminum"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 33,
-    "name": "Spigen MagArmor MagSafe Case",
-    "slug": "spigen-magarmor-magsafe-case",
-    "category": "mobile-accessories",
-    "brand": "Spigen",
-    "price": 29,
-    "oldPrice": 35,
-    "discount": 17,
-    "rating": 4.7,
-    "reviews": 310,
-    "stock": 100,
-    "image": "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Protective slim TPU case with built-in magnetic ring for MagSafe accessories.",
-    "specs": {
-      "material": "TPU & Air Cushion Tech",
-      "feature": "MagSafe Compatible",
-      "protection": "Military Grade Drop test",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 34,
-    "name": "Anker 737 Power Bank (PowerCore 24K)",
-    "slug": "anker-737-power-bank",
-    "category": "mobile-accessories",
-    "brand": "Anker",
-    "price": 139,
-    "oldPrice": 159,
-    "discount": 12,
-    "rating": 4.9,
-    "reviews": 420,
-    "stock": 28,
-    "image": "https://images.pexels.com/photos/14706040/pexels-photo-14706040.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/14706040/pexels-photo-14706040.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Ultra-powerful 24,000mAh power bank with 140W bi-directional fast charging and smart digital display.",
-    "specs": {
-      "capacity": "24,000mAh",
-      "power": "140W Max Output",
-      "display": "Smart Color Display",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 35,
-    "name": "Baseus Metal Gravity Car Phone Holder",
-    "slug": "baseus-metal-gravity-car-holder",
-    "category": "mobile-accessories",
-    "brand": "Baseus",
-    "price": 19,
-    "oldPrice": 25,
-    "discount": 24,
-    "rating": 4.5,
-    "reviews": 145,
-    "stock": 80,
-    "image": "https://images.pexels.com/photos/30954662/pexels-photo-30954662.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/30954662/pexels-photo-30954662.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "description": "Air vent mount holder with gravity linkage design for single-handed smartphone placement.",
-    "specs": {
-      "mount": "Air Vent Clamp",
-      "material": "Aluminum Alloy",
-      "compatibility": "4.7 - 6.7 inches"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 100,
-    "name": "iPhone 5s",
-    "slug": "iphone-5s",
-    "category": "smartphones",
-    "brand": "Apple",
-    "price": 200,
-    "oldPrice": 230,
-    "discount": 13,
-    "rating": 2.8,
-    "reviews": 111,
-    "stock": 25,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
-    ],
-    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
-    "specs": {
-      "warranty": "Lifetime warranty",
-      "shipping": "Ships in 1 month",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "32GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "64GB",
-        "priceDelta": 30
-      }
-    ]
-  },
-  {
-    "id": 101,
-    "name": "iPhone 6",
-    "slug": "iphone-6",
-    "category": "smartphones",
-    "brand": "Apple",
-    "price": 300,
-    "oldPrice": 323,
-    "discount": 7,
-    "rating": 3.4,
-    "reviews": 111,
-    "stock": 60,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
-    ],
-    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
-    "specs": {
-      "warranty": "1 month warranty",
-      "shipping": "Ships overnight",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 102,
-    "name": "iPhone 13 Pro",
-    "slug": "iphone-13-pro",
-    "category": "smartphones",
-    "brand": "Apple",
-    "price": 1100,
-    "oldPrice": 1209,
-    "discount": 9,
-    "rating": 4.1,
-    "reviews": 111,
-    "stock": 56,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/3.webp"
-    ],
-    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 103,
-    "name": "iPhone X",
-    "slug": "iphone-x",
-    "category": "smartphones",
-    "brand": "Apple",
-    "price": 900,
-    "oldPrice": 1125,
-    "discount": 20,
-    "rating": 2.5,
-    "reviews": 111,
-    "stock": 37,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
-    ],
-    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "128GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "256GB",
-        "priceDelta": 60
-      },
-      {
-        "label": "512GB",
-        "priceDelta": 120
-      }
-    ]
-  },
-  {
-    "id": 104,
-    "name": "Oppo A57",
-    "slug": "oppo-a57",
-    "category": "smartphones",
-    "brand": "Oppo",
-    "price": 250,
-    "oldPrice": 255,
-    "discount": 2,
-    "rating": 3.9,
-    "reviews": 111,
-    "stock": 19,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
-    ],
-    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
-    "specs": {
-      "warranty": "Lifetime warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "32GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "64GB",
-        "priceDelta": 30
-      }
-    ],
-    "colors": [
-      {
-        "name": "Midnight Black",
-        "hex": "#181818",
-        "image": "/oppo/black.png"
-      }
-    ]
-  },
-  {
-    "id": 105,
-    "name": "Oppo F19 Pro Plus",
-    "slug": "oppo-f19-pro-plus",
-    "category": "smartphones",
-    "brand": "Oppo",
-    "price": 400,
-    "oldPrice": 494,
-    "discount": 19,
-    "rating": 3.5,
-    "reviews": 111,
-    "stock": 78,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
-    ],
-    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 1 week",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 106,
-    "name": "Oppo K1",
-    "slug": "oppo-k1",
-    "category": "smartphones",
-    "brand": "Oppo",
-    "price": 300,
-    "oldPrice": 366,
-    "discount": 18,
-    "rating": 4.3,
-    "reviews": 111,
-    "stock": 55,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
-    ],
-    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
-    "specs": {
-      "warranty": "1 month warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "name": "Realme C35",
-    "slug": "realme-c35",
-    "category": "smartphones",
-    "brand": "Realme",
-    "price": 150,
-    "oldPrice": 176,
-    "discount": 15,
-    "rating": 4.2,
-    "reviews": 111,
-    "stock": 48,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
-    ],
-    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships overnight",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "32GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "64GB",
-        "priceDelta": 30
-      }
-    ]
-  },
-  {
-    "id": 108,
-    "name": "Realme X",
-    "slug": "realme-x",
-    "category": "smartphones",
-    "brand": "Realme",
-    "price": 300,
-    "oldPrice": 323,
-    "discount": 7,
-    "rating": 3.7,
-    "reviews": 111,
-    "stock": 12,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
-    ],
-    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
-    "specs": {
-      "warranty": "1 month warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 109,
-    "name": "Realme XT",
-    "slug": "realme-xt",
-    "category": "smartphones",
-    "brand": "Realme",
-    "price": 350,
-    "oldPrice": 398,
-    "discount": 12,
-    "rating": 4.6,
-    "reviews": 111,
-    "stock": 80,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
-    ],
-    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 1 month",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 110,
-    "name": "Samsung Galaxy S7",
-    "slug": "samsung-galaxy-s7",
-    "category": "smartphones",
-    "brand": "Samsung",
-    "price": 300,
-    "oldPrice": 375,
-    "discount": 20,
-    "rating": 3.3,
-    "reviews": 111,
-    "stock": 67,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
-    ],
-    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 111,
-    "name": "Samsung Galaxy S8",
-    "slug": "samsung-galaxy-s8",
-    "category": "smartphones",
-    "brand": "Samsung",
-    "price": 500,
-    "oldPrice": 617,
-    "discount": 19,
-    "rating": 4.4,
-    "reviews": 111,
-    "stock": 0,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
-    ],
-    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships in 1 week",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 112,
-    "name": "Samsung Galaxy S10",
-    "slug": "samsung-galaxy-s10",
-    "category": "smartphones",
-    "brand": "Samsung",
-    "price": 700,
-    "oldPrice": 745,
-    "discount": 6,
-    "rating": 3.1,
-    "reviews": 111,
-    "stock": 19,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
-    ],
-    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
-    "specs": {
-      "warranty": "No warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 113,
-    "name": "Vivo S1",
-    "slug": "vivo-s1",
-    "category": "smartphones",
-    "brand": "Vivo",
-    "price": 250,
-    "oldPrice": 278,
-    "discount": 10,
-    "rating": 3.5,
-    "reviews": 111,
-    "stock": 50,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
-    ],
-    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
-    "specs": {
-      "warranty": "6 months warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "32GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "64GB",
-        "priceDelta": 30
-      }
-    ]
-  },
-  {
-    "id": 114,
-    "name": "Vivo V9",
-    "slug": "vivo-v9",
-    "category": "smartphones",
-    "brand": "Vivo",
-    "price": 300,
-    "oldPrice": 366,
-    "discount": 18,
-    "rating": 3.6,
-    "reviews": 111,
-    "stock": 82,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
-    ],
-    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships in 1 month",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 115,
-    "name": "Vivo X21",
-    "slug": "vivo-x21",
-    "category": "smartphones",
-    "brand": "Vivo",
-    "price": 500,
-    "oldPrice": 602,
-    "discount": 17,
-    "rating": 4.3,
-    "reviews": 111,
-    "stock": 7,
-    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
-      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
-    ],
-    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
-    "specs": {
-      "warranty": "1 year warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "smartphones",
-      "screen": "6.5\" OLED",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 116,
-    "name": "Apple MacBook Pro 14 Inch Space Grey",
-    "slug": "apple-macbook-pro-14-inch-space-grey",
-    "category": "laptops",
-    "brand": "Apple",
-    "price": 2000,
-    "oldPrice": 2105,
-    "discount": 5,
-    "rating": 3.7,
-    "reviews": 111,
-    "stock": 24,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
-    ],
-    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "laptops",
-      "screen": "14\" IPS",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
-    "id": 117,
-    "name": "Asus Zenbook Pro Dual Screen Laptop",
-    "slug": "asus-zenbook-pro-dual-screen-laptop",
-    "category": "laptops",
-    "brand": "Asus",
-    "price": 1800,
-    "oldPrice": 2022,
-    "discount": 11,
-    "rating": 4,
-    "reviews": 111,
-    "stock": 45,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
-    ],
-    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 1 month",
-      "type": "laptops",
-      "screen": "14\" IPS",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
-    "id": 118,
-    "name": "Huawei Matebook X Pro",
-    "slug": "huawei-matebook-x-pro",
-    "category": "laptops",
-    "brand": "Huawei",
-    "price": 1400,
-    "oldPrice": 1538,
-    "discount": 9,
-    "rating": 5,
-    "reviews": 111,
-    "stock": 75,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
-    ],
-    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
-    "specs": {
-      "warranty": "No warranty",
-      "shipping": "Ships overnight",
-      "type": "laptops",
-      "screen": "14\" IPS",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "256GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "512GB SSD",
-        "priceDelta": 80
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 180
-      }
-    ]
-  },
-  {
-    "id": 119,
-    "name": "Lenovo Yoga 920",
-    "slug": "lenovo-yoga-920",
-    "category": "laptops",
-    "brand": "Lenovo",
-    "price": 1100,
-    "oldPrice": 1183,
-    "discount": 7,
-    "rating": 2.9,
-    "reviews": 111,
-    "stock": 40,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
-    ],
-    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
-    "specs": {
-      "warranty": "6 months warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "laptops",
-      "screen": "14\" IPS",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "256GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "512GB SSD",
-        "priceDelta": 80
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 180
-      }
-    ]
-  },
-  {
-    "id": 120,
-    "name": "New DELL XPS 13 9300 Laptop",
-    "slug": "new-dell-xps-13-9300-laptop",
-    "category": "laptops",
-    "brand": "Dell",
-    "price": 1500,
-    "oldPrice": 1705,
-    "discount": 12,
-    "rating": 2.7,
-    "reviews": 111,
-    "stock": 74,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
-    ],
-    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "laptops",
-      "screen": "14\" IPS",
-      "processor": "Intel Core i7",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "512GB SSD",
-        "priceDelta": 0
-      },
-      {
-        "label": "1TB SSD",
-        "priceDelta": 120
-      },
-      {
-        "label": "2TB SSD",
-        "priceDelta": 250
-      }
-    ]
-  },
-  {
-    "id": 121,
-    "name": "iPad Mini 2021 Starlight",
-    "slug": "ipad-mini-2021-starlight",
-    "category": "tablets",
-    "brand": "Apple",
-    "price": 500,
-    "oldPrice": 521,
-    "discount": 4,
-    "rating": 3.2,
-    "reviews": 111,
-    "stock": 47,
-    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp"
-    ],
-    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "electronics",
-      "screen": "10.5\" IPS",
-      "processor": "Apple M2",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 122,
-    "name": "Samsung Galaxy Tab S8 Plus Grey",
-    "slug": "samsung-galaxy-tab-s8-plus-grey",
-    "category": "tablets",
-    "brand": "Samsung",
-    "price": 600,
-    "oldPrice": 690,
-    "discount": 13,
-    "rating": 4.7,
-    "reviews": 111,
-    "stock": 62,
-    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
-    ],
-    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "electronics",
-      "screen": "10.5\" IPS",
-      "processor": "Apple M2",
-      "battery": "10h"
-    },
-    "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 123,
-    "name": "Samsung Galaxy Tab White",
-    "slug": "samsung-galaxy-tab-white",
-    "category": "tablets",
-    "brand": "Samsung",
-    "price": 350,
-    "oldPrice": 427,
-    "discount": 18,
-    "rating": 3.7,
-    "reviews": 111,
-    "stock": 92,
-    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp"
-    ],
-    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships overnight",
-      "type": "electronics",
-      "screen": "10.5\" IPS",
-      "processor": "Apple M2",
-      "battery": "10h"
-    },
-    "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 124,
-    "name": "Amazon Echo Plus",
-    "slug": "amazon-echo-plus",
-    "category": "audio",
-    "brand": "Amazon",
-    "price": 100,
-    "oldPrice": 114,
-    "discount": 12,
-    "rating": 5,
-    "reviews": 111,
-    "stock": 61,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
-    ],
-    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
-    "specs": {
-      "warranty": "6 months warranty",
-      "shipping": "Ships in 1 week",
-      "type": "electronics",
-      "battery": "30h",
-      "noiseCancelling": "Active"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 125,
-    "name": "Apple Airpods",
-    "slug": "apple-airpods",
-    "category": "audio",
-    "brand": "Apple",
-    "price": 130,
-    "oldPrice": 155,
-    "discount": 16,
-    "rating": 4.2,
-    "reviews": 111,
-    "stock": 67,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
-    ],
-    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "electronics",
-      "battery": "30h",
-      "noiseCancelling": "Active"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 126,
-    "name": "Apple AirPods Max Silver",
-    "slug": "apple-airpods-max-silver",
-    "category": "audio",
-    "brand": "Apple",
-    "price": 550,
-    "oldPrice": 640,
-    "discount": 14,
-    "rating": 3.5,
-    "reviews": 111,
-    "stock": 59,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
-    ],
-    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
-    "specs": {
-      "warranty": "No warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "electronics",
-      "battery": "30h",
-      "noiseCancelling": "Active"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 127,
-    "name": "Apple HomePod Mini Cosmic Grey",
-    "slug": "apple-homepod-mini-cosmic-grey",
-    "category": "audio",
-    "brand": "Apple",
-    "price": 100,
-    "oldPrice": 122,
-    "discount": 18,
-    "rating": 4.6,
-    "reviews": 111,
-    "stock": 27,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp"
-    ],
-    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 1 month",
-      "type": "electronics",
-      "battery": "30h",
-      "noiseCancelling": "Active"
-    },
-    "isNew": false,
-    "isFeatured": true
-  },
-  {
-    "id": 128,
-    "name": "Beats Flex Wireless Earphones",
-    "slug": "beats-flex-wireless-earphones",
-    "category": "audio",
-    "brand": "Beats",
-    "price": 50,
-    "oldPrice": 53,
-    "discount": 6,
-    "rating": 4.2,
-    "reviews": 111,
-    "stock": 50,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
-    ],
-    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
-    "specs": {
-      "warranty": "1 year warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "electronics",
-      "battery": "30h",
-      "noiseCancelling": "Active"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 129,
-    "name": "Apple Watch Series 4 Gold",
-    "slug": "apple-watch-series-4-gold",
-    "category": "smartwatches",
-    "brand": "Apple",
-    "price": 350,
-    "oldPrice": 398,
-    "discount": 12,
-    "rating": 2.7,
-    "reviews": 111,
-    "stock": 33,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/3.webp"
-    ],
-    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
-    "specs": {
-      "warranty": "6 months warranty",
-      "shipping": "Ships in 1 month",
-      "type": "electronics",
-      "display": "1.9\" AMOLED",
-      "battery": "18h",
-      "waterResistant": "5ATM"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "64GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "128GB",
-        "priceDelta": 50
-      }
-    ]
-  },
-  {
-    "id": 130,
-    "name": "Apple Airpower Wireless Charger",
-    "slug": "apple-airpower-wireless-charger",
-    "category": "mobile-accessories",
-    "brand": "Apple",
-    "price": 80,
-    "oldPrice": 83,
-    "discount": 4,
-    "rating": 3.7,
-    "reviews": 111,
-    "stock": 1,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
-    ],
-    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships in 1 week",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 131,
-    "name": "Apple iPhone Charger",
-    "slug": "apple-iphone-charger",
-    "category": "mobile-accessories",
-    "brand": "Apple",
-    "price": 20,
-    "oldPrice": 25,
-    "discount": 20,
-    "rating": 4.2,
-    "reviews": 111,
-    "stock": 31,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp"
-    ],
-    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
-    "specs": {
-      "warranty": "1 year warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 132,
-    "name": "Apple MagSafe Battery Pack",
-    "slug": "apple-magsafe-battery-pack",
-    "category": "mobile-accessories",
-    "brand": "Apple",
-    "price": 100,
-    "oldPrice": 120,
-    "discount": 17,
-    "rating": 3.6,
-    "reviews": 111,
-    "stock": 1,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/2.webp"
-    ],
-    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
-    "specs": {
-      "warranty": "2 year warranty",
-      "shipping": "Ships overnight",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 133,
-    "name": "iPhone 12 Silicone Case with MagSafe Plum",
-    "slug": "iphone-12-silicone-case-with-magsafe-plum",
-    "category": "mobile-accessories",
-    "brand": "Apple",
-    "price": 30,
-    "oldPrice": 35,
-    "discount": 14,
-    "rating": 3.6,
-    "reviews": 111,
-    "stock": 69,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/4.webp"
-    ],
-    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 3-5 business days",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": true,
-    "colors": [
-      {
-        "name": "Plum",
-        "hex": "#6b2344",
-        "image": "/logo/withOutBackground.png"
-      }
-    ]
-  },
-  {
-    "id": 134,
-    "name": "Monopod",
-    "slug": "monopod",
-    "category": "mobile-accessories",
-    "brand": "TechGear",
-    "price": 20,
-    "oldPrice": 22,
-    "discount": 9,
-    "rating": 4.4,
-    "reviews": 111,
-    "stock": 48,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/2.webp"
-    ],
-    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
-    "specs": {
-      "warranty": "1 year warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 135,
-    "name": "Selfie Lamp with iPhone",
-    "slug": "selfie-lamp-with-iphone",
-    "category": "mobile-accessories",
-    "brand": "GadgetMaster",
-    "price": 15,
-    "oldPrice": 19,
-    "discount": 21,
-    "rating": 3.6,
-    "reviews": 111,
-    "stock": 58,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp"
-    ],
-    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
-    "specs": {
-      "warranty": "Lifetime warranty",
-      "shipping": "Ships in 2 weeks",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 136,
-    "name": "Selfie Stick Monopod",
-    "slug": "selfie-stick-monopod",
-    "category": "mobile-accessories",
-    "brand": "SnapTech",
-    "price": 13,
-    "oldPrice": 16,
-    "discount": 19,
-    "rating": 3.9,
-    "reviews": 111,
-    "stock": 11,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp"
-    ],
-    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
-    "specs": {
-      "warranty": "3 year warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 137,
-    "name": "TV Studio Camera Pedestal",
-    "slug": "tv-studio-camera-pedestal",
-    "category": "mobile-accessories",
-    "brand": "ProVision",
-    "price": 500,
-    "oldPrice": 543,
-    "discount": 8,
-    "rating": 2.8,
-    "reviews": 111,
-    "stock": 15,
-    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp",
-    "images": [
-      "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp"
-    ],
-    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
-    "specs": {
-      "warranty": "3 months warranty",
-      "shipping": "Ships in 1-2 business days",
-      "type": "electronics",
-      "material": "TPU / Aluminum",
-      "compatibility": "Universal"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 138,
-    "name": "Sony DualSense Wireless Controller",
-    "slug": "sony-dualsense-wireless-controller",
-    "category": "gaming",
-    "brand": "Sony",
-    "price": 69,
-    "oldPrice": 79,
-    "discount": 13,
-    "rating": 4.3,
-    "reviews": 40,
-    "stock": 10,
-    "image": "https://images.pexels.com/photos/16070479/pexels-photo-16070479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/16070479/pexels-photo-16070479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Wireless controller with haptic feedback and adaptive triggers for PlayStation 5.",
-    "specs": {
-      "connection": "Bluetooth / USB-C",
-      "feature": "Haptic Feedback",
-      "platform": "PS5, PC",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 139,
-    "name": "Xbox Wireless Controller",
-    "slug": "xbox-wireless-controller",
-    "category": "gaming",
-    "brand": "Microsoft",
-    "price": 59,
-    "oldPrice": 64,
-    "discount": 8,
-    "rating": 4.6,
-    "reviews": 63,
-    "stock": 14,
-    "image": "https://images.pexels.com/photos/14642112/pexels-photo-14642112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/14642112/pexels-photo-14642112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Comfortable wireless controller with textured grips for Xbox and Windows PC.",
-    "specs": {
-      "connection": "Bluetooth / Wireless",
-      "battery": "AA batteries",
-      "platform": "Xbox, PC",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 140,
-    "name": "Nintendo Switch Pro Controller",
-    "slug": "nintendo-switch-pro-controller",
-    "category": "gaming",
-    "brand": "Nintendo",
-    "price": 69,
-    "oldPrice": 74,
-    "discount": 7,
-    "rating": 4.9,
-    "reviews": 86,
-    "stock": 18,
-    "image": "https://images.pexels.com/photos/37935954/pexels-photo-37935954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/37935954/pexels-photo-37935954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Full-size controller with motion controls and HD rumble for Nintendo Switch.",
-    "specs": {
-      "connection": "Bluetooth / USB",
-      "battery": "40 hours",
-      "platform": "Switch",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 141,
-    "name": "Meta Quest 3 VR Headset",
-    "slug": "meta-quest-3-vr-headset",
-    "category": "gaming",
-    "brand": "Meta",
-    "price": 499,
-    "oldPrice": 549,
-    "discount": 9,
-    "rating": 4.5,
-    "reviews": 109,
-    "stock": 22,
-    "image": "https://images.pexels.com/photos/19545625/pexels-photo-19545625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/19545625/pexels-photo-19545625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Standalone mixed-reality headset for immersive games and apps.",
-    "specs": {
-      "type": "Standalone VR",
-      "storage": "128GB",
-      "tracking": "Inside-out",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": false,
-    "isFeatured": true
-  },
-  {
-    "id": 142,
-    "name": "HyperX Cloud II Gaming Headset",
-    "slug": "hyperx-cloud-ii-gaming-headset",
-    "category": "gaming",
-    "brand": "HyperX",
-    "price": 99,
-    "oldPrice": 109,
-    "discount": 9,
-    "rating": 4.8,
-    "reviews": 132,
-    "stock": 26,
-    "image": "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Comfortable over-ear gaming headset with a detachable microphone.",
-    "specs": {
-      "type": "Over-ear Wired",
-      "mic": "Detachable",
-      "platform": "PC, Console",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 143,
-    "name": "Corsair K70 RGB Mechanical Keyboard",
-    "slug": "corsair-k70-rgb-mechanical-keyboard",
-    "category": "gaming",
-    "brand": "Corsair",
-    "price": 159,
-    "oldPrice": 179,
-    "discount": 11,
-    "rating": 4.4,
-    "reviews": 155,
-    "stock": 30,
-    "image": "https://images.pexels.com/photos/8219211/pexels-photo-8219211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/8219211/pexels-photo-8219211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Mechanical gaming keyboard with per-key RGB lighting.",
-    "specs": {
-      "switches": "Mechanical",
-      "lighting": "Per-key RGB",
-      "layout": "Full-size",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 144,
-    "name": "Razer DeathAdder V3 Gaming Mouse",
-    "slug": "razer-deathadder-v3-gaming-mouse",
-    "category": "gaming",
-    "brand": "Razer",
-    "price": 69,
-    "oldPrice": 79,
-    "discount": 13,
-    "rating": 4.7,
-    "reviews": 178,
-    "stock": 34,
-    "image": "https://images.pexels.com/photos/12877898/pexels-photo-12877898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/12877898/pexels-photo-12877898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Lightweight ergonomic gaming mouse built for fast, precise aim.",
-    "specs": {
-      "type": "Wired Ergonomic",
-      "sensor": "Optical",
-      "buttons": "6 programmable",
-      "screen": "27\" 144Hz",
-      "processor": "AMD Ryzen",
-      "battery": "N/A"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": 145,
-    "name": "Canon EOS R6 Mark II",
-    "slug": "canon-eos-r6-mark-ii",
-    "category": "cameras",
-    "brand": "Canon",
-    "price": 2499,
-    "oldPrice": 2599,
-    "discount": 4,
-    "rating": 4.3,
-    "reviews": 201,
-    "stock": 38,
-    "image": "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Full-frame mirrorless camera with fast autofocus for photo and video.",
-    "specs": {
-      "sensor": "24MP Full-Frame",
-      "video": "4K 60p",
-      "stabilization": "In-body",
-      "lens": "Standard Zoom"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 146,
-    "name": "Fujifilm X-T5",
-    "slug": "fujifilm-x-t5",
-    "category": "cameras",
-    "brand": "Fujifilm",
-    "price": 1699,
-    "oldPrice": 1799,
-    "discount": 6,
-    "rating": 4.6,
-    "reviews": 224,
-    "stock": 42,
-    "image": "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Retro-styled APS-C mirrorless camera with a high-resolution sensor.",
-    "specs": {
-      "sensor": "40MP APS-C",
-      "video": "6.2K",
-      "body": "Weather-sealed",
-      "lens": "Standard Zoom"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 147,
-    "name": "Fujifilm Instax Mini 12",
-    "slug": "fujifilm-instax-mini-12",
-    "category": "cameras",
-    "brand": "Fujifilm",
-    "price": 79,
-    "oldPrice": 89,
-    "discount": 11,
-    "rating": 4.9,
-    "reviews": 247,
-    "stock": 46,
-    "image": "https://images.pexels.com/photos/7821597/pexels-photo-7821597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/7821597/pexels-photo-7821597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Fun instant camera that prints credit-card-sized photos in seconds.",
-    "specs": {
-      "type": "Instant Film",
-      "film": "Instax Mini",
-      "flash": "Auto",
-      "sensor": "24MP",
-      "video": "4K",
-      "lens": "Standard Zoom"
-    },
-    "isNew": false,
-    "isFeatured": true
-  },
-  {
-    "id": 148,
-    "name": "DJI Mini 4 Pro Drone",
-    "slug": "dji-mini-4-pro-drone",
-    "category": "cameras",
-    "brand": "DJI",
-    "price": 759,
-    "oldPrice": 799,
-    "discount": 5,
-    "rating": 4.5,
-    "reviews": 270,
-    "stock": 50,
-    "image": "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Compact folding drone with a stabilized 4K camera and obstacle sensing.",
-    "specs": {
-      "video": "4K HDR",
-      "weight": "Under 249g",
-      "flight": "Up to 34 min",
-      "sensor": "24MP",
-      "lens": "Standard Zoom"
-    },
-    "isNew": true,
-    "isFeatured": false
-  },
-  {
-    "id": 149,
-    "name": "Canon RF 24-70mm f/2.8 Lens",
-    "slug": "canon-rf-24-70mm-f-2-8-lens",
-    "category": "cameras",
-    "brand": "Canon",
-    "price": 2299,
-    "oldPrice": 2399,
-    "discount": 4,
-    "rating": 4.8,
-    "reviews": 293,
-    "stock": 54,
-    "image": "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Professional standard zoom lens with a bright constant f/2.8 aperture.",
-    "specs": {
-      "mount": "Canon RF",
-      "aperture": "f/2.8",
-      "range": "24-70mm",
-      "sensor": "24MP",
-      "video": "4K",
-      "lens": "Standard Zoom"
-    },
-    "isNew": false,
-    "isFeatured": false
-  },
-  {
-    "id": 150,
-    "name": "Manfrotto Camera Tripod",
-    "slug": "manfrotto-camera-tripod",
-    "category": "cameras",
-    "brand": "Manfrotto",
-    "price": 149,
-    "oldPrice": 169,
-    "discount": 12,
-    "rating": 4.4,
-    "reviews": 316,
-    "stock": 58,
-    "image": "https://images.pexels.com/photos/29497730/pexels-photo-29497730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "images": [
-      "https://images.pexels.com/photos/29497730/pexels-photo-29497730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-    ],
-    "description": "Sturdy adjustable tripod for stable photos and smooth video.",
-    "specs": {
-      "material": "Aluminum",
-      "height": "Adjustable",
-      "head": "Ball head",
-      "sensor": "24MP",
-      "video": "4K",
-      "lens": "Standard Zoom"
-    },
-    "isNew": true,
-    "isFeatured": true
-  },
-  {
-    "id": "pro-max",
-    "slug": "pro-max",
-    "name": "iPhone 18 Pro Max",
-    "category": "smartphones",
-    "brand": "Apple",
-    "price": 1199,
-    "oldPrice": 1299,
-    "discount": 8,
-    "rating": 4.9,
-    "reviews": 412,
-    "stock": 15,
-    "image": "/iphone/red.png",
-    "images": [
-      "/iphone/red.png",
-      "/iphone/black.png",
-      "/iphone/blue.png",
-      "/iphone/white.png"
-    ],
-    "description": "Ultimate precision in titanium, an unmatched camera system, and the A20 Pro chip at peak performance.",
-    "specs": {
-      "cpu": "A20 Pro",
-      "screen": "6.9\" XDR OLED",
-      "camera": "48MP Pro System",
-      "storage": "256GB",
-      "ram": "8GB",
-      "processor": "Octa-core",
-      "battery": "5000mAh"
-    },
-    "isNew": true,
-    "isFeatured": true,
-    "colors": [
-      {
-        "name": "Burgundy",
-        "hex": "#713641",
-        "image": "/iphone/red.png"
-      },
-      {
-        "name": "Black",
-        "hex": "#23252a",
-        "image": "/iphone/black.png"
-      },
-      {
-        "name": "Blue",
-        "hex": "#9eb7d7",
-        "image": "/iphone/blue.png"
-      },
-      {
-        "name": "Silver",
-        "hex": "#ededeb",
-        "image": "/iphone/white.png"
-      }
-    ],
     "storage": [
       {
         "label": "128GB",
@@ -3106,59 +1022,1440 @@
     ]
   },
   {
-    "id": "duo",
-    "slug": "duo",
-    "name": "iPhone Duo",
+    "id": 5,
+    "name": "Xiaomi 14 Ultra",
+    "slug": "xiaomi-14-ultra",
+    "category": "smartphones",
+    "brand": "Xiaomi",
+    "price": 999,
+    "oldPrice": 1099,
+    "discount": 9,
+    "rating": 4.8,
+    "reviews": 112,
+    "stock": 15,
+    "image": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Browse your Leica-tuned shots on a bright AMOLED display with a 1-inch main sensor.",
+    "specs": {
+      "screen": "6.73 inch AMOLED 120Hz",
+      "storage": "512GB",
+      "ram": "16GB",
+      "battery": "5000mAh",
+      "processor": "Octa-core"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "slug": "samsung-galaxy-tab-s9-ultra",
+    "category": "tablets",
+    "brand": "Samsung",
+    "price": 999,
+    "oldPrice": 1119,
+    "discount": 10,
+    "rating": 4.7,
+    "reviews": 142,
+    "stock": 16,
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp"
+    ],
+    "description": "Massive 14.6-inch Dynamic AMOLED 2X display with S Pen included and IP68 resistance.",
+    "specs": {
+      "screen": "14.6 inch AMOLED 120Hz",
+      "storage": "256GB",
+      "ram": "12GB",
+      "battery": "11200mAh",
+      "processor": "Apple M2"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "iPhone X",
+    "slug": "iphone-x",
     "category": "smartphones",
     "brand": "Apple",
-    "price": 1599,
-    "oldPrice": 1699,
-    "discount": 6,
-    "rating": 4.8,
-    "reviews": 156,
-    "stock": 8,
-    "image": "/due/black.png",
+    "price": 900,
+    "oldPrice": 1125,
+    "discount": 20,
+    "rating": 2.5,
+    "reviews": 111,
+    "stock": 37,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
     "images": [
-      "/due/black.png",
-      "/due/white.png"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/3.webp"
     ],
-    "description": "New horizons unfold: a connected, foldable screen, ultra-precise haptic response, and an entirely innovative design.",
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
     "specs": {
-      "cpu": "A20 Pro",
-      "display": "Dual OLED",
-      "structure": "Flexible Titanium",
-      "storage": "512GB",
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 8 Pro",
+    "slug": "google-pixel-8-pro",
+    "category": "smartphones",
+    "brand": "Google",
+    "price": 899,
+    "oldPrice": 999,
+    "discount": 10,
+    "rating": 4.6,
+    "reviews": 201,
+    "stock": 19,
+    "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Tensor G3 processor with AI photo Magic Eraser and Best Take camera features.",
+    "specs": {
+      "screen": "6.7 inch Super Actua display",
+      "storage": "128GB",
       "ram": "12GB",
+      "battery": "5050mAh",
+      "processor": "Octa-core"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Microsoft Surface Pro 9",
+    "slug": "microsoft-surface-pro-9",
+    "category": "tablets",
+    "brand": "Microsoft",
+    "price": 899,
+    "oldPrice": 999,
+    "discount": 10,
+    "rating": 4.5,
+    "reviews": 120,
+    "stock": 18,
+    "image": "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "2-in-1 tablet versatility with full Windows 11 power and built-in kickstand.",
+    "specs": {
+      "screen": "13 inch PixelSense 120Hz",
+      "storage": "256GB SSD",
+      "ram": "16GB",
+      "cpu": "Intel Core i5",
+      "processor": "Apple M2",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "128GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "256GB",
+        "priceDelta": 60
+      },
+      {
+        "label": "512GB",
+        "priceDelta": 120
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Garmin Fenix 7 Pro Sapphire Solar",
+    "slug": "garmin-fenix-7-pro",
+    "category": "smartwatches",
+    "brand": "Garmin",
+    "price": 899,
+    "oldPrice": 949,
+    "discount": 5,
+    "rating": 4.8,
+    "reviews": 87,
+    "stock": 12,
+    "image": "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Multisport GPS watch with solar charging lens, built-in LED flashlight, and topo maps.",
+    "specs": {
+      "screen": "1.3 inch Memory-in-Pixel",
+      "battery": "Up to 22 days",
+      "glass": "Sapphire Solar",
+      "display": "1.9\" AMOLED",
+      "waterResistant": "5ATM"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "ASUS ROG Dual Monitor Gaming Setup",
+    "slug": "asus-rog-dual-monitor-gaming-setup",
+    "category": "gaming",
+    "brand": "ASUS",
+    "price": 899,
+    "oldPrice": 999,
+    "discount": 10,
+    "rating": 4.8,
+    "reviews": 88,
+    "stock": 15,
+    "image": "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Dual-screen battle station with blue RGB ambient lighting and 144Hz gaming panels.",
+    "specs": {
+      "setup": "Dual Monitor",
+      "resolution": "2560 x 1440 per screen",
+      "refreshRate": "144Hz",
+      "panel": "IPS",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 12",
+    "slug": "oneplus-12",
+    "category": "smartphones",
+    "brand": "OnePlus",
+    "price": 799,
+    "oldPrice": 899,
+    "discount": 11,
+    "rating": 4.7,
+    "reviews": 156,
+    "stock": 22,
+    "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Snapdragon 8 Gen 3 flagship with 100W SUPERVOOC charging and Hasselblad Camera System.",
+    "specs": {
+      "screen": "6.82 inch 2K 120Hz AMOLED",
+      "storage": "256GB",
+      "ram": "12GB",
+      "battery": "5400mAh",
+      "processor": "Octa-core"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Apple Watch Series 8 Blue Sport Band",
+    "slug": "apple-watch-series-8-blue-sport-band",
+    "category": "smartwatches",
+    "brand": "Apple",
+    "price": 799,
+    "oldPrice": 849,
+    "discount": 5,
+    "rating": 4.9,
+    "reviews": 198,
+    "stock": 14,
+    "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Silver smartwatch with a sky-blue sport band for workouts and health tracking.",
+    "specs": {
+      "screen": "45mm Always-On Retina",
+      "battery": "18 hours",
+      "waterResistant": "50 meters",
+      "display": "1.9\" AMOLED"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "DJI Mini 4 Pro Drone",
+    "slug": "dji-mini-4-pro-drone",
+    "category": "cameras",
+    "brand": "DJI",
+    "price": 759,
+    "oldPrice": 799,
+    "discount": 5,
+    "rating": 4.5,
+    "reviews": 270,
+    "stock": 50,
+    "image": "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Compact folding drone with a stabilized 4K camera and obstacle sensing.",
+    "specs": {
+      "video": "4K HDR",
+      "weight": "Under 249g",
+      "flight": "Up to 34 min",
+      "sensor": "24MP",
+      "lens": "Standard Zoom"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 112,
+    "name": "Samsung Galaxy S10",
+    "slug": "samsung-galaxy-s10",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "price": 700,
+    "oldPrice": 745,
+    "discount": 6,
+    "rating": 3.1,
+    "reviews": 111,
+    "stock": 19,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/3.webp"
+    ],
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "specs": {
+      "warranty": "No warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "smartphones",
       "screen": "6.5\" OLED",
       "processor": "Octa-core",
       "battery": "5000mAh"
     },
     "isNew": true,
     "isFeatured": true,
-    "colors": [
-      {
-        "name": "Star White",
-        "hex": "#ededeb",
-        "image": "/due/white.png"
-      },
-      {
-        "name": "Night Sky",
-        "hex": "#23252a",
-        "image": "/due/black.png"
-      }
-    ],
     "storage": [
       {
-        "label": "256GB",
+        "label": "64GB",
         "priceDelta": 0
       },
       {
-        "label": "512GB",
-        "priceDelta": 100
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "slug": "samsung-galaxy-tab-s8-plus-grey",
+    "category": "tablets",
+    "brand": "Samsung",
+    "price": 600,
+    "oldPrice": 690,
+    "discount": 13,
+    "rating": 4.7,
+    "reviews": 111,
+    "stock": 62,
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
+    ],
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "electronics",
+      "screen": "10.5\" IPS",
+      "processor": "Apple M2",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
       },
       {
-        "label": "1TB",
-        "priceDelta": 250
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "iPad Air 5th Gen",
+    "slug": "ipad-air-5th-gen",
+    "category": "tablets",
+    "brand": "Apple",
+    "price": 599,
+    "oldPrice": 649,
+    "discount": 7,
+    "rating": 4.7,
+    "reviews": 310,
+    "stock": 30,
+    "image": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Lightweight power tablet with Apple M1 chip, 12MP Ultra Wide front camera with Center Stage.",
+    "specs": {
+      "screen": "10.9 inch Liquid Retina",
+      "storage": "64GB",
+      "ram": "8GB",
+      "chip": "Apple M1",
+      "processor": "Apple M2",
+      "battery": "10h"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Apple AirPods Max Silver",
+    "slug": "apple-airpods-max-silver",
+    "category": "audio",
+    "brand": "Apple",
+    "price": 550,
+    "oldPrice": 640,
+    "discount": 14,
+    "rating": 3.5,
+    "reviews": 111,
+    "stock": 59,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+    ],
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "specs": {
+      "warranty": "No warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "electronics",
+      "battery": "30h",
+      "noiseCancelling": "Active"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 111,
+    "name": "Samsung Galaxy S8",
+    "slug": "samsung-galaxy-s8",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "price": 500,
+    "oldPrice": 617,
+    "discount": 19,
+    "rating": 4.4,
+    "reviews": 111,
+    "stock": 0,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/3.webp"
+    ],
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships in 1 week",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Vivo X21",
+    "slug": "vivo-x21",
+    "category": "smartphones",
+    "brand": "Vivo",
+    "price": 500,
+    "oldPrice": 602,
+    "discount": 17,
+    "rating": 4.3,
+    "reviews": 111,
+    "stock": 7,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/3.webp"
+    ],
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "specs": {
+      "warranty": "1 year warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "iPad Mini 2021 Starlight",
+    "slug": "ipad-mini-2021-starlight",
+    "category": "tablets",
+    "brand": "Apple",
+    "price": 500,
+    "oldPrice": 521,
+    "discount": 4,
+    "rating": 3.2,
+    "reviews": 111,
+    "stock": 47,
+    "image": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/4.webp"
+    ],
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "electronics",
+      "screen": "10.5\" IPS",
+      "processor": "Apple M2",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "TV Studio Camera Pedestal",
+    "slug": "tv-studio-camera-pedestal",
+    "category": "mobile-accessories",
+    "brand": "ProVision",
+    "price": 500,
+    "oldPrice": 543,
+    "discount": 8,
+    "rating": 2.8,
+    "reviews": 111,
+    "stock": 15,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/1.webp"
+    ],
+    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 22,
+    "name": "PlayStation 1 Retro Console",
+    "slug": "playstation-1-retro-console",
+    "category": "gaming",
+    "brand": "Sony",
+    "price": 499,
+    "oldPrice": 549,
+    "discount": 9,
+    "rating": 4.9,
+    "reviews": 812,
+    "stock": 14,
+    "image": "https://images.pexels.com/photos/4219883/pexels-photo-4219883.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/4219883/pexels-photo-4219883.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Original gray PlayStation console with a classic controller for retro gaming nights.",
+    "specs": {
+      "media": "CD-ROM",
+      "output": "Composite AV",
+      "players": "2 Controller Ports",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 24,
+    "name": "Xbox Series X",
+    "slug": "xbox-series-x",
+    "category": "gaming",
+    "brand": "Microsoft",
+    "price": 499,
+    "oldPrice": 529,
+    "discount": 5,
+    "rating": 4.8,
+    "reviews": 540,
+    "stock": 20,
+    "image": "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "12 teraflops of raw graphic processing power with Quick Resume for seamless multi-game switching.",
+    "specs": {
+      "storage": "1TB Custom NVMe SSD",
+      "performance": "4K @ 120 FPS",
+      "architecture": "AMD Zen 2 & RDNA 2",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 141,
+    "name": "Meta Quest 3 VR Headset",
+    "slug": "meta-quest-3-vr-headset",
+    "category": "gaming",
+    "brand": "Meta",
+    "price": 499,
+    "oldPrice": 549,
+    "discount": 9,
+    "rating": 4.5,
+    "reviews": 109,
+    "stock": 22,
+    "image": "https://images.pexels.com/photos/19545625/pexels-photo-19545625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/19545625/pexels-photo-19545625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Standalone mixed-reality headset for immersive games and apps.",
+    "specs": {
+      "type": "Standalone VR",
+      "storage": "128GB",
+      "tracking": "Inside-out",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 16,
+    "name": "Bose QuietComfort Ultra",
+    "slug": "bose-quietcomfort-ultra",
+    "category": "audio",
+    "brand": "Bose",
+    "price": 429,
+    "oldPrice": 479,
+    "discount": 10,
+    "rating": 4.7,
+    "reviews": 215,
+    "stock": 25,
+    "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Breakthrough spatialized audio and world-class quiet with CustomTune technology.",
+    "specs": {
+      "type": "Over-ear Wireless",
+      "battery": "24 hours",
+      "spatialAudio": "Bose Immersive Audio",
+      "noiseCancelling": "Active"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 18,
+    "name": "Apple Watch Series 9",
+    "slug": "apple-watch-series-9",
+    "category": "smartwatches",
+    "brand": "Apple",
+    "price": 429,
+    "oldPrice": 449,
+    "discount": 4,
+    "rating": 4.8,
+    "reviews": 389,
+    "stock": 47,
+    "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Space Gray watch with analog face, black sport band, and Double Tap gesture control.",
+    "specs": {
+      "screen": "45mm OLED Retina",
+      "battery": "18 hours",
+      "waterResistant": "50 meters",
+      "display": "1.9\" AMOLED"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Oppo F19 Pro Plus",
+    "slug": "oppo-f19-pro-plus",
+    "category": "smartphones",
+    "brand": "Oppo",
+    "price": 400,
+    "oldPrice": 494,
+    "discount": 19,
+    "rating": 3.5,
+    "reviews": 111,
+    "stock": 78,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/3.webp"
+    ],
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 1 week",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Beats Studio Wireless Headphones",
+    "slug": "beats-studio-wireless-headphones",
+    "category": "audio",
+    "brand": "Beats",
+    "price": 399,
+    "oldPrice": 449,
+    "discount": 11,
+    "rating": 4.9,
+    "reviews": 523,
+    "stock": 60,
+    "image": "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Iconic silver over-ear headphones with deep bass and plush ear cushions.",
+    "specs": {
+      "type": "Over-ear Wireless",
+      "battery": "20 hours",
+      "noiseCancelling": "Active Noise Cancelling"
+    },
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 29,
+    "name": "GoPro HERO12 Black",
+    "slug": "gopro-hero12-black",
+    "category": "cameras",
+    "brand": "GoPro",
+    "price": 399,
+    "oldPrice": 449,
+    "discount": 11,
+    "rating": 4.6,
+    "reviews": 180,
+    "stock": 25,
+    "image": "https://images.pexels.com/photos/2378079/pexels-photo-2378079.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/2378079/pexels-photo-2378079.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Action camera with HDR 5.3K video, HyperSmooth 6.0 stabilization, and 33ft waterproofing.",
+    "specs": {
+      "video": "5.3K 60fps / 4K 120fps",
+      "photo": "27MP",
+      "waterproof": "10m / 33ft",
+      "sensor": "24MP",
+      "lens": "Standard Zoom"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 109,
+    "name": "Realme XT",
+    "slug": "realme-xt",
+    "category": "smartphones",
+    "brand": "Realme",
+    "price": 350,
+    "oldPrice": 398,
+    "discount": 12,
+    "rating": 4.6,
+    "reviews": 111,
+    "stock": 80,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/3.webp"
+    ],
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 1 month",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Samsung Galaxy Tab White",
+    "slug": "samsung-galaxy-tab-white",
+    "category": "tablets",
+    "brand": "Samsung",
+    "price": 350,
+    "oldPrice": 427,
+    "discount": 18,
+    "rating": 3.7,
+    "reviews": 111,
+    "stock": 92,
+    "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/4.webp"
+    ],
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships overnight",
+      "type": "electronics",
+      "screen": "10.5\" IPS",
+      "processor": "Apple M2",
+      "battery": "10h"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Apple Watch Series 4 Gold",
+    "slug": "apple-watch-series-4-gold",
+    "category": "smartwatches",
+    "brand": "Apple",
+    "price": 350,
+    "oldPrice": 398,
+    "discount": 12,
+    "rating": 2.7,
+    "reviews": 111,
+    "stock": 33,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/2.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/3.webp"
+    ],
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "specs": {
+      "warranty": "6 months warranty",
+      "shipping": "Ships in 1 month",
+      "type": "electronics",
+      "display": "1.9\" AMOLED",
+      "battery": "18h",
+      "waterResistant": "5ATM"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Sennheiser Momentum 4 Wireless",
+    "slug": "sennheiser-momentum-4-wireless",
+    "category": "audio",
+    "brand": "Sennheiser",
+    "price": 349,
+    "oldPrice": 399,
+    "discount": 12,
+    "rating": 4.6,
+    "reviews": 140,
+    "stock": 32,
+    "image": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Audiophile-inspired 42mm transducer system with massive 60-hour battery life.",
+    "specs": {
+      "type": "Over-ear Wireless",
+      "battery": "60 hours",
+      "driver": "42mm Transducer",
+      "noiseCancelling": "Active"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 19,
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "slug": "samsung-galaxy-watch-6-classic",
+    "category": "smartwatches",
+    "brand": "Samsung",
+    "price": 349,
+    "oldPrice": 399,
+    "discount": 12,
+    "rating": 4.6,
+    "reviews": 178,
+    "stock": 39,
+    "image": "https://images.pexels.com/photos/277406/pexels-photo-277406.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/277406/pexels-photo-277406.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Iconic rotating bezel with advanced sleep coaching, HR zone guidance, and ECG.",
+    "specs": {
+      "screen": "47mm Super AMOLED",
+      "battery": "40 hours",
+      "frame": "Stainless Steel",
+      "display": "1.9\" AMOLED",
+      "waterResistant": "5ATM"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Nintendo Switch OLED Model",
+    "slug": "nintendo-switch-oled",
+    "category": "gaming",
+    "brand": "Nintendo",
+    "price": 349,
+    "oldPrice": 379,
+    "discount": 8,
+    "rating": 4.7,
+    "reviews": 620,
+    "stock": 35,
+    "image": "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "7-inch vibrant OLED screen, wide adjustable stand, LAN port dock, and 64GB storage.",
+    "specs": {
+      "screen": "7 inch OLED",
+      "storage": "64GB",
+      "modes": "TV, Tabletop, Handheld",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 101,
+    "name": "iPhone 6",
+    "slug": "iphone-6",
+    "category": "smartphones",
+    "brand": "Apple",
+    "price": 300,
+    "oldPrice": 323,
+    "discount": 7,
+    "rating": 3.4,
+    "reviews": 111,
+    "stock": 60,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+    ],
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "specs": {
+      "warranty": "1 month warranty",
+      "shipping": "Ships overnight",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Oppo K1",
+    "slug": "oppo-k1",
+    "category": "smartphones",
+    "brand": "Oppo",
+    "price": 300,
+    "oldPrice": 366,
+    "discount": 18,
+    "rating": 4.3,
+    "reviews": 111,
+    "stock": 55,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/3.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/4.webp"
+    ],
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "specs": {
+      "warranty": "1 month warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Realme X",
+    "slug": "realme-x",
+    "category": "smartphones",
+    "brand": "Realme",
+    "price": 300,
+    "oldPrice": 323,
+    "discount": 7,
+    "rating": 3.7,
+    "reviews": 111,
+    "stock": 12,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/3.webp"
+    ],
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "specs": {
+      "warranty": "1 month warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Samsung Galaxy S7",
+    "slug": "samsung-galaxy-s7",
+    "category": "smartphones",
+    "brand": "Samsung",
+    "price": 300,
+    "oldPrice": 375,
+    "discount": 20,
+    "rating": 3.3,
+    "reviews": 111,
+    "stock": 67,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/3.webp"
+    ],
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Vivo V9",
+    "slug": "vivo-v9",
+    "category": "smartphones",
+    "brand": "Vivo",
+    "price": 300,
+    "oldPrice": 366,
+    "discount": 18,
+    "rating": 3.6,
+    "reviews": 111,
+    "stock": 82,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/3.webp"
+    ],
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships in 1 month",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "64GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "128GB",
+        "priceDelta": 50
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Oppo A57",
+    "slug": "oppo-a57",
+    "category": "smartphones",
+    "brand": "Oppo",
+    "price": 250,
+    "oldPrice": 255,
+    "discount": 2,
+    "rating": 3.9,
+    "reviews": 111,
+    "stock": 19,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/3.webp"
+    ],
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "specs": {
+      "warranty": "Lifetime warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": true,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "32GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "64GB",
+        "priceDelta": 30
+      }
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#181818",
+        "image": "/oppo/black.png"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Vivo S1",
+    "slug": "vivo-s1",
+    "category": "smartphones",
+    "brand": "Vivo",
+    "price": 250,
+    "oldPrice": 278,
+    "discount": 10,
+    "rating": 3.5,
+    "reviews": 111,
+    "stock": 50,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/3.webp"
+    ],
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "specs": {
+      "warranty": "6 months warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "32GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "64GB",
+        "priceDelta": 30
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Apple AirPods Pro 2",
+    "slug": "apple-airpods-pro-2",
+    "category": "audio",
+    "brand": "Apple",
+    "price": 249,
+    "oldPrice": 279,
+    "discount": 11,
+    "rating": 4.8,
+    "reviews": 678,
+    "stock": 85,
+    "image": "https://images.pexels.com/photos/16149965/pexels-photo-16149965.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/16149965/pexels-photo-16149965.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Compact wireless earbuds with H2 chip, Active Noise Cancellation, and charging case.",
+    "specs": {
+      "type": "In-ear Wireless",
+      "battery": "6 hours per charge",
+      "caseBattery": "30 hours",
+      "noiseCancelling": "Active"
+    },
+    "isNew": true,
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
       }
     ]
   },
@@ -3221,73 +2518,776 @@
     ]
   },
   {
-    "id": "samsung-galaxy-s26-ultra",
-    "slug": "samsung-galaxy-s26-ultra",
-    "name": "Samsung Galaxy S26 Ultra",
+    "id": 100,
+    "name": "iPhone 5s",
+    "slug": "iphone-5s",
     "category": "smartphones",
-    "brand": "Samsung",
-    "price": 1299,
-    "oldPrice": 1399,
-    "discount": 7,
-    "rating": 4.9,
-    "reviews": 340,
+    "brand": "Apple",
+    "price": 200,
+    "oldPrice": 230,
+    "discount": 13,
+    "rating": 2.8,
+    "reviews": 111,
     "stock": 25,
-    "image": "/samsung/blue.png",
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
     "images": [
-      "/samsung/blue.png",
-      "/samsung/black.png",
-      "/samsung/white.png",
-      "/samsung/purple.png"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
     ],
-    "description": "Exceptional performance and unmatched power: 5G network support, a leading chip for gaming and apps, a professional-grade camera, and a stunning AMOLED display with an integrated S Pen.",
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
     "specs": {
-      "cpu": "Snapdragon 8 Gen 5",
-      "screen": "6.8\" Dynamic AMOLED 2X",
-      "refresh": "120Hz",
-      "camera": "200MP Quad",
-      "battery": "5000mAh",
-      "charging": "45W Fast",
-      "storage": "512GB",
-      "ram": "12GB",
-      "processor": "Octa-core"
+      "warranty": "Lifetime warranty",
+      "shipping": "Ships in 1 month",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
     },
     "isNew": true,
     "isFeatured": true,
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#007bff",
-        "image": "/samsung/blue.png"
-      },
-      {
-        "name": "Black",
-        "hex": "#23252a",
-        "image": "/samsung/black.png"
-      },
-      {
-        "name": "Titanium White",
-        "hex": "#ededeb",
-        "image": "/samsung/white.png"
-      },
-      {
-        "name": "Orchid Purple",
-        "hex": "#800080",
-        "image": "/samsung/purple.png"
-      }
-    ],
     "storage": [
       {
-        "label": "256GB",
+        "label": "32GB",
         "priceDelta": 0
       },
       {
-        "label": "512GB",
-        "priceDelta": 100
-      },
-      {
-        "label": "1TB",
-        "priceDelta": 250
+        "label": "64GB",
+        "priceDelta": 30
       }
     ]
+  },
+  {
+    "id": 143,
+    "name": "Corsair K70 RGB Mechanical Keyboard",
+    "slug": "corsair-k70-rgb-mechanical-keyboard",
+    "category": "gaming",
+    "brand": "Corsair",
+    "price": 159,
+    "oldPrice": 179,
+    "discount": 11,
+    "rating": 4.4,
+    "reviews": 155,
+    "stock": 30,
+    "image": "https://images.pexels.com/photos/8219211/pexels-photo-8219211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/8219211/pexels-photo-8219211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Mechanical gaming keyboard with per-key RGB lighting.",
+    "specs": {
+      "switches": "Mechanical",
+      "lighting": "Per-key RGB",
+      "layout": "Full-size",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 107,
+    "name": "Realme C35",
+    "slug": "realme-c35",
+    "category": "smartphones",
+    "brand": "Realme",
+    "price": 150,
+    "oldPrice": 176,
+    "discount": 15,
+    "rating": 4.2,
+    "reviews": 111,
+    "stock": 48,
+    "image": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/2.webp",
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/3.webp"
+    ],
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships overnight",
+      "type": "smartphones",
+      "screen": "6.5\" OLED",
+      "processor": "Octa-core",
+      "battery": "5000mAh"
+    },
+    "isNew": false,
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "32GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "64GB",
+        "priceDelta": 30
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Belkin Lightning Cable & Adapter Set",
+    "slug": "belkin-lightning-cable-adapter-set",
+    "category": "mobile-accessories",
+    "brand": "Belkin",
+    "price": 149,
+    "oldPrice": 169,
+    "discount": 11,
+    "rating": 4.8,
+    "reviews": 92,
+    "stock": 20,
+    "image": "https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "White Lightning cable and adapter set for fast charging and syncing your iPhone.",
+    "specs": {
+      "connector": "Lightning",
+      "output": "Fast Charge Ready",
+      "compatibility": "iPhone, iPad, AirPods",
+      "material": "TPU / Aluminum"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 150,
+    "name": "Manfrotto Camera Tripod",
+    "slug": "manfrotto-camera-tripod",
+    "category": "cameras",
+    "brand": "Manfrotto",
+    "price": 149,
+    "oldPrice": 169,
+    "discount": 12,
+    "rating": 4.4,
+    "reviews": 316,
+    "stock": 58,
+    "image": "https://images.pexels.com/photos/29497730/pexels-photo-29497730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/29497730/pexels-photo-29497730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Sturdy adjustable tripod for stable photos and smooth video.",
+    "specs": {
+      "material": "Aluminum",
+      "height": "Adjustable",
+      "head": "Ball head",
+      "sensor": "24MP",
+      "video": "4K",
+      "lens": "Standard Zoom"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 34,
+    "name": "Anker 737 Power Bank (PowerCore 24K)",
+    "slug": "anker-737-power-bank",
+    "category": "mobile-accessories",
+    "brand": "Anker",
+    "price": 139,
+    "oldPrice": 159,
+    "discount": 12,
+    "rating": 4.9,
+    "reviews": 420,
+    "stock": 28,
+    "image": "https://images.pexels.com/photos/14706040/pexels-photo-14706040.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/14706040/pexels-photo-14706040.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Ultra-powerful 24,000mAh power bank with 140W bi-directional fast charging and smart digital display.",
+    "specs": {
+      "capacity": "24,000mAh",
+      "power": "140W Max Output",
+      "display": "Smart Color Display",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 125,
+    "name": "Apple Airpods",
+    "slug": "apple-airpods",
+    "category": "audio",
+    "brand": "Apple",
+    "price": 130,
+    "oldPrice": 155,
+    "discount": 16,
+    "rating": 4.2,
+    "reviews": 111,
+    "stock": 67,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
+    ],
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "electronics",
+      "battery": "30h",
+      "noiseCancelling": "Active"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 124,
+    "name": "Amazon Echo Plus",
+    "slug": "amazon-echo-plus",
+    "category": "audio",
+    "brand": "Amazon",
+    "price": 100,
+    "oldPrice": 114,
+    "discount": 12,
+    "rating": 5,
+    "reviews": 111,
+    "stock": 61,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
+    ],
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "specs": {
+      "warranty": "6 months warranty",
+      "shipping": "Ships in 1 week",
+      "type": "electronics",
+      "battery": "30h",
+      "noiseCancelling": "Active"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 127,
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "slug": "apple-homepod-mini-cosmic-grey",
+    "category": "audio",
+    "brand": "Apple",
+    "price": 100,
+    "oldPrice": 122,
+    "discount": 18,
+    "rating": 4.6,
+    "reviews": 111,
+    "stock": 27,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp"
+    ],
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 1 month",
+      "type": "electronics",
+      "battery": "30h",
+      "noiseCancelling": "Active"
+    },
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 132,
+    "name": "Apple MagSafe Battery Pack",
+    "slug": "apple-magsafe-battery-pack",
+    "category": "mobile-accessories",
+    "brand": "Apple",
+    "price": 100,
+    "oldPrice": 120,
+    "discount": 17,
+    "rating": 3.6,
+    "reviews": 111,
+    "stock": 1,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/2.webp"
+    ],
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships overnight",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 142,
+    "name": "HyperX Cloud II Gaming Headset",
+    "slug": "hyperx-cloud-ii-gaming-headset",
+    "category": "gaming",
+    "brand": "HyperX",
+    "price": 99,
+    "oldPrice": 109,
+    "discount": 9,
+    "rating": 4.8,
+    "reviews": 132,
+    "stock": 26,
+    "image": "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Comfortable over-ear gaming headset with a detachable microphone.",
+    "specs": {
+      "type": "Over-ear Wired",
+      "mic": "Detachable",
+      "platform": "PC, Console",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 30,
+    "name": "Anker Rugged Solar Power Bank 10,000mAh",
+    "slug": "anker-rugged-solar-power-bank-10000mah",
+    "category": "mobile-accessories",
+    "brand": "Anker",
+    "price": 89,
+    "oldPrice": 99,
+    "discount": 10,
+    "rating": 4.8,
+    "reviews": 134,
+    "stock": 42,
+    "image": "https://images.pexels.com/photos/16814787/pexels-photo-16814787.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/16814787/pexels-photo-16814787.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Rugged 10,000mAh power bank with a solar panel for camping and outdoor trips.",
+    "specs": {
+      "capacity": "10,000mAh",
+      "charging": "Solar + USB",
+      "protection": "Rugged Shockproof Body",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 130,
+    "name": "Apple Airpower Wireless Charger",
+    "slug": "apple-airpower-wireless-charger",
+    "category": "mobile-accessories",
+    "brand": "Apple",
+    "price": 80,
+    "oldPrice": 83,
+    "discount": 4,
+    "rating": 3.7,
+    "reviews": 111,
+    "stock": 1,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+    ],
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "specs": {
+      "warranty": "2 year warranty",
+      "shipping": "Ships in 1 week",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 147,
+    "name": "Fujifilm Instax Mini 12",
+    "slug": "fujifilm-instax-mini-12",
+    "category": "cameras",
+    "brand": "Fujifilm",
+    "price": 79,
+    "oldPrice": 89,
+    "discount": 11,
+    "rating": 4.9,
+    "reviews": 247,
+    "stock": 46,
+    "image": "https://images.pexels.com/photos/7821597/pexels-photo-7821597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/7821597/pexels-photo-7821597.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Fun instant camera that prints credit-card-sized photos in seconds.",
+    "specs": {
+      "type": "Instant Film",
+      "film": "Instax Mini",
+      "flash": "Auto",
+      "sensor": "24MP",
+      "video": "4K",
+      "lens": "Standard Zoom"
+    },
+    "isNew": false,
+    "isFeatured": true
+  },
+  {
+    "id": 138,
+    "name": "Sony DualSense Wireless Controller",
+    "slug": "sony-dualsense-wireless-controller",
+    "category": "gaming",
+    "brand": "Sony",
+    "price": 69,
+    "oldPrice": 79,
+    "discount": 13,
+    "rating": 4.3,
+    "reviews": 40,
+    "stock": 10,
+    "image": "https://images.pexels.com/photos/16070479/pexels-photo-16070479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/16070479/pexels-photo-16070479.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Wireless controller with haptic feedback and adaptive triggers for PlayStation 5.",
+    "specs": {
+      "connection": "Bluetooth / USB-C",
+      "feature": "Haptic Feedback",
+      "platform": "PS5, PC",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 140,
+    "name": "Nintendo Switch Pro Controller",
+    "slug": "nintendo-switch-pro-controller",
+    "category": "gaming",
+    "brand": "Nintendo",
+    "price": 69,
+    "oldPrice": 74,
+    "discount": 7,
+    "rating": 4.9,
+    "reviews": 86,
+    "stock": 18,
+    "image": "https://images.pexels.com/photos/37935954/pexels-photo-37935954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/37935954/pexels-photo-37935954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Full-size controller with motion controls and HD rumble for Nintendo Switch.",
+    "specs": {
+      "connection": "Bluetooth / USB",
+      "battery": "40 hours",
+      "platform": "Switch",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 144,
+    "name": "Razer DeathAdder V3 Gaming Mouse",
+    "slug": "razer-deathadder-v3-gaming-mouse",
+    "category": "gaming",
+    "brand": "Razer",
+    "price": 69,
+    "oldPrice": 79,
+    "discount": 13,
+    "rating": 4.7,
+    "reviews": 178,
+    "stock": 34,
+    "image": "https://images.pexels.com/photos/12877898/pexels-photo-12877898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/12877898/pexels-photo-12877898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Lightweight ergonomic gaming mouse built for fast, precise aim.",
+    "specs": {
+      "type": "Wired Ergonomic",
+      "sensor": "Optical",
+      "buttons": "6 programmable",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen",
+      "battery": "N/A"
+    },
+    "isNew": true,
+    "isFeatured": true
+  },
+  {
+    "id": 139,
+    "name": "Xbox Wireless Controller",
+    "slug": "xbox-wireless-controller",
+    "category": "gaming",
+    "brand": "Microsoft",
+    "price": 59,
+    "oldPrice": 64,
+    "discount": 8,
+    "rating": 4.6,
+    "reviews": 63,
+    "stock": 14,
+    "image": "https://images.pexels.com/photos/14642112/pexels-photo-14642112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "images": [
+      "https://images.pexels.com/photos/14642112/pexels-photo-14642112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+    ],
+    "description": "Comfortable wireless controller with textured grips for Xbox and Windows PC.",
+    "specs": {
+      "connection": "Bluetooth / Wireless",
+      "battery": "AA batteries",
+      "platform": "Xbox, PC",
+      "screen": "27\" 144Hz",
+      "processor": "AMD Ryzen"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 128,
+    "name": "Beats Flex Wireless Earphones",
+    "slug": "beats-flex-wireless-earphones",
+    "category": "audio",
+    "brand": "Beats",
+    "price": 50,
+    "oldPrice": 53,
+    "discount": 6,
+    "rating": 4.2,
+    "reviews": 111,
+    "stock": 50,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp"
+    ],
+    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "specs": {
+      "warranty": "1 year warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "electronics",
+      "battery": "30h",
+      "noiseCancelling": "Active"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 31,
+    "name": "UGREEN USB-C Fast Charger 65W",
+    "slug": "ugreen-usb-c-fast-charger-65w",
+    "category": "mobile-accessories",
+    "brand": "UGREEN",
+    "price": 39,
+    "oldPrice": 49,
+    "discount": 20,
+    "rating": 4.7,
+    "reviews": 210,
+    "stock": 65,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp"
+    ],
+    "description": "Multi-port GaN fast charger suitable for smartphones, tablets, and laptops.",
+    "specs": {
+      "ports": "2x USB-C, 1x USB-A",
+      "power": "65W Max",
+      "tech": "GaN Fast Charge",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 133,
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "slug": "iphone-12-silicone-case-with-magsafe-plum",
+    "category": "mobile-accessories",
+    "brand": "Apple",
+    "price": 30,
+    "oldPrice": 35,
+    "discount": 14,
+    "rating": 3.6,
+    "reviews": 111,
+    "stock": 69,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/3.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/4.webp"
+    ],
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "specs": {
+      "warranty": "3 months warranty",
+      "shipping": "Ships in 3-5 business days",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Plum",
+        "hex": "#6b2344",
+        "image": "/logo/withOutBackground.png"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Spigen MagArmor MagSafe Case",
+    "slug": "spigen-magarmor-magsafe-case",
+    "category": "mobile-accessories",
+    "brand": "Spigen",
+    "price": 29,
+    "oldPrice": 35,
+    "discount": 17,
+    "rating": 4.7,
+    "reviews": 310,
+    "stock": 100,
+    "image": "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Protective slim TPU case with built-in magnetic ring for MagSafe accessories.",
+    "specs": {
+      "material": "TPU & Air Cushion Tech",
+      "feature": "MagSafe Compatible",
+      "protection": "Military Grade Drop test",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 131,
+    "name": "Apple iPhone Charger",
+    "slug": "apple-iphone-charger",
+    "category": "mobile-accessories",
+    "brand": "Apple",
+    "price": 20,
+    "oldPrice": 25,
+    "discount": 20,
+    "rating": 4.2,
+    "reviews": 111,
+    "stock": 31,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/2.webp"
+    ],
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "specs": {
+      "warranty": "1 year warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 134,
+    "name": "Monopod",
+    "slug": "monopod",
+    "category": "mobile-accessories",
+    "brand": "TechGear",
+    "price": 20,
+    "oldPrice": 22,
+    "discount": 9,
+    "rating": 4.4,
+    "reviews": 111,
+    "stock": 48,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/2.webp"
+    ],
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "specs": {
+      "warranty": "1 year warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": false
+  },
+  {
+    "id": 35,
+    "name": "Baseus Metal Gravity Car Phone Holder",
+    "slug": "baseus-metal-gravity-car-holder",
+    "category": "mobile-accessories",
+    "brand": "Baseus",
+    "price": 19,
+    "oldPrice": 25,
+    "discount": 24,
+    "rating": 4.5,
+    "reviews": 145,
+    "stock": 80,
+    "image": "https://images.pexels.com/photos/30954662/pexels-photo-30954662.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/30954662/pexels-photo-30954662.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "description": "Air vent mount holder with gravity linkage design for single-handed smartphone placement.",
+    "specs": {
+      "mount": "Air Vent Clamp",
+      "material": "Aluminum Alloy",
+      "compatibility": "4.7 - 6.7 inches"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 135,
+    "name": "Selfie Lamp with iPhone",
+    "slug": "selfie-lamp-with-iphone",
+    "category": "mobile-accessories",
+    "brand": "GadgetMaster",
+    "price": 15,
+    "oldPrice": 19,
+    "discount": 21,
+    "rating": 3.6,
+    "reviews": 111,
+    "stock": 58,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp"
+    ],
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "specs": {
+      "warranty": "Lifetime warranty",
+      "shipping": "Ships in 2 weeks",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": false,
+    "isFeatured": false
+  },
+  {
+    "id": 136,
+    "name": "Selfie Stick Monopod",
+    "slug": "selfie-stick-monopod",
+    "category": "mobile-accessories",
+    "brand": "SnapTech",
+    "price": 13,
+    "oldPrice": 16,
+    "discount": 19,
+    "rating": 3.9,
+    "reviews": 111,
+    "stock": 11,
+    "image": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp",
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp"
+    ],
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "specs": {
+      "warranty": "3 year warranty",
+      "shipping": "Ships in 1-2 business days",
+      "type": "electronics",
+      "material": "TPU / Aluminum",
+      "compatibility": "Universal"
+    },
+    "isNew": true,
+    "isFeatured": true
   }
 ]
