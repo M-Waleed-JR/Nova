@@ -5,7 +5,7 @@
     "name": "iPhone Duo",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$1,619",
+    "price": 1619,
     "oldPrice": 1699,
     "discount": 6,
     "rating": 4.8,
@@ -55,7 +55,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,799"
+    "originalPrice": 1799
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "slug": "macbook-pro-14-m3",
     "category": "laptops",
     "brand": "Apple",
-    "price": "$1,530",
+    "price": 1530,
     "oldPrice": 2199,
     "discount": 9,
     "rating": 4.9,
@@ -98,7 +98,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,699"
+    "originalPrice": 1699
   },
   {
     "id": 9,
@@ -106,7 +106,7 @@
     "slug": "asus-zenbook-14-oled",
     "category": "laptops",
     "brand": "ASUS",
-    "price": "$1,502",
+    "price": 1502,
     "oldPrice": 2099,
     "discount": 9,
     "rating": 4.8,
@@ -141,7 +141,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,699"
+    "originalPrice": 1699
   },
   {
     "id": 117,
@@ -149,7 +149,7 @@
     "slug": "asus-zenbook-pro-dual-screen-laptop",
     "category": "laptops",
     "brand": "Asus",
-    "price": "$1,426",
+    "price": 1426,
     "oldPrice": 2022,
     "discount": 11,
     "rating": 4,
@@ -186,7 +186,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,699"
+    "originalPrice": 1699
   },
   {
     "id": 116,
@@ -194,7 +194,7 @@
     "slug": "apple-macbook-pro-14-inch-space-grey",
     "category": "laptops",
     "brand": "Apple",
-    "price": "$1,418",
+    "price": 1418,
     "oldPrice": 2105,
     "discount": 5,
     "rating": 3.7,
@@ -231,7 +231,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,699"
+    "originalPrice": 1699
   },
   {
     "id": "pro-max",
@@ -239,7 +239,7 @@
     "name": "iPhone 18 Pro Max",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$1,246",
+    "price": 1246,
     "oldPrice": 1299,
     "discount": 8,
     "rating": 4.9,
@@ -300,7 +300,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$1,399"
+    "originalPrice": 1399
   },
   {
     "id": "samsung-galaxy-s26-ultra",
@@ -308,7 +308,7 @@
     "name": "Samsung Galaxy S26 Ultra",
     "category": "smartphones",
     "brand": "Samsung",
-    "price": "$1,214",
+    "price": 1214,
     "oldPrice": 1399,
     "discount": 7,
     "rating": 4.9,
@@ -371,7 +371,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$1,399"
+    "originalPrice": 1399
   },
   {
     "id": "pro",
@@ -379,7 +379,7 @@
     "name": "iPhone 18 Pro",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$1,040",
+    "price": 1040,
     "oldPrice": 1199,
     "discount": 8,
     "rating": 4.9,
@@ -440,7 +440,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$1,199"
+    "originalPrice": 1199
   },
   {
     "id": 3,
@@ -448,7 +448,7 @@
     "slug": "google-pixel-8-pro",
     "category": "smartphones",
     "brand": "Google",
-    "price": "$1,011",
+    "price": 1011,
     "oldPrice": 999,
     "discount": 10,
     "rating": 4.6,
@@ -482,7 +482,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$1,199"
+    "originalPrice": 1199
   },
   {
     "id": 5,
@@ -490,7 +490,7 @@
     "slug": "xiaomi-14-ultra",
     "category": "smartphones",
     "brand": "Xiaomi",
-    "price": "$1,008",
+    "price": 1008,
     "oldPrice": 1099,
     "discount": 9,
     "rating": 4.8,
@@ -524,7 +524,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$1,199"
+    "originalPrice": 1199
   },
   {
     "id": 4,
@@ -532,7 +532,7 @@
     "slug": "oneplus-12",
     "category": "smartphones",
     "brand": "OnePlus",
-    "price": "$882",
+    "price": 882,
     "oldPrice": 899,
     "discount": 11,
     "rating": 4.7,
@@ -562,7 +562,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$999"
+    "originalPrice": 999
   },
   {
     "id": 2,
@@ -570,7 +570,7 @@
     "slug": "samsung-galaxy-s24-ultra",
     "category": "smartphones",
     "brand": "Samsung",
-    "price": "$843",
+    "price": 843,
     "oldPrice": 1199,
     "discount": 8,
     "rating": 4.7,
@@ -626,7 +626,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$999"
+    "originalPrice": 999
   },
   {
     "id": 119,
@@ -634,7 +634,7 @@
     "slug": "lenovo-yoga-920",
     "category": "laptops",
     "brand": "Lenovo",
-    "price": "$779",
+    "price": 779,
     "oldPrice": 1183,
     "discount": 7,
     "rating": 2.9,
@@ -671,7 +671,7 @@
         "priceDelta": 180
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 10,
@@ -679,7 +679,7 @@
     "slug": "ipad-10-2-9th-gen",
     "category": "tablets",
     "brand": "Apple",
-    "price": "$760",
+    "price": 760,
     "oldPrice": 1199,
     "discount": 8,
     "rating": 4.8,
@@ -714,7 +714,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 13,
@@ -722,7 +722,7 @@
     "slug": "microsoft-surface-pro-9",
     "category": "tablets",
     "brand": "Microsoft",
-    "price": "$752",
+    "price": 752,
     "oldPrice": 999,
     "discount": 10,
     "rating": 4.5,
@@ -757,7 +757,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 8,
@@ -765,7 +765,7 @@
     "slug": "lenovo-thinkpad-x1-carbon",
     "category": "laptops",
     "brand": "Lenovo",
-    "price": "$727",
+    "price": 727,
     "oldPrice": 1599,
     "discount": 10,
     "rating": 4.8,
@@ -800,7 +800,7 @@
         "priceDelta": 180
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 111,
@@ -808,7 +808,7 @@
     "slug": "samsung-galaxy-s8",
     "category": "smartphones",
     "brand": "Samsung",
-    "price": "$706",
+    "price": 706,
     "oldPrice": 617,
     "discount": 19,
     "rating": 4.4,
@@ -841,7 +841,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 26,
@@ -849,7 +849,7 @@
     "slug": "nikon-dslr-camera-zoom-lens",
     "category": "cameras",
     "brand": "Nikon",
-    "price": "$704",
+    "price": 704,
     "oldPrice": 2699,
     "discount": 7,
     "rating": 4.9,
@@ -868,7 +868,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 112,
@@ -876,7 +876,7 @@
     "slug": "samsung-galaxy-s10",
     "category": "smartphones",
     "brand": "Samsung",
-    "price": "$673",
+    "price": 673,
     "oldPrice": 745,
     "discount": 6,
     "rating": 3.1,
@@ -909,7 +909,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 121,
@@ -917,7 +917,7 @@
     "slug": "ipad-mini-2021-starlight",
     "category": "tablets",
     "brand": "Apple",
-    "price": "$645",
+    "price": 645,
     "oldPrice": 521,
     "discount": 4,
     "rating": 3.2,
@@ -951,7 +951,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 146,
@@ -959,7 +959,7 @@
     "slug": "fujifilm-x-t5",
     "category": "cameras",
     "brand": "Fujifilm",
-    "price": "$639",
+    "price": 639,
     "oldPrice": 1799,
     "discount": 6,
     "rating": 4.6,
@@ -978,7 +978,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 12,
@@ -986,7 +986,7 @@
     "slug": "ipad-air-5th-gen",
     "category": "tablets",
     "brand": "Apple",
-    "price": "$637",
+    "price": 637,
     "oldPrice": 649,
     "discount": 7,
     "rating": 4.7,
@@ -1017,7 +1017,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 145,
@@ -1025,7 +1025,7 @@
     "slug": "canon-eos-r6-mark-ii",
     "category": "cameras",
     "brand": "Canon",
-    "price": "$621",
+    "price": 621,
     "oldPrice": 2599,
     "discount": 4,
     "rating": 4.3,
@@ -1044,7 +1044,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 27,
@@ -1052,7 +1052,7 @@
     "slug": "sony-alpha-a7-iv",
     "category": "cameras",
     "brand": "Sony",
-    "price": "$620",
+    "price": 620,
     "oldPrice": 2499,
     "discount": 0,
     "rating": 4.8,
@@ -1071,7 +1071,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 11,
@@ -1079,7 +1079,7 @@
     "slug": "samsung-galaxy-tab-s9-ultra",
     "category": "tablets",
     "brand": "Samsung",
-    "price": "$594",
+    "price": 594,
     "oldPrice": 1119,
     "discount": 10,
     "rating": 4.7,
@@ -1113,7 +1113,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 7,
@@ -1121,7 +1121,7 @@
     "slug": "macbook-air-13-m2",
     "category": "laptops",
     "brand": "Apple",
-    "price": "$592",
+    "price": 592,
     "oldPrice": 1799,
     "discount": 11,
     "rating": 4.6,
@@ -1156,7 +1156,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 149,
@@ -1164,7 +1164,7 @@
     "slug": "canon-rf-24-70mm-f-2-8-lens",
     "category": "cameras",
     "brand": "Canon",
-    "price": "$584",
+    "price": 584,
     "oldPrice": 2399,
     "discount": 4,
     "rating": 4.8,
@@ -1185,7 +1185,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 28,
@@ -1193,7 +1193,7 @@
     "slug": "vintage-35mm-rangefinder-film-camera",
     "category": "cameras",
     "brand": "Vintage",
-    "price": "$561",
+    "price": 561,
     "oldPrice": 1799,
     "discount": 5,
     "rating": 4.8,
@@ -1213,7 +1213,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 122,
@@ -1221,7 +1221,7 @@
     "slug": "samsung-galaxy-tab-s8-plus-grey",
     "category": "tablets",
     "brand": "Samsung",
-    "price": "$533",
+    "price": 533,
     "oldPrice": 690,
     "discount": 13,
     "rating": 4.7,
@@ -1255,7 +1255,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 148,
@@ -1263,7 +1263,7 @@
     "slug": "dji-mini-4-pro-drone",
     "category": "cameras",
     "brand": "DJI",
-    "price": "$520",
+    "price": 520,
     "oldPrice": 799,
     "discount": 5,
     "rating": 4.5,
@@ -1283,7 +1283,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 23,
@@ -1291,7 +1291,7 @@
     "slug": "asus-rog-dual-monitor-gaming-setup",
     "category": "gaming",
     "brand": "ASUS",
-    "price": "$514",
+    "price": 514,
     "oldPrice": 999,
     "discount": 10,
     "rating": 4.8,
@@ -1313,7 +1313,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 21,
@@ -1321,7 +1321,7 @@
     "slug": "garmin-fenix-7-pro",
     "category": "smartwatches",
     "brand": "Garmin",
-    "price": "$513",
+    "price": 513,
     "oldPrice": 949,
     "discount": 5,
     "rating": 4.8,
@@ -1351,7 +1351,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 118,
@@ -1359,7 +1359,7 @@
     "slug": "huawei-matebook-x-pro",
     "category": "laptops",
     "brand": "Huawei",
-    "price": "$511",
+    "price": 511,
     "oldPrice": 1538,
     "discount": 9,
     "rating": 5,
@@ -1396,7 +1396,7 @@
         "priceDelta": 180
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 102,
@@ -1404,7 +1404,7 @@
     "slug": "iphone-13-pro",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$504",
+    "price": 504,
     "oldPrice": 1209,
     "discount": 9,
     "rating": 4.1,
@@ -1441,7 +1441,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$699"
+    "originalPrice": 699
   },
   {
     "id": 120,
@@ -1449,7 +1449,7 @@
     "slug": "new-dell-xps-13-9300-laptop",
     "category": "laptops",
     "brand": "Dell",
-    "price": "$500",
+    "price": 500,
     "oldPrice": 1705,
     "discount": 12,
     "rating": 2.7,
@@ -1486,7 +1486,7 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": "$799"
+    "originalPrice": 799
   },
   {
     "id": 24,
@@ -1494,7 +1494,7 @@
     "slug": "xbox-series-x",
     "category": "gaming",
     "brand": "Microsoft",
-    "price": "$347",
+    "price": 347,
     "oldPrice": 529,
     "discount": 5,
     "rating": 4.8,
@@ -1515,7 +1515,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 105,
@@ -1523,7 +1523,7 @@
     "slug": "oppo-f19-pro-plus",
     "category": "smartphones",
     "brand": "Oppo",
-    "price": "$345",
+    "price": 345,
     "oldPrice": 494,
     "discount": 19,
     "rating": 3.5,
@@ -1556,7 +1556,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 123,
@@ -1564,7 +1564,7 @@
     "slug": "samsung-galaxy-tab-white",
     "category": "tablets",
     "brand": "Samsung",
-    "price": "$335",
+    "price": 335,
     "oldPrice": 427,
     "discount": 18,
     "rating": 3.7,
@@ -1598,7 +1598,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 126,
@@ -1606,7 +1606,7 @@
     "slug": "apple-airpods-max-silver",
     "category": "audio",
     "brand": "Apple",
-    "price": "$331",
+    "price": 331,
     "oldPrice": 640,
     "discount": 14,
     "rating": 3.5,
@@ -1626,7 +1626,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 106,
@@ -1634,7 +1634,7 @@
     "slug": "oppo-k1",
     "category": "smartphones",
     "brand": "Oppo",
-    "price": "$330",
+    "price": 330,
     "oldPrice": 366,
     "discount": 18,
     "rating": 4.3,
@@ -1668,7 +1668,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 143,
@@ -1676,7 +1676,7 @@
     "slug": "corsair-k70-rgb-mechanical-keyboard",
     "category": "gaming",
     "brand": "Corsair",
-    "price": "$327",
+    "price": 327,
     "oldPrice": 179,
     "discount": 11,
     "rating": 4.4,
@@ -1697,7 +1697,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 103,
@@ -1705,7 +1705,7 @@
     "slug": "iphone-x",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$321",
+    "price": 321,
     "oldPrice": 1125,
     "discount": 20,
     "rating": 2.5,
@@ -1742,7 +1742,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 1,
@@ -1750,7 +1750,7 @@
     "slug": "iphone-x-silver-with-airpods",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$319",
+    "price": 319,
     "oldPrice": 1299,
     "discount": 8,
     "rating": 4.8,
@@ -1806,7 +1806,7 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 29,
@@ -1814,7 +1814,7 @@
     "slug": "gopro-hero12-black",
     "category": "cameras",
     "brand": "GoPro",
-    "price": "$309",
+    "price": 309,
     "oldPrice": 449,
     "discount": 11,
     "rating": 4.6,
@@ -1834,7 +1834,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 104,
@@ -1842,7 +1842,7 @@
     "slug": "oppo-a57",
     "category": "smartphones",
     "brand": "Oppo",
-    "price": "$308",
+    "price": 308,
     "oldPrice": 255,
     "discount": 2,
     "rating": 3.9,
@@ -1882,7 +1882,7 @@
         "image": "/oppo/black.png"
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 108,
@@ -1890,7 +1890,7 @@
     "slug": "realme-x",
     "category": "smartphones",
     "brand": "Realme",
-    "price": "$305",
+    "price": 305,
     "oldPrice": 323,
     "discount": 7,
     "rating": 3.7,
@@ -1923,7 +1923,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 150,
@@ -1931,7 +1931,7 @@
     "slug": "manfrotto-camera-tripod",
     "category": "cameras",
     "brand": "Manfrotto",
-    "price": "$303",
+    "price": 303,
     "oldPrice": 169,
     "discount": 12,
     "rating": 4.4,
@@ -1952,7 +1952,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": "redmi-17-5g",
@@ -1960,7 +1960,7 @@
     "name": "Xiaomi Redmi 17 5G",
     "category": "smartphones",
     "brand": "Xiaomi",
-    "price": "$299",
+    "price": 299,
     "oldPrice": 279,
     "discount": 10,
     "rating": 4.6,
@@ -2011,7 +2011,7 @@
         "priceDelta": 30
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 109,
@@ -2019,7 +2019,7 @@
     "slug": "realme-xt",
     "category": "smartphones",
     "brand": "Realme",
-    "price": "$290",
+    "price": 290,
     "oldPrice": 398,
     "discount": 12,
     "rating": 4.6,
@@ -2052,7 +2052,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 115,
@@ -2060,7 +2060,7 @@
     "slug": "vivo-x21",
     "category": "smartphones",
     "brand": "Vivo",
-    "price": "$284",
+    "price": 284,
     "oldPrice": 602,
     "discount": 17,
     "rating": 4.3,
@@ -2093,7 +2093,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 15,
@@ -2101,7 +2101,7 @@
     "slug": "apple-airpods-pro-2",
     "category": "audio",
     "brand": "Apple",
-    "price": "$282",
+    "price": 282,
     "oldPrice": 279,
     "discount": 11,
     "rating": 4.8,
@@ -2126,7 +2126,7 @@
         "hex": "#f5f5f5"
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 25,
@@ -2134,7 +2134,7 @@
     "slug": "nintendo-switch-oled",
     "category": "gaming",
     "brand": "Nintendo",
-    "price": "$277",
+    "price": 277,
     "oldPrice": 379,
     "discount": 8,
     "rating": 4.7,
@@ -2154,7 +2154,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 107,
@@ -2162,7 +2162,7 @@
     "slug": "realme-c35",
     "category": "smartphones",
     "brand": "Realme",
-    "price": "$276",
+    "price": 276,
     "oldPrice": 176,
     "discount": 15,
     "rating": 4.2,
@@ -2195,7 +2195,7 @@
         "priceDelta": 30
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 114,
@@ -2203,7 +2203,7 @@
     "slug": "vivo-v9",
     "category": "smartphones",
     "brand": "Vivo",
-    "price": "$263",
+    "price": 263,
     "oldPrice": 366,
     "discount": 18,
     "rating": 3.6,
@@ -2236,7 +2236,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 113,
@@ -2244,7 +2244,7 @@
     "slug": "vivo-s1",
     "category": "smartphones",
     "brand": "Vivo",
-    "price": "$262",
+    "price": 262,
     "oldPrice": 278,
     "discount": 10,
     "rating": 3.5,
@@ -2277,7 +2277,7 @@
         "priceDelta": 30
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 22,
@@ -2285,7 +2285,7 @@
     "slug": "playstation-1-retro-console",
     "category": "gaming",
     "brand": "Sony",
-    "price": "$252",
+    "price": 252,
     "oldPrice": 549,
     "discount": 9,
     "rating": 4.9,
@@ -2306,7 +2306,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 110,
@@ -2314,7 +2314,7 @@
     "slug": "samsung-galaxy-s7",
     "category": "smartphones",
     "brand": "Samsung",
-    "price": "$250",
+    "price": 250,
     "oldPrice": 375,
     "discount": 20,
     "rating": 3.3,
@@ -2347,7 +2347,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$399"
+    "originalPrice": 399
   },
   {
     "id": 101,
@@ -2355,7 +2355,7 @@
     "slug": "iphone-6",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$179",
+    "price": 179,
     "oldPrice": 323,
     "discount": 7,
     "rating": 3.4,
@@ -2388,7 +2388,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$200"
+    "originalPrice": 200
   },
   {
     "id": 100,
@@ -2396,7 +2396,7 @@
     "slug": "iphone-5s",
     "category": "smartphones",
     "brand": "Apple",
-    "price": "$162",
+    "price": 162,
     "oldPrice": 230,
     "discount": 13,
     "rating": 2.8,
@@ -2429,7 +2429,7 @@
         "priceDelta": 30
       }
     ],
-    "originalPrice": "$200"
+    "originalPrice": 200
   },
   {
     "id": 131,
@@ -2437,7 +2437,7 @@
     "slug": "apple-iphone-charger",
     "category": "mobile-accessories",
     "brand": "Apple",
-    "price": "$98",
+    "price": 98,
     "oldPrice": 25,
     "discount": 20,
     "rating": 4.2,
@@ -2458,7 +2458,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 34,
@@ -2466,7 +2466,7 @@
     "slug": "anker-737-power-bank",
     "category": "mobile-accessories",
     "brand": "Anker",
-    "price": "$94",
+    "price": 94,
     "oldPrice": 159,
     "discount": 12,
     "rating": 4.9,
@@ -2486,7 +2486,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 141,
@@ -2494,7 +2494,7 @@
     "slug": "meta-quest-3-vr-headset",
     "category": "gaming",
     "brand": "Meta",
-    "price": "$93",
+    "price": 93,
     "oldPrice": 549,
     "discount": 9,
     "rating": 4.5,
@@ -2515,7 +2515,7 @@
     },
     "isNew": false,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 128,
@@ -2523,7 +2523,7 @@
     "slug": "beats-flex-wireless-earphones",
     "category": "audio",
     "brand": "Beats",
-    "price": "$92",
+    "price": 92,
     "oldPrice": 53,
     "discount": 6,
     "rating": 4.2,
@@ -2543,7 +2543,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 35,
@@ -2551,7 +2551,7 @@
     "slug": "baseus-metal-gravity-car-holder",
     "category": "mobile-accessories",
     "brand": "Baseus",
-    "price": "$86",
+    "price": 86,
     "oldPrice": 25,
     "discount": 24,
     "rating": 4.5,
@@ -2569,7 +2569,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 33,
@@ -2577,7 +2577,7 @@
     "slug": "spigen-magarmor-magsafe-case",
     "category": "mobile-accessories",
     "brand": "Spigen",
-    "price": "$84",
+    "price": 84,
     "oldPrice": 35,
     "discount": 17,
     "rating": 4.7,
@@ -2596,7 +2596,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 18,
@@ -2604,7 +2604,7 @@
     "slug": "apple-watch-series-9",
     "category": "smartwatches",
     "brand": "Apple",
-    "price": "$83",
+    "price": 83,
     "oldPrice": 449,
     "discount": 4,
     "rating": 4.8,
@@ -2633,7 +2633,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 17,
@@ -2641,7 +2641,7 @@
     "slug": "sennheiser-momentum-4-wireless",
     "category": "audio",
     "brand": "Sennheiser",
-    "price": "$76",
+    "price": 76,
     "oldPrice": 399,
     "discount": 12,
     "rating": 4.6,
@@ -2660,7 +2660,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 134,
@@ -2668,7 +2668,7 @@
     "slug": "monopod",
     "category": "mobile-accessories",
     "brand": "TechGear",
-    "price": "$74",
+    "price": 74,
     "oldPrice": 22,
     "discount": 9,
     "rating": 4.4,
@@ -2689,7 +2689,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 124,
@@ -2697,7 +2697,7 @@
     "slug": "amazon-echo-plus",
     "category": "audio",
     "brand": "Amazon",
-    "price": "$73",
+    "price": 73,
     "oldPrice": 114,
     "discount": 12,
     "rating": 5,
@@ -2718,7 +2718,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 30,
@@ -2726,7 +2726,7 @@
     "slug": "anker-rugged-solar-power-bank-10000mah",
     "category": "mobile-accessories",
     "brand": "Anker",
-    "price": "$73",
+    "price": 73,
     "oldPrice": 99,
     "discount": 10,
     "rating": 4.8,
@@ -2746,7 +2746,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 31,
@@ -2754,7 +2754,7 @@
     "slug": "ugreen-usb-c-fast-charger-65w",
     "category": "mobile-accessories",
     "brand": "UGREEN",
-    "price": "$71",
+    "price": 71,
     "oldPrice": 49,
     "discount": 20,
     "rating": 4.7,
@@ -2774,7 +2774,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 32,
@@ -2782,7 +2782,7 @@
     "slug": "belkin-lightning-cable-adapter-set",
     "category": "mobile-accessories",
     "brand": "Belkin",
-    "price": "$70",
+    "price": 70,
     "oldPrice": 169,
     "discount": 11,
     "rating": 4.8,
@@ -2801,7 +2801,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 142,
@@ -2809,7 +2809,7 @@
     "slug": "hyperx-cloud-ii-gaming-headset",
     "category": "gaming",
     "brand": "HyperX",
-    "price": "$70",
+    "price": 70,
     "oldPrice": 109,
     "discount": 9,
     "rating": 4.8,
@@ -2830,7 +2830,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 19,
@@ -2838,7 +2838,7 @@
     "slug": "samsung-galaxy-watch-6-classic",
     "category": "smartwatches",
     "brand": "Samsung",
-    "price": "$69",
+    "price": 69,
     "oldPrice": 399,
     "discount": 12,
     "rating": 4.6,
@@ -2868,7 +2868,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 132,
@@ -2876,7 +2876,7 @@
     "slug": "apple-magsafe-battery-pack",
     "category": "mobile-accessories",
     "brand": "Apple",
-    "price": "$66",
+    "price": 66,
     "oldPrice": 120,
     "discount": 17,
     "rating": 3.6,
@@ -2897,7 +2897,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 16,
@@ -2905,7 +2905,7 @@
     "slug": "bose-quietcomfort-ultra",
     "category": "audio",
     "brand": "Bose",
-    "price": "$64",
+    "price": 64,
     "oldPrice": 479,
     "discount": 10,
     "rating": 4.7,
@@ -2924,7 +2924,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 147,
@@ -2932,7 +2932,7 @@
     "slug": "fujifilm-instax-mini-12",
     "category": "cameras",
     "brand": "Fujifilm",
-    "price": "$57",
+    "price": 57,
     "oldPrice": 89,
     "discount": 11,
     "rating": 4.9,
@@ -2953,7 +2953,7 @@
     },
     "isNew": false,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 14,
@@ -2961,7 +2961,7 @@
     "slug": "beats-studio-wireless-headphones",
     "category": "audio",
     "brand": "Beats",
-    "price": "$54",
+    "price": 54,
     "oldPrice": 449,
     "discount": 11,
     "rating": 4.9,
@@ -2979,7 +2979,7 @@
     },
     "isNew": false,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 129,
@@ -2987,7 +2987,7 @@
     "slug": "apple-watch-series-4-gold",
     "category": "smartwatches",
     "brand": "Apple",
-    "price": "$53",
+    "price": 53,
     "oldPrice": 398,
     "discount": 12,
     "rating": 2.7,
@@ -3020,7 +3020,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 140,
@@ -3028,7 +3028,7 @@
     "slug": "nintendo-switch-pro-controller",
     "category": "gaming",
     "brand": "Nintendo",
-    "price": "$53",
+    "price": 53,
     "oldPrice": 74,
     "discount": 7,
     "rating": 4.9,
@@ -3048,7 +3048,7 @@
     },
     "isNew": true,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 144,
@@ -3056,7 +3056,7 @@
     "slug": "razer-deathadder-v3-gaming-mouse",
     "category": "gaming",
     "brand": "Razer",
-    "price": "$51",
+    "price": 51,
     "oldPrice": 79,
     "discount": 13,
     "rating": 4.7,
@@ -3077,7 +3077,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 133,
@@ -3085,7 +3085,7 @@
     "slug": "iphone-12-silicone-case-with-magsafe-plum",
     "category": "mobile-accessories",
     "brand": "Apple",
-    "price": "$51",
+    "price": 51,
     "oldPrice": 35,
     "discount": 14,
     "rating": 3.6,
@@ -3115,7 +3115,7 @@
         "image": "/logo/withOutBackground.png"
       }
     ],
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 135,
@@ -3123,7 +3123,7 @@
     "slug": "selfie-lamp-with-iphone",
     "category": "mobile-accessories",
     "brand": "GadgetMaster",
-    "price": "$51",
+    "price": 51,
     "oldPrice": 19,
     "discount": 21,
     "rating": 3.6,
@@ -3143,7 +3143,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 136,
@@ -3151,7 +3151,7 @@
     "slug": "selfie-stick-monopod",
     "category": "mobile-accessories",
     "brand": "SnapTech",
-    "price": "$47",
+    "price": 47,
     "oldPrice": 16,
     "discount": 19,
     "rating": 3.9,
@@ -3171,7 +3171,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 20,
@@ -3179,7 +3179,7 @@
     "slug": "apple-watch-series-8-blue-sport-band",
     "category": "smartwatches",
     "brand": "Apple",
-    "price": "$46",
+    "price": 46,
     "oldPrice": 849,
     "discount": 5,
     "rating": 4.9,
@@ -3208,7 +3208,7 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 127,
@@ -3216,7 +3216,7 @@
     "slug": "apple-homepod-mini-cosmic-grey",
     "category": "audio",
     "brand": "Apple",
-    "price": "$45",
+    "price": 45,
     "oldPrice": 122,
     "discount": 18,
     "rating": 4.6,
@@ -3236,7 +3236,7 @@
     },
     "isNew": false,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 138,
@@ -3244,7 +3244,7 @@
     "slug": "sony-dualsense-wireless-controller",
     "category": "gaming",
     "brand": "Sony",
-    "price": "$43",
+    "price": 43,
     "oldPrice": 79,
     "discount": 13,
     "rating": 4.3,
@@ -3265,7 +3265,7 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 139,
@@ -3273,7 +3273,7 @@
     "slug": "xbox-wireless-controller",
     "category": "gaming",
     "brand": "Microsoft",
-    "price": "$40",
+    "price": 40,
     "oldPrice": 64,
     "discount": 8,
     "rating": 4.6,
@@ -3293,7 +3293,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 137,
@@ -3301,7 +3301,7 @@
     "slug": "tv-studio-camera-pedestal",
     "category": "mobile-accessories",
     "brand": "ProVision",
-    "price": "$32",
+    "price": 32,
     "oldPrice": 543,
     "discount": 8,
     "rating": 2.8,
@@ -3321,7 +3321,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 125,
@@ -3329,7 +3329,7 @@
     "slug": "apple-airpods",
     "category": "audio",
     "brand": "Apple",
-    "price": "$32",
+    "price": 32,
     "oldPrice": 155,
     "discount": 16,
     "rating": 4.2,
@@ -3351,7 +3351,7 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": "$99"
+    "originalPrice": 99
   },
   {
     "id": 130,
@@ -3359,7 +3359,7 @@
     "slug": "apple-airpower-wireless-charger",
     "category": "mobile-accessories",
     "brand": "Apple",
-    "price": "$32",
+    "price": 32,
     "oldPrice": 83,
     "discount": 4,
     "rating": 3.7,
@@ -3379,6 +3379,6 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": "$99"
+    "originalPrice": 99
   }
 ]
