@@ -23,7 +23,43 @@
       "battery": "2716mAh"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#ededeb",
+        "image": "/iphone/white.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/iphone/black.png"
+      },
+      {
+        "name": "Blue",
+        "hex": "#9eb7d7",
+        "image": "/iphone/blue.png"
+      },
+      {
+        "name": "Red",
+        "hex": "#713641",
+        "image": "/iphone/red.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 2,
@@ -49,7 +85,43 @@
       "battery": "5000mAh"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#007bff",
+        "image": "/samsung/blue.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/samsung/black.png"
+      },
+      {
+        "name": "White",
+        "hex": "#ededeb",
+        "image": "/samsung/white.png"
+      },
+      {
+        "name": "Purple",
+        "hex": "#800080",
+        "image": "/samsung/purple.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 3,
@@ -75,7 +147,21 @@
       "battery": "5050mAh"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 4,
@@ -101,7 +187,21 @@
       "battery": "5400mAh"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 5,
@@ -127,7 +227,21 @@
       "battery": "5000mAh"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 6,
@@ -153,7 +267,21 @@
       "screen": "14.2 inch"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 7,
@@ -179,7 +307,21 @@
       "screen": "13.6 inch Liquid Retina"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 8,
@@ -205,7 +347,21 @@
       "screen": "14 inch WUXGA"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 9,
@@ -231,7 +387,21 @@
       "screen": "14 inch OLED"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 10,
@@ -257,7 +427,21 @@
       "chip": "Apple A13 Bionic"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 11,
@@ -283,7 +467,21 @@
       "battery": "11200mAh"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 12,
@@ -309,7 +507,21 @@
       "chip": "Apple M1"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 13,
@@ -335,7 +547,21 @@
       "cpu": "Intel Core i5"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 14,
@@ -385,7 +611,13 @@
       "caseBattery": "30 hours"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#f5f5f5"
+      }
+    ]
   },
   {
     "id": 16,
@@ -560,7 +792,21 @@
       "players": "2 Controller Ports"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 23,
@@ -586,7 +832,21 @@
       "panel": "IPS"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 24,
@@ -611,7 +871,21 @@
       "architecture": "AMD Zen 2 & RDNA 2"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 25,
@@ -636,7 +910,21 @@
       "modes": "TV, Tabletop, Handheld"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 26,
@@ -913,7 +1201,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 101,
@@ -940,7 +1242,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 102,
@@ -967,7 +1283,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 103,
@@ -994,7 +1324,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 104,
@@ -1021,7 +1365,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 105,
@@ -1048,7 +1406,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 106,
@@ -1076,7 +1448,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 107,
@@ -1103,7 +1489,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 108,
@@ -1130,7 +1530,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 109,
@@ -1157,7 +1571,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 110,
@@ -1184,7 +1612,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 111,
@@ -1211,7 +1653,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 112,
@@ -1238,7 +1694,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 113,
@@ -1265,7 +1735,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 114,
@@ -1292,7 +1776,21 @@
       "type": "smartphones"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 115,
@@ -1319,7 +1817,21 @@
       "type": "smartphones"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 116,
@@ -1346,7 +1858,21 @@
       "type": "laptops"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 117,
@@ -1373,7 +1899,21 @@
       "type": "laptops"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 118,
@@ -1400,7 +1940,21 @@
       "type": "laptops"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 119,
@@ -1427,7 +1981,21 @@
       "type": "laptops"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 120,
@@ -1454,7 +2022,21 @@
       "type": "laptops"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 121,
@@ -1482,7 +2064,21 @@
       "type": "electronics"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 122,
@@ -1510,7 +2106,21 @@
       "type": "electronics"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 123,
@@ -1538,7 +2148,21 @@
       "type": "electronics"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 124,
@@ -1798,7 +2422,14 @@
       "type": "electronics"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Plum",
+        "hex": "#6b2344",
+        "image": "/logo/withOutBackground.png"
+      }
+    ]
   },
   {
     "id": 134,
@@ -1924,7 +2555,21 @@
       "platform": "PS5, PC"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 139,
@@ -1949,7 +2594,21 @@
       "platform": "Xbox, PC"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 140,
@@ -1974,7 +2633,21 @@
       "platform": "Switch"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 141,
@@ -1999,7 +2672,21 @@
       "tracking": "Inside-out"
     },
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 142,
@@ -2024,7 +2711,21 @@
       "platform": "PC, Console"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 143,
@@ -2049,7 +2750,21 @@
       "layout": "Full-size"
     },
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 144,
@@ -2074,7 +2789,21 @@
       "buttons": "6 programmable"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": 145,
@@ -2254,7 +2983,43 @@
       "ram": "8GB"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Burgundy",
+        "hex": "#713641",
+        "image": "/iphone/red.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/iphone/black.png"
+      },
+      {
+        "name": "Blue",
+        "hex": "#9eb7d7",
+        "image": "/iphone/blue.png"
+      },
+      {
+        "name": "Silver",
+        "hex": "#ededeb",
+        "image": "/iphone/white.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": "pro",
@@ -2284,7 +3049,43 @@
       "ram": "8GB"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#9eb7d7",
+        "image": "/iphone/blue.png"
+      },
+      {
+        "name": "Silver",
+        "hex": "#ededeb",
+        "image": "/iphone/white.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/iphone/black.png"
+      },
+      {
+        "name": "Burgundy",
+        "hex": "#713641",
+        "image": "/iphone/red.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": "duo",
@@ -2312,7 +3113,33 @@
       "ram": "12GB"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Star White",
+        "hex": "#ededeb",
+        "image": "/due/white.png"
+      },
+      {
+        "name": "Night Sky",
+        "hex": "#23252a",
+        "image": "/due/black.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": "redmi-17-5g",
@@ -2342,7 +3169,38 @@
       "ram": "8GB"
     },
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#77787b",
+        "image": "/Xiaomi/black.png"
+      },
+      {
+        "name": "Blue",
+        "hex": "#007bff",
+        "image": "/Xiaomi/blue.png"
+      },
+      {
+        "name": "Orange",
+        "hex": "#f75b05",
+        "image": "/Xiaomi/orange.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   },
   {
     "id": "samsung-galaxy-s26-ultra",
@@ -2375,6 +3233,42 @@
       "ram": "12GB"
     },
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#007bff",
+        "image": "/samsung/blue.png"
+      },
+      {
+        "name": "Black",
+        "hex": "#23252a",
+        "image": "/samsung/black.png"
+      },
+      {
+        "name": "Titanium White",
+        "hex": "#ededeb",
+        "image": "/samsung/white.png"
+      },
+      {
+        "name": "Orchid Purple",
+        "hex": "#800080",
+        "image": "/samsung/purple.png"
+      }
+    ],
+    "storage": [
+      {
+        "label": "256 GB",
+        "priceDelta": 0
+      },
+      {
+        "label": "512 GB",
+        "priceDelta": 120
+      },
+      {
+        "label": "1 TB",
+        "priceDelta": 280
+      }
+    ]
   }
 ]
