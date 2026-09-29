@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Boxes, ShieldCheck, Wrench } from "lucide-react";
 
 import CategoryNav from "@/components/products/CategoryNav";
-import { categories } from "@/lib/categories";
+import { categories } from "@/lib/data";
 import { getAllProducts } from "@/lib/data";
 
 export const metadata = {

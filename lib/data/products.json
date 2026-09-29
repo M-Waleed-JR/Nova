@@ -867,21 +867,7 @@
       "battery": "N/A"
     },
     "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": true
   },
   {
     "id": 24,
@@ -1260,18 +1246,9 @@
     "isNew": true,
     "isFeatured": true,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "16GB",
+      "32GB",
+      "64GB"
     ]
   },
   {
@@ -1436,18 +1413,8 @@
     "isNew": true,
     "isFeatured": false,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "32GB",
+      "64GB"
     ]
   },
   {
@@ -1480,18 +1447,8 @@
     "isNew": false,
     "isFeatured": false,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "128GB",
+      "256GB"
     ]
   },
   {
@@ -1525,18 +1482,8 @@
     "isNew": true,
     "isFeatured": true,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "64GB",
+      "128GB"
     ]
   },
   {
@@ -1569,18 +1516,8 @@
     "isNew": false,
     "isFeatured": false,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "64GB",
+      "128GB"
     ]
   },
   {
@@ -1613,18 +1550,8 @@
     "isNew": true,
     "isFeatured": false,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "64GB",
+      "128GB"
     ]
   },
   {
@@ -1657,18 +1584,8 @@
     "isNew": false,
     "isFeatured": true,
     "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
+      "128GB",
+      "256GB"
     ]
   },
   {
@@ -2713,21 +2630,7 @@
       "battery": "N/A"
     },
     "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": true
   },
   {
     "id": 139,
@@ -2754,21 +2657,7 @@
       "processor": "AMD Ryzen"
     },
     "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": false
   },
   {
     "id": 140,
@@ -2795,21 +2684,7 @@
       "processor": "AMD Ryzen"
     },
     "isNew": true,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": false
   },
   {
     "id": 141,
@@ -2921,21 +2796,7 @@
       "battery": "N/A"
     },
     "isNew": false,
-    "isFeatured": false,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": false
   },
   {
     "id": 144,
@@ -2963,21 +2824,7 @@
       "battery": "N/A"
     },
     "isNew": true,
-    "isFeatured": true,
-    "storage": [
-      {
-        "label": "256 GB",
-        "priceDelta": 0
-      },
-      {
-        "label": "512 GB",
-        "priceDelta": 120
-      },
-      {
-        "label": "1 TB",
-        "priceDelta": 280
-      }
-    ]
+    "isFeatured": true
   },
   {
     "id": 145,

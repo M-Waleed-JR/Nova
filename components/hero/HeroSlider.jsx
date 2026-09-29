@@ -2,10 +2,11 @@
 
 import { useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowDownRight } from "lucide-react";
 import { Autoplay, EffectFade, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { heroSlides } from "@/lib/heroSlides";
+import { heroSlides } from "@/lib/data";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
@@ -190,12 +191,12 @@ function Slide({ slide, finishIndex, onSelectFinish, priority }) {
 
         <div className="flex gap-10 mt-20 sm:mt-16">
           {/* Buy Now BTN */}
-          <a
-            href={slide.url}
+          <Link
+            href={`/products/${slide.id}`}
             className="flex w-fit items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#030308] shadow-[0_10px_40px_-15px_rgba(0,0,0,0.45)] transition hover:bg-white/90 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 cursor-pointer"
           >
             Buy Now
-          </a>
+          </Link>
 
           {/* Explore BTN */}
           <button

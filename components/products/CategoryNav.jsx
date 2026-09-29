@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { categories } from "@/lib/categories";
+import { categories } from "@/lib/data";
 import {
   Search,
   ShoppingCart,

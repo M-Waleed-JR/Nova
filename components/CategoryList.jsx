@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
-import { categories } from "@/lib/categories";
+import { categories } from "@/lib/data";
 
 const CategoryList = () => {
   const sliderRef = useRef(null);

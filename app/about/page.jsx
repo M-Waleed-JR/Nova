@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import CategoryNav from "@/components/products/CategoryNav";
-import { categories } from "@/lib/categories";
+import { categories } from "@/lib/data";
 
 export const metadata = {
   title: "About Nova | Premium Tech & Electronics",

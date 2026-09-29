@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getProductsByCategory } from "@/lib/data";
-import { categories } from "@/lib/categories";
+import { categories } from "@/lib/data";
 import CategoryNav from "@/components/products/CategoryNav";
 import ProductCard from "@/components/products/ProductCard";
 import { notFound } from "next/navigation";

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Heart, ShoppingCart, Star, Check, Eye } from "lucide-react";
 import { useQuickView } from "./QuickViewContext";
+import { getDiscountPercent, getOriginalPrice } from "@/lib/utils/product-helpers";
 
 export default function ProductCard({ product }) {
   const [isFavorite, setIsFavorite] = useState(false);
@@ -18,18 +19,9 @@ export default function ProductCard({ product }) {
 
   const title = product.name || product.title;
   const imageSrc = product.image || product.thumbnail;
-  const originalPrice =
-    product.oldPrice ??
-    (product.discountPercentage
-      ? Number(
-          (product.price / (1 - product.discountPercentage / 100)).toFixed(2),
-        )
-      : null);
+  const originalPrice = getOriginalPrice(product);
   const hasDiscount = originalPrice > product.price;
-  const discountPercent = Math.round(
-    product.discount ||
-      (hasDiscount ? ((originalPrice - product.price) / originalPrice) * 100 : 0),
-  );
+  const discountPercent = getDiscountPercent(product);
 
   const handleAddToCart = () => {
     clearTimeout(addFeedbackTimeoutRef.current);

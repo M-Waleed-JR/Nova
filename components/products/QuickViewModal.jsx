@@ -19,6 +19,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { useQuickView } from "./QuickViewContext";
+import { getDiscountPercent, getOriginalPrice } from "@/lib/utils/product-helpers";
 
 // Fallback image in case product has no valid images
 const PLACEHOLDER_IMAGE =
@@ -89,7 +90,7 @@ export default function QuickViewModal() {
 
   const title = product.name || product.title || "Product";
   const discount = product.discount || product.discountPercentage || 0;
-  const originalPrice = getOriginalPrice(product, discount);
+  const originalPrice = getOriginalPrice(product);
   const hasDiscount = originalPrice > product.price;
   const discountPercent = hasDiscount
     ? Math.round(
@@ -377,12 +378,6 @@ export default function QuickViewModal() {
       </div>
     </div>
   );
-}
-
-function getOriginalPrice(product, discount) {
-  if (typeof product.oldPrice === "number") return product.oldPrice;
-  if (!discount) return null;
-  return Number((product.price / (1 - discount / 100)).toFixed(2));
 }
 
 function getStockStatus(stock) {
