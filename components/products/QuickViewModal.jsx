@@ -19,6 +19,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { useQuickView } from "./QuickViewContext";
+import { useCart } from "../CartContext";
 import { getDiscountPercent, getOriginalPrice } from "@/lib/utils/product-helpers";
 
 // Fallback image in case product has no valid images
@@ -47,6 +48,7 @@ function getValidImages(product) {
 
 export default function QuickViewModal() {
   const { product, closeQuickView } = useQuickView();
+  const { add } = useCart();
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
@@ -61,7 +63,6 @@ export default function QuickViewModal() {
     setTimeout(() => {
       setSelectedImageIndex(0);
       setQuantity(1);
-      setIsAdded(false);
     }, 0);
 
     const previousOverflow = document.body.style.overflow;
@@ -109,8 +110,8 @@ export default function QuickViewModal() {
     : null;
 
   const handleAddToCart = () => {
+    add({ id: product.id, name: title, price: product.price, image: currentImageSrc, brand: product.brand || product.category, variant: product.variant || "", qty: quantity });
     setIsAdded(true);
-    setTimeout(() => setIsAdded(false), 2000);
   };
 
   return (
@@ -131,7 +132,7 @@ export default function QuickViewModal() {
           type="button"
           onClick={closeQuickView}
           aria-label="Close modal"
-          className="absolute right-4 top-4 z-30 flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-black/60 text-white/70 backdrop-blur-md transition-all hover:scale-110 hover:border-cyan-500/50 hover:bg-cyan-500 hover:text-black"
+          className="absolute right-4 top-4 z-30 flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-black/60 text-white/70 backdrop-blur-md transition-all hover:border-cyan-500/50 hover:bg-cyan-500 hover:text-black"
         >
           <X className="h-5 w-5" />
         </button>
@@ -165,7 +166,7 @@ export default function QuickViewModal() {
               alt={title}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover transition-transform duration-700 group-hover/img:scale-105"
+              className="object-cover"
               priority
             />
           </div>

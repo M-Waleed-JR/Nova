@@ -137,7 +137,8 @@ function Slide({ slide, finishIndex, onSelectFinish, priority }) {
           <div className="absolute inset-[2%_0_0_0]">
             <Image
               fill
-              priority={priority && finishIndex === 0}
+              priority={priority}
+              loading={priority ? "eager" : undefined}
               sizes="(max-width: 1024px) 100vw, 52vw"
               src={finish.image}
               alt={`${slide.name} in ${finish.name}`}

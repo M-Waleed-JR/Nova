@@ -18,11 +18,11 @@ export default function Home() {
           </div>
           <div className="mb-8 flex flex-col items-start justify-between gap-4 border-b border-white/10 pb-6 sm:flex-row sm:items-center">
             <div>
-              <span className="text-xs font-semibold uppercase tracking-widest text-violet-400">
-                Featured
+              <span className="text-xs font-semibold uppercase tracking-widest text-amber-300">
+                Featured Deals
               </span>
               <h2 className="mt-1 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-                Store picks
+                Store picks — discounts enhanced
               </h2>
             </div>
             <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white/70">
@@ -30,8 +30,12 @@ export default function Home() {
             </span>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {featured.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {featured.map((product, index) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                priority={index < 4}
+              />
             ))}
           </div>
         </section>

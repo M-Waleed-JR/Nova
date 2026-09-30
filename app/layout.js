@@ -1,5 +1,7 @@
 import "./globals.css";
 import { QuickViewProvider } from "@/components/products/QuickViewContext";
+import { WishlistProvider } from "@/components/WishlistContext";
+import { CartProvider } from "@/components/CartContext";
 import QuickViewModal from "@/components/products/QuickViewModal";
 import Footer from "@/components/products/Footer";
 export const metadata = {
@@ -19,10 +21,14 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="antialiased">
-        <QuickViewProvider>
-          {children}
-          <QuickViewModal />
-        </QuickViewProvider>
+        <CartProvider>
+          <WishlistProvider>
+            <QuickViewProvider>
+              {children}
+              <QuickViewModal />
+            </QuickViewProvider>
+          </WishlistProvider>
+        </CartProvider>
         <Footer />
       </body>
     </html>

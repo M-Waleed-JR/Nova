@@ -7,7 +7,7 @@
     "brand": "Apple",
     "price": 1619,
     "oldPrice": 1699,
-    "discount": 6,
+    "discount": 45,
     "rating": 4.8,
     "reviews": 156,
     "stock": 8,
@@ -55,7 +55,8 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": 1799
+    "originalPrice": 1799,
+    "isDeal": true
   },
   {
     "id": 6,
@@ -71,7 +72,9 @@
     "stock": 15,
     "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Silver aluminum laptop with a Liquid Retina XDR display and 18-hour battery life.",
     "specs": {
@@ -114,7 +117,9 @@
     "stock": 11,
     "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Ultra-slim silver laptop with a vivid OLED display, made for work and study.",
     "specs": {
@@ -241,7 +246,7 @@
     "brand": "Apple",
     "price": 1246,
     "oldPrice": 1299,
-    "discount": 8,
+    "discount": 45,
     "rating": 4.9,
     "reviews": 412,
     "stock": 15,
@@ -300,7 +305,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 1399
+    "originalPrice": 1399,
+    "isDeal": true
   },
   {
     "id": "samsung-galaxy-s26-ultra",
@@ -381,7 +387,7 @@
     "brand": "Apple",
     "price": 1040,
     "oldPrice": 1199,
-    "discount": 8,
+    "discount": 45,
     "rating": 4.9,
     "reviews": 298,
     "stock": 22,
@@ -440,7 +446,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 1199
+    "originalPrice": 1199,
+    "isDeal": true
   },
   {
     "id": 3,
@@ -456,7 +463,9 @@
     "stock": 19,
     "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Tensor G3 processor with AI photo Magic Eraser and Best Take camera features.",
     "specs": {
@@ -498,7 +507,9 @@
     "stock": 15,
     "image": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Browse your Leica-tuned shots on a bright AMOLED display with a 1-inch main sensor.",
     "specs": {
@@ -534,13 +545,15 @@
     "brand": "OnePlus",
     "price": 882,
     "oldPrice": 899,
-    "discount": 11,
+    "discount": 45,
     "rating": 4.7,
     "reviews": 156,
     "stock": 22,
     "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Snapdragon 8 Gen 3 flagship with 100W SUPERVOOC charging and Hasselblad Camera System.",
     "specs": {
@@ -562,7 +575,8 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": 999
+    "originalPrice": 999,
+    "isDeal": true
   },
   {
     "id": 2,
@@ -572,13 +586,15 @@
     "brand": "Samsung",
     "price": 843,
     "oldPrice": 1199,
-    "discount": 8,
+    "discount": 45,
     "rating": 4.7,
     "reviews": 289,
     "stock": 34,
     "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Sleek black flagship with vivid AMOLED display, always-on screen, and 200MP camera.",
     "specs": {
@@ -626,7 +642,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 999
+    "originalPrice": 999,
+    "isDeal": true
   },
   {
     "id": 119,
@@ -636,15 +653,15 @@
     "brand": "Lenovo",
     "price": 779,
     "oldPrice": 1183,
-    "discount": 7,
+    "discount": 45,
     "rating": 2.9,
     "reviews": 111,
     "stock": 40,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "image": "https://images.unsplash.com/photo-1763162139130-240507e9fad5?q=80&w=1621&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+      "https://images.unsplash.com/photo-1763162410742-1d0097cea556?q=80&w=1217&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1636211992838-251a43d72ad2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1636211993567-1b244617c257?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
     "specs": {
@@ -671,7 +688,8 @@
         "priceDelta": 180
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 10,
@@ -681,13 +699,15 @@
     "brand": "Apple",
     "price": 760,
     "oldPrice": 1199,
-    "discount": 8,
+    "discount": 45,
     "rating": 4.8,
     "reviews": 267,
     "stock": 24,
     "image": "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Classic iPad with a Retina display, Touch ID home button, and Apple Pencil support.",
     "specs": {
@@ -714,7 +734,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 13,
@@ -724,13 +745,15 @@
     "brand": "Microsoft",
     "price": 752,
     "oldPrice": 999,
-    "discount": 10,
+    "discount": 45,
     "rating": 4.5,
     "reviews": 120,
     "stock": 18,
     "image": "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "2-in-1 tablet versatility with full Windows 11 power and built-in kickstand.",
     "specs": {
@@ -757,7 +780,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 8,
@@ -771,9 +795,11 @@
     "rating": 4.8,
     "reviews": 95,
     "stock": 14,
-    "image": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "image": "https://p2-ofp.static.pub/ShareResource/optimized/pdp/thinkpad/thinkpad-x1-series/len101t0108/lenovo-thinkpad-x1-carbon-gen-13-14-intel-hero.3e298a613b04c277.png?width=584&height=584",
     "images": [
-      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
+      "https://p3-ofp.static.pub/ShareResource/optimized/pdp/thinkpad/thinkpad-x1-series/len101t0108/lenovo-thinkpad-x1-carbon-gen-13-14-intel-gallery-1.b7b087882180f800.png?width=584&height=584",
+      "https://p4-ofp.static.pub/ShareResource/optimized/pdp/thinkpad/thinkpad-x1-series/len101t0108/lenovo-thinkpad-x1-carbon-gen-13-14-intel-gallery-2.png?width=584&height=584",
+      "https://p4-ofp.static.pub/ShareResource/optimized/pdp/thinkpad/thinkpad-x1-series/len101t0108/lenovo-thinkpad-x1-carbon-gen-13-14-intel-gallery-3.png?width=584&height=584"
     ],
     "description": "Ultralight carbon-fiber business laptop built for maximum durability.",
     "specs": {
@@ -810,7 +836,7 @@
     "brand": "Samsung",
     "price": 706,
     "oldPrice": 617,
-    "discount": 19,
+    "discount": 45,
     "rating": 4.4,
     "reviews": 111,
     "stock": 0,
@@ -841,7 +867,8 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 26,
@@ -851,13 +878,15 @@
     "brand": "Nikon",
     "price": 704,
     "oldPrice": 2699,
-    "discount": 7,
+    "discount": 45,
     "rating": 4.9,
     "reviews": 76,
     "stock": 9,
     "image": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Classic DSLR with optical viewfinder and versatile zoom lens for everyday shooting.",
     "specs": {
@@ -868,7 +897,8 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 112,
@@ -878,7 +908,7 @@
     "brand": "Samsung",
     "price": 673,
     "oldPrice": 745,
-    "discount": 6,
+    "discount": 45,
     "rating": 3.1,
     "reviews": 111,
     "stock": 19,
@@ -909,7 +939,8 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 121,
@@ -967,6 +998,8 @@
     "stock": 42,
     "image": "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "images": [
+      "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "https://images.pexels.com/photos/4031006/pexels-photo-4031006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     ],
     "description": "Retro-styled APS-C mirrorless camera with a high-resolution sensor.",
@@ -988,13 +1021,15 @@
     "brand": "Apple",
     "price": 637,
     "oldPrice": 649,
-    "discount": 7,
+    "discount": 45,
     "rating": 4.7,
     "reviews": 310,
     "stock": 30,
     "image": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Lightweight power tablet with Apple M1 chip, 12MP Ultra Wide front camera with Center Stage.",
     "specs": {
@@ -1017,7 +1052,8 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 145,
@@ -1033,6 +1069,8 @@
     "stock": 38,
     "image": "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "images": [
+      "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "https://images.pexels.com/photos/29442189/pexels-photo-29442189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     ],
     "description": "Full-frame mirrorless camera with fast autofocus for photo and video.",
@@ -1054,13 +1092,15 @@
     "brand": "Sony",
     "price": 620,
     "oldPrice": 2499,
-    "discount": 0,
+    "discount": 45,
     "rating": 4.8,
     "reviews": 112,
     "stock": 11,
     "image": "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/212372/pexels-photo-212372.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "33MP full-frame Exmor R sensor with Real-time Eye AF for Humans and Animals.",
     "specs": {
@@ -1071,7 +1111,8 @@
     },
     "isNew": false,
     "isFeatured": false,
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 11,
@@ -1081,13 +1122,16 @@
     "brand": "Samsung",
     "price": 594,
     "oldPrice": 1119,
-    "discount": 10,
+    "discount": 45,
     "rating": 4.7,
     "reviews": 142,
     "stock": 16,
     "image": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
     "images": [
-      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp"
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/3.webp",
+      "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/4.webp"
     ],
     "description": "Massive 14.6-inch Dynamic AMOLED 2X display with S Pen included and IP68 resistance.",
     "specs": {
@@ -1113,7 +1157,8 @@
         "priceDelta": 120
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 7,
@@ -1123,13 +1168,15 @@
     "brand": "Apple",
     "price": 592,
     "oldPrice": 1799,
-    "discount": 11,
+    "discount": 45,
     "rating": 4.6,
     "reviews": 187,
     "stock": 22,
     "image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Ultra-thin silver aluminum laptop with backlit keyboard and all-day battery life.",
     "specs": {
@@ -1156,7 +1203,8 @@
         "priceDelta": 250
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 149,
@@ -1172,6 +1220,8 @@
     "stock": 54,
     "image": "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "images": [
+      "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "https://images.pexels.com/photos/16383985/pexels-photo-16383985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     ],
     "description": "Professional standard zoom lens with a bright constant f/2.8 aperture.",
@@ -1195,13 +1245,15 @@
     "brand": "Vintage",
     "price": 561,
     "oldPrice": 1799,
-    "discount": 5,
+    "discount": 45,
     "rating": 4.8,
     "reviews": 64,
     "stock": 8,
     "image": "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Classic all-metal rangefinder with a collapsible lens for timeless 35mm film shots.",
     "specs": {
@@ -1213,7 +1265,8 @@
     },
     "isNew": true,
     "isFeatured": true,
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 122,
@@ -1223,7 +1276,7 @@
     "brand": "Samsung",
     "price": 533,
     "oldPrice": 690,
-    "discount": 13,
+    "discount": 45,
     "rating": 4.7,
     "reviews": 111,
     "stock": 62,
@@ -1255,7 +1308,8 @@
         "priceDelta": 50
       }
     ],
-    "originalPrice": 799
+    "originalPrice": 799,
+    "isDeal": true
   },
   {
     "id": 148,
@@ -1271,6 +1325,8 @@
     "stock": 50,
     "image": "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
     "images": [
+      "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "https://images.pexels.com/photos/8149941/pexels-photo-8149941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
     ],
     "description": "Compact folding drone with a stabilized 4K camera and obstacle sensing.",
@@ -1299,7 +1355,9 @@
     "stock": 15,
     "image": "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Dual-screen battle station with blue RGB ambient lighting and 144Hz gaming panels.",
     "specs": {
@@ -1329,7 +1387,9 @@
     "stock": 12,
     "image": "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/5081914/pexels-photo-5081914.jpeg?auto=compress&cs=tinysrgb&w=400"
     ],
     "description": "Multisport GPS watch with solar charging lens, built-in LED flashlight, and topo maps.",
     "specs": {
@@ -2583,9 +2643,11 @@
     "rating": 4.7,
     "reviews": 310,
     "stock": 100,
-    "image": "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "image": "https://www.spigen.com/cdn/shop/products/title_web_ip13promax_magarmor_01.jpg?v=1698766859&width=1946",
     "images": [
-      "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://www.spigen.com/cdn/shop/products/detail_web_ip13promax_magarmor_06.jpg?v=1698766865&width=1946",
+      "https://www.spigen.com/cdn/shop/products/detail_web_ip13promax_magarmor_01.jpg?v=1698766862&width=1946",
+      "https://www.spigen.com/cdn/shop/products/detail_web_ip13promax_magarmor_05.jpg?v=1698766870&width=1946"
     ],
     "description": "Protective slim TPU case with built-in magnetic ring for MagSafe accessories.",
     "specs": {
@@ -2815,9 +2877,11 @@
     "rating": 4.8,
     "reviews": 132,
     "stock": 26,
-    "image": "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "image": "https://images.unsplash.com/photo-1660391532247-4a8ad1060817?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "images": [
-      "https://images.pexels.com/photos/35240886/pexels-photo-35240886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+      "https://images.unsplash.com/photo-1660391532247-4a8ad1060817?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.pexels.com/photos/12304811/pexels-photo-12304811.jpeg",
+      "https://images.unsplash.com/photo-1619296794212-ae3d9e28b1c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SHlwZXJYJTIwQ2xvdWQlMjBJSSUyMEdhbWluZyUyMEhlYWRzZXR8ZW58MHx8MHx8fDA%3D"
     ],
     "description": "Comfortable over-ear gaming headset with a detachable microphone.",
     "specs": {

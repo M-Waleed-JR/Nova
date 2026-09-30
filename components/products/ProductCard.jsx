@@ -5,15 +5,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { Heart, ShoppingCart, Star, Check, Eye } from "lucide-react";
 import { useQuickView } from "./QuickViewContext";
-import { getDiscountPercent, getOriginalPrice } from "@/lib/utils/product-helpers";
+import { useWishlist } from "../WishlistContext";
+import { useCart } from "../CartContext";
+import {
+  getDiscountPercent,
+  getOriginalPrice,
+} from "@/lib/utils/product-helpers";
 
-export default function ProductCard({ product }) {
-  const [isFavorite, setIsFavorite] = useState(false);
+export default function ProductCard({ product, priority = false }) {
+  const { isLoved, toggleLove, openDropdown } = useWishlist();
   const [isAdded, setIsAdded] = useState(false);
   const addFeedbackTimeoutRef = useRef(null);
+  const [hydrated, setHydrated] = useState(false);
   const { openQuickView } = useQuickView();
+  const { add } = useCart();
 
   useEffect(() => () => clearTimeout(addFeedbackTimeoutRef.current), []);
+  useEffect(() => { const t = setTimeout(() => setHydrated(true), 0); return () => clearTimeout(t); }, []);
 
   if (!product) return null;
 
@@ -22,15 +30,19 @@ export default function ProductCard({ product }) {
   const originalPrice = getOriginalPrice(product);
   const hasDiscount = originalPrice > product.price;
   const discountPercent = getDiscountPercent(product);
+  const isPriority = priority || imageSrc === "/iphone/red.png";
 
   const handleAddToCart = () => {
+    add({ id: product.id, name: title, price: product.price, image: imageSrc, brand: product.brand || product.category, variant: product.variant || "" });
     clearTimeout(addFeedbackTimeoutRef.current);
     setIsAdded(true);
-    addFeedbackTimeoutRef.current = setTimeout(() => setIsAdded(false), 1800);
   };
 
+  const isFavorite = hydrated && isLoved ? isLoved(product.id) : false;
+
   const toggleFavorite = () => {
-    setIsFavorite((current) => !current);
+    toggleLove(product);
+    openDropdown();
   };
 
   const handleQuickView = () => {
@@ -45,15 +57,17 @@ export default function ProductCard({ product }) {
         <button
           type="button"
           aria-label={`Quick view ${title}`}
-          className="absolute inset-0 flex items-center justify-center p-4 transition-all duration-500 group-hover:scale-105 group-hover:blur-[2px]"
+          className="group absolute inset-0 flex items-center justify-center p-4 overflow-hidden"
           onClick={handleQuickView}
         >
           <Image
             src={imageSrc}
             alt={title || "Product image"}
             fill
+            priority={isPriority}
+            loading={isPriority ? "eager" : undefined}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-contain p-2"
+            className="object-contain p-2 transition-all duration-300 ease-out group-hover:scale-105 group-hover:blur-[1px]"
           />
         </button>
 
@@ -68,6 +82,11 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-20 pointer-events-none">
+          {product.isDeal && (
+            <span className="inline-flex items-center rounded-full bg-amber-500/90 px-2 py-0.5 text-[10px] font-black uppercase tracking-wider text-[#030308] shadow-md backdrop-blur-md border border-amber-300/40">
+              Deal
+            </span>
+          )}
           {hasDiscount && (
             <span className="inline-flex items-center rounded-full bg-rose-500/90 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider text-white shadow-md backdrop-blur-md border border-rose-400/30">
               -{discountPercent}%

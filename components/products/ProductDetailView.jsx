@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -26,12 +27,15 @@ import {
   Radio,
 } from "lucide-react";
 import ProductCard from "./ProductCard";
+import { useWishlist } from "../WishlistContext";
+import { useCart } from "../CartContext";
 import { getOriginalPrice } from "@/lib/utils/product-helpers";
 
 const FALLBACK_IMAGE =
   "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=800&q=80";
 
 export default function ProductDetailView({ product, relatedProducts = [] }) {
+  const router = useRouter();
   const images = useMemo(() => {
     if (!product) return [FALLBACK_IMAGE];
     const list = [];
@@ -59,8 +63,10 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
   const [selectedStorage, setSelectedStorage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
-  const [isFavorite, setIsFavorite] = useState(false);
   const [copied, setCopied] = useState(false);
+  const { isLoved, toggleLove, openDropdown } = useWishlist();
+  const { add } = useCart();
+  const isFavorite = isLoved ? isLoved(product.id) : false;
   const [activeTab, setActiveTab] = useState("specs");
   const [selectedSize, setSelectedSize] = useState(0);
   const [selectedConnectivity, setSelectedConnectivity] = useState(0);
@@ -145,14 +151,20 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
   ];
 
   const handleAddToCart = () => {
-    const payload = {
-      product,
-      selectedColor: colorOptions[selectedColor] || null,
-      selectedStorage: storageOptions[selectedStorage] || null,
-      selectedSize: (Array.isArray(product.sizes) && product.sizes.length > 0) ? product.sizes[selectedSize] : null,
-      selectedConnectivity: (Array.isArray(product.connectivity) && product.connectivity.length > 0) ? product.connectivity[selectedConnectivity] : null,
-    };
-    console.log("Cart payload:", payload);
+    const variantParts = [];
+    if (colorOptions[selectedColor]) variantParts.push(colorOptions[selectedColor].name);
+    if (storageOptions[selectedStorage]) variantParts.push(storageOptions[selectedStorage].label);
+    if (Array.isArray(product.sizes) && product.sizes[selectedSize]) variantParts.push(product.sizes[selectedSize]);
+    if (Array.isArray(product.connectivity) && product.connectivity[selectedConnectivity]) variantParts.push(product.connectivity[selectedConnectivity]);
+    const variant = variantParts.length ? variantParts.join(" · ") : (product.variant || "");
+    add({
+      id: product.id,
+      name: product.name || product.title,
+      price: currentPrice,
+      qty: quantity,
+      image: currentImage,
+      variant,
+    });
     setIsAdded(true);
     setTimeout(() => setIsAdded(false), 2400);
   };
@@ -213,7 +225,7 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
               <div className="absolute right-4 top-4 z-20 flex items-center gap-2">
                 <button
                   type="button"
-                  onClick={() => setIsFavorite(!isFavorite)}
+                  onClick={() => { toggleLove(product); openDropdown(); }}
                   className={`flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur-md transition-all duration-300 ${
                     isFavorite
                       ? "border-rose-500/50 bg-rose-500/20 text-rose-400 scale-105"
@@ -466,6 +478,7 @@ export default function ProductDetailView({ product, relatedProducts = [] }) {
               {/* Instant Buy Button */}
               <button
                 type="button"
+                onClick={() => { handleAddToCart(); router.push("/cart"); }}
                 className="flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-cyan-500 font-semibold text-xs text-black hover:bg-cyan-400 transition active:scale-[0.99]"
               >
                 <Zap className="h-4 w-4 fill-black" />
