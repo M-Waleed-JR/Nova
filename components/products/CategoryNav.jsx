@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
@@ -23,6 +23,16 @@ import {
 
 function formatCount(n) {
   return n > 99 ? "99+" : String(n);
+}
+
+const subscribeToMount = () => () => {};
+
+function useIsMounted() {
+  return useSyncExternalStore(
+    subscribeToMount,
+    () => true,
+    () => false,
+  );
 }
 
 /* Round icon button used for wishlist / cart / search / menu */
@@ -63,9 +73,7 @@ function IconButton({ label, onClick, children, className = "", ...rest }) {
   );
 }
 
-export default function CategoryNav({
-  user = null,
-}) {
+export default function CategoryNav({ user = null }) {
   const pathname = usePathname();
   const router = useRouter();
 
@@ -75,13 +83,25 @@ export default function CategoryNav({
   const [query, setQuery] = useState("");
   const [wishOpen, setWishOpen] = useState(false);
   const [cartDropdownOpen, setCartDropdownOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
+  const isMounted = useIsMounted();
   const cartRef = useRef(null);
   const wishRef = useRef(null);
 
-  const { items: wishItems, remove: removeWish, count: wishCount } = useWishlist();
-  const { items: cartItems, count: cartCount, subtotal: cartSubtotal, remove: removeCart } = useCart();
-  const wishSubtotal = wishItems.reduce((s, i) => s + (i.price || 0) * (i.qty || 1), 0);
+  const {
+    items: wishItems,
+    remove: removeWish,
+    count: wishCount,
+  } = useWishlist();
+  const {
+    items: cartItems,
+    count: cartCount,
+    subtotal: cartSubtotal,
+    remove: removeCart,
+  } = useCart();
+  const wishSubtotal = wishItems.reduce(
+    (s, i) => s + (i.price || 0) * (i.qty || 1),
+    0,
+  );
   const desktopSearchRef = useRef(null);
   const mobileSearchRef = useRef(null);
 
@@ -89,14 +109,10 @@ export default function CategoryNav({
   const isActive = (slug) => {
     const cleanSlug = slug.replace(/^\//, "");
     return (
-      pathname === `/category/${cleanSlug}` || pathname?.startsWith(`/category/${cleanSlug}/`)
+      pathname === `/category/${cleanSlug}` ||
+      pathname?.startsWith(`/category/${cleanSlug}/`)
     );
   };
-
-  /* Mount flag for hydration-safe dynamic labels / badges */
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   /* Scroll Listener */
   useEffect(() => {
@@ -266,8 +282,15 @@ export default function CategoryNav({
             <div className="relative" ref={wishRef}>
               <button
                 type="button"
-                onClick={() => { setCartDropdownOpen(false); setWishOpen((v) => !v); }}
-                aria-label={isMounted && wishCount > 0 ? `Wishlist (${wishCount})` : "Wishlist"}
+                onClick={() => {
+                  setCartDropdownOpen(false);
+                  setWishOpen((v) => !v);
+                }}
+                aria-label={
+                  isMounted && wishCount > 0
+                    ? `Wishlist (${wishCount})`
+                    : "Wishlist"
+                }
                 aria-expanded={wishOpen}
                 className={
                   "relative grid h-10 w-10 place-items-center rounded-full border border-white/[0.08] bg-white/[0.04] text-white/70 transition hover:border-white/25 hover:bg-white/[0.09] hover:text-white active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/50 " +
@@ -286,13 +309,20 @@ export default function CategoryNav({
               <div
                 className={
                   "absolute top-full right-0 mt-2 w-[380px] rounded-2xl border border-white/[0.10] bg-[#0b0d12]/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-200 z-50 " +
-                  (wishOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none")
+                  (wishOpen
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-2 pointer-events-none")
                 }
               >
                 <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
                   <div>
-                    <h3 className="text-sm font-extrabold uppercase tracking-widest text-amber-300">Loved Products</h3>
-                    <p className="text-xs text-white/40 mt-0.5">{(isMounted ? wishCount : 0)} item{(isMounted ? wishCount : 0) !== 1 ? "s" : ""}</p>
+                    <h3 className="text-sm font-extrabold uppercase tracking-widest text-amber-300">
+                      Loved Products
+                    </h3>
+                    <p className="text-xs text-white/40 mt-0.5">
+                      {isMounted ? wishCount : 0} item
+                      {(isMounted ? wishCount : 0) !== 1 ? "s" : ""}
+                    </p>
                   </div>
                   <button
                     type="button"
@@ -300,24 +330,56 @@ export default function CategoryNav({
                     aria-label="Close wishlist"
                     className="rounded-full bg-white/[0.06] p-1.5 text-white/50 hover:text-white hover:bg-white/[0.12] transition"
                   >
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18" />
+                      <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
                   </button>
                 </div>
                 <div className="max-h-[320px] overflow-y-auto">
                   {!isMounted ? (
-                    <div className="px-5 py-10 text-center text-white/40 text-sm">No loved products yet.</div>
+                    <div className="px-5 py-10 text-center text-white/40 text-sm">
+                      No loved products yet.
+                    </div>
                   ) : wishItems.length === 0 ? (
-                    <div className="px-5 py-10 text-center text-white/40 text-sm">No loved products yet.</div>
+                    <div className="px-5 py-10 text-center text-white/40 text-sm">
+                      No loved products yet.
+                    </div>
                   ) : (
                     <>
                       {wishItems.map((item) => (
-                        <div key={item.id} className="flex items-center gap-3 px-5 py-3 border-b border-white/[0.05] hover:bg-white/[0.03] transition group">
-                          <a href={`/products/${item.slug || item.id}`} className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow">
-                            <img src={item.image} alt={item.name} className="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                        <div
+                          key={item.id}
+                          className="flex items-center gap-3 px-5 py-3 border-b border-white/[0.05] hover:bg-white/[0.03] transition group"
+                        >
+                          <a
+                            href={`/products/${item.slug || item.id}`}
+                            className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow"
+                          >
+                            <img
+                              src={item.image}
+                              alt={item.name}
+                              className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                            />
                           </a>
                           <div className="min-w-0 flex-1">
-                            <a href={`/products/${item.slug || item.id}`} className="block text-sm font-medium text-white truncate hover:text-amber-300 transition">{item.name}</a>
-                            <p className="text-xs text-amber-300 font-semibold">${(item.price || 0).toLocaleString()}</p>
+                            <a
+                              href={`/products/${item.slug || item.id}`}
+                              className="block text-sm font-medium text-white truncate hover:text-amber-300 transition"
+                            >
+                              {item.name}
+                            </a>
+                            <p className="text-xs text-amber-300 font-semibold">
+                              ${(item.price || 0).toLocaleString()}
+                            </p>
                           </div>
                           <button
                             type="button"
@@ -333,8 +395,16 @@ export default function CategoryNav({
                   )}
                 </div>
                 <div className="flex items-center justify-between border-t border-white/[0.08] px-5 py-3.5 bg-white/[0.02]">
-                  <a href="/wishlist" onClick={() => setWishOpen(false)} className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition">View full wishlist →</a>
-                  <span className="text-xs font-bold text-white">Subtotal: ${isMounted ? wishSubtotal.toLocaleString() : "0"}</span>
+                  <a
+                    href="/wishlist"
+                    onClick={() => setWishOpen(false)}
+                    className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition"
+                  >
+                    View full wishlist →
+                  </a>
+                  <span className="text-xs font-bold text-white">
+                    Subtotal: ${isMounted ? wishSubtotal.toLocaleString() : "0"}
+                  </span>
                 </div>
               </div>
             </div>
@@ -365,12 +435,22 @@ export default function CategoryNav({
             <div className="relative" ref={cartRef}>
               <button
                 type="button"
-                onClick={() => { setWishOpen(false); setCartDropdownOpen((v) => !v); }}
-                aria-label={isMounted && cartCount > 0 ? `Cart (${cartCount} items)` : "Cart"}
+                onClick={() => {
+                  setWishOpen(false);
+                  setCartDropdownOpen((v) => !v);
+                }}
+                aria-label={
+                  isMounted && cartCount > 0
+                    ? `Cart (${cartCount} items)`
+                    : "Cart"
+                }
                 aria-expanded={cartDropdownOpen}
                 className="relative flex h-10 items-center gap-2 rounded-full bg-cyan-400 px-3.5 text-sm font-semibold text-[#030308] shadow-[0_6px_24px_-6px_rgba(34,211,238,0.6)] transition hover:bg-cyan-300 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200 focus-visible:ring-offset-2 focus-visible:ring-offset-[#030308]"
               >
-                <ShoppingCart className="h-[18px] w-[18px]" aria-hidden="true" />
+                <ShoppingCart
+                  className="h-[18px] w-[18px]"
+                  aria-hidden="true"
+                />
                 <span className="hidden sm:inline">Cart</span>
                 {isMounted && cartCount > 0 && (
                   <span className="grid min-w-[20px] place-items-center rounded-full bg-[#030308] px-1.5 text-[11px] font-bold leading-5 text-cyan-300">
@@ -383,13 +463,20 @@ export default function CategoryNav({
               <div
                 className={
                   "absolute top-full right-0 mt-2 w-[380px] rounded-2xl border border-white/[0.10] bg-[#0b0d12]/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-200 z-50 " +
-                  (cartDropdownOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-2 pointer-events-none")
+                  (cartDropdownOpen
+                    ? "opacity-100 translate-y-0 pointer-events-auto"
+                    : "opacity-0 -translate-y-2 pointer-events-none")
                 }
               >
                 <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
                   <div>
-                    <h3 className="text-sm font-extrabold uppercase tracking-widest text-cyan-300">Your Cart</h3>
-                    <p className="text-xs text-white/40 mt-0.5">{(isMounted ? cartCount : 0)} item{(isMounted ? cartCount : 0) !== 1 ? "s" : ""}</p>
+                    <h3 className="text-sm font-extrabold uppercase tracking-widest text-cyan-300">
+                      Your Cart
+                    </h3>
+                    <p className="text-xs text-white/40 mt-0.5">
+                      {isMounted ? cartCount : 0} item
+                      {(isMounted ? cartCount : 0) !== 1 ? "s" : ""}
+                    </p>
                   </div>
                   <button
                     type="button"
@@ -397,33 +484,82 @@ export default function CategoryNav({
                     aria-label="Close cart"
                     className="rounded-full bg-white/[0.06] p-1.5 text-white/50 hover:text-white hover:bg-white/[0.12] transition"
                   >
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18" />
+                      <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
                   </button>
                 </div>
                 <div className="max-h-[320px] overflow-y-auto px-5 py-3">
                   {cartItems.length === 0 ? (
-                    <div className="text-center text-white/40 text-sm py-6">Cart is empty.</div>
+                    <div className="text-center text-white/40 text-sm py-6">
+                      Cart is empty.
+                    </div>
                   ) : (
                     <div className="divide-y divide-white/[0.05]">
                       {cartItems.map((item) => (
-                        <div key={item.id} className="flex items-center gap-3 py-3 group hover:bg-white/[0.03] transition">
-                          <a href="/cart" onClick={() => setCartDropdownOpen(false)} className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow">
-                            <img src={item.img || item.image} alt={item.name} className="w-full h-full object-cover" />
+                        <div
+                          key={item.id}
+                          className="flex items-center gap-3 py-3 group hover:bg-white/[0.03] transition"
+                        >
+                          <a
+                            href="/cart"
+                            onClick={() => setCartDropdownOpen(false)}
+                            className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow"
+                          >
+                            <img
+                              src={item.img || item.image}
+                              alt={item.name}
+                              className="w-full h-full object-cover"
+                            />
                           </a>
                           <div className="min-w-0 flex-1">
-                            <a href="/cart" onClick={() => setCartDropdownOpen(false)} className="block text-sm font-medium text-white truncate hover:text-amber-300 transition">{item.name}</a>
-                            <p className="text-xs text-amber-300 font-semibold">${(item.price || 0).toLocaleString()}</p>
-                            <p className="text-[11px] text-white/40">Qty: {item.qty || 1}</p>
+                            <a
+                              href="/cart"
+                              onClick={() => setCartDropdownOpen(false)}
+                              className="block text-sm font-medium text-white truncate hover:text-amber-300 transition"
+                            >
+                              {item.name}
+                            </a>
+                            <p className="text-xs text-amber-300 font-semibold">
+                              ${(item.price || 0).toLocaleString()}
+                            </p>
+                            <p className="text-[11px] text-white/40">
+                              Qty: {item.qty || 1}
+                            </p>
                           </div>
-                          <button type="button" onClick={() => removeCart(item.id)} aria-label={`Remove ${item.name}`} className="shrink-0 rounded-full p-1.5 text-white/30 hover:text-rose-400 hover:bg-rose-400/10 transition"><Trash2 className="w-3.5 h-3.5" /></button>
+                          <button
+                            type="button"
+                            onClick={() => removeCart(item.id)}
+                            aria-label={`Remove ${item.name}`}
+                            className="shrink-0 rounded-full p-1.5 text-white/30 hover:text-rose-400 hover:bg-rose-400/10 transition"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
                         </div>
                       ))}
                     </div>
                   )}
                 </div>
                 <div className="flex items-center justify-between border-t border-white/[0.08] px-5 py-3.5 bg-white/[0.02]">
-                  <Link href="/cart" onClick={() => setCartDropdownOpen(false)} className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition">View full cart →</Link>
-                  <span className="text-xs font-bold text-white">Subtotal: ${cartSubtotal.toLocaleString()}</span>
+                  <Link
+                    href="/cart"
+                    onClick={() => setCartDropdownOpen(false)}
+                    className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition"
+                  >
+                    View full cart →
+                  </Link>
+                  <span className="text-xs font-bold text-white">
+                    Subtotal: ${cartSubtotal.toLocaleString()}
+                  </span>
                 </div>
               </div>
             </div>
