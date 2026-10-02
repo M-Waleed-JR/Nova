@@ -1,13 +1,21 @@
 "use client";
 
+// Import Next.js core components for image optimization and routing
 import Image from "next/image";
 import Link from "next/link";
+
+// Import Lucide icons for UI representation
 import { Trash2, Heart, Sparkles, ChevronDown, ChevronUp } from "lucide-react";
+
+// Import React hooks for performance optimization and state management
 import { useCallback, useMemo } from "react";
+
+// Import custom context hook and category navigation component
 import { useWishlist } from "@/components/WishlistContext";
 import CategoryNav from "@/components/products/CategoryNav";
 
 export default function WishlistPage() {
+  // Destructure state and handler functions from WishlistContext
   const {
     items: wishlistItemsContext,
     count,
@@ -15,13 +23,20 @@ export default function WishlistPage() {
     clear: clearContext,
     hydrated,
   } = useWishlist();
+
+  // Safeguard item count calculation
   const countNum = count || 0;
+
+  // Memoize wishlist items array to prevent unnecessary re-renders
   const wishlistItems = useMemo(
     () => wishlistItemsContext || [],
     [wishlistItemsContext],
   );
+
+  // Determine if the wishlist is empty only after client-side hydration completes
   const empty = countNum === 0 && hydrated;
 
+  // Handler to remove a single item from the wishlist
   const removeItem = useCallback(
     (id) => {
       removeFromContext(id);
@@ -29,21 +44,23 @@ export default function WishlistPage() {
     [removeFromContext],
   );
 
+  // Handler to clear all items from the wishlist
   const handleClear = useCallback(() => {
     clearContext();
   }, [clearContext]);
 
   return (
     <main className="min-h-screen bg-zinc-950 text-white font-sans selection:bg-amber-400/30 selection:text-amber-50">
-      {/* Navigation */}
+      {/* Category Navigation Bar */}
       <CategoryNav />
 
       <section
         aria-label="Wishlist"
         className="mx-auto max-w-7xl px-6 py-16 md:py-24"
       >
-        {/* Asymmetric header */}
+        {/* Header Section: Title, Subtitle, and Quick Links */}
         <div className="mb-12 md:mb-16 lg:mb-20 grid lg:grid-cols-[1fr_1.2fr] gap-10 lg:gap-16 items-end">
+          {/* Main Title & Description */}
           <div>
             <h1 className="text-5xl md:text-7xl font-extrabold leading-[0.9] tracking-[-0.05em] text-white">
               Your{" "}
@@ -56,6 +73,8 @@ export default function WishlistPage() {
               link here. Remove what you no longer want anytime.
             </p>
           </div>
+
+          {/* Action Links */}
           <div className="flex lg:justify-end items-end gap-3">
             <Link
               href="/"
@@ -72,12 +91,15 @@ export default function WishlistPage() {
           </div>
         </div>
 
+        {/* Conditional Rendering: Empty Wishlist View vs. Wishlist Items Grid */}
         {empty ? (
+          /* ----- Empty State Component ----- */
           <div
             className="flex flex-col items-center justify-center py-24 md:py-32 text-center"
             role="region"
             aria-label="Empty wishlist"
           >
+            {/* Visual Icon Badge */}
             <div className="relative mb-8">
               <div className="h-24 w-24 rounded-3xl bg-gradient-to-br from-rose-500/10 to-amber-400/10 border border-white/10 flex items-center justify-center shadow-2xl shadow-rose-900/10 backdrop-blur-md">
                 <Heart
@@ -92,6 +114,8 @@ export default function WishlistPage() {
                 <span className="block h-1.5 w-1.5 rounded-full bg-white" />
               </span>
             </div>
+
+            {/* Empty State Text & Call to Action */}
             <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white">
               Your wishlist is empty
             </h2>
@@ -107,6 +131,7 @@ export default function WishlistPage() {
             </Link>
           </div>
         ) : (
+          /* ----- Wishlist Products Grid ----- */
           <>
             <div
               role="list"
@@ -114,6 +139,7 @@ export default function WishlistPage() {
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
             >
               {wishlistItems.map((product, idx) => {
+                // Format product data with proper fallbacks and discount checks
                 const title = product.name || product.title || "Product";
                 const imageSrc = product.image || product.thumbnail || "";
                 const slug =
@@ -127,15 +153,21 @@ export default function WishlistPage() {
                 const originalPrice = hasDiscount
                   ? Number(product.oldPrice)
                   : price;
+
                 return (
+                  /* Individual Product Card */
                   <article
                     key={`${String(product.id)}-${idx}`}
                     role="listitem"
                     className="group relative flex flex-col overflow-hidden rounded-3xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-sm transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06] hover:shadow-[0_12px_40px_rgba(0,0,0,0.6)] hover:-translate-y-1"
                     aria-label={`Wishlist item: ${title}, $${price}`}
                   >
+                    {/* Hover Glow Effect Overlay */}
                     <div className="pointer-events-none absolute -inset-px rounded-3xl bg-gradient-to-b from-amber-400/10 via-transparent to-rose-500/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100 z-0" />
+
+                    {/* Product Image Container & Remove Button */}
                     <div className="relative z-10 w-full overflow-hidden rounded-t-3xl bg-[#080810] pt-[100%]">
+                      {/* Product Link Overlay */}
                       <Link
                         href={slug ? `/products/${slug}` : `/`}
                         className="absolute inset-0 block"
@@ -153,6 +185,8 @@ export default function WishlistPage() {
                           loading="lazy"
                         />
                       </Link>
+
+                      {/* Remove Item Button */}
                       <button
                         type="button"
                         onClick={() => removeItem(product.id)}
@@ -162,7 +196,10 @@ export default function WishlistPage() {
                         <Trash2 className="h-4 w-4" aria-hidden="true" />
                       </button>
                     </div>
+
+                    {/* Product Details Section */}
                     <div className="relative z-10 flex flex-1 flex-col p-5">
+                      {/* Category & Brand Meta */}
                       <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.08em] text-white/40 mb-2">
                         <span className="truncate">
                           {product.brand || product.category || "Nova"}
@@ -170,6 +207,8 @@ export default function WishlistPage() {
                         <span className="h-0.5 w-0.5 rounded-full bg-white/30" />
                         <span>{product.category || "Device"}</span>
                       </div>
+
+                      {/* Product Title */}
                       <Link
                         href={slug ? `/products/${slug}` : `/`}
                         className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300/60 focus-visible:rounded-lg"
@@ -178,11 +217,15 @@ export default function WishlistPage() {
                           {title}
                         </h3>
                       </Link>
+
+                      {/* Product Description */}
                       {product.description && (
                         <p className="mt-2 text-xs text-white/50 leading-relaxed line-clamp-2">
                           {product.description}
                         </p>
                       )}
+
+                      {/* Price Display */}
                       <div className="mt-auto pt-4 flex items-baseline gap-3 border-t border-white/[0.06]">
                         <span className="text-2xl font-extrabold tracking-tight text-white">
                           ${price}
@@ -193,6 +236,8 @@ export default function WishlistPage() {
                           </del>
                         )}
                       </div>
+
+                      {/* Purchase CTA Link */}
                       <Link
                         href={slug ? `/products/${slug}` : `/`}
                         className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-amber-400 text-black px-5 py-2.5 text-sm font-extrabold tracking-tight shadow-[0_6px_24px_-6px_rgba(251,191,36,0.35)] transition hover:bg-amber-300 hover:shadow-[0_8px_28px_-8px_rgba(251,191,36,0.45)] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300/60"
@@ -205,8 +250,9 @@ export default function WishlistPage() {
               })}
             </div>
 
-            {/* Bottom summary + clear all */}
+            {/* ----- Bottom Summary Bar & Clear All Option ----- */}
             <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-2xl border border-white/[0.08] bg-white/[0.03] px-6 py-5 backdrop-blur-md">
+              {/* Item Counter Info */}
               <div className="flex items-center gap-3">
                 <div className="h-10 w-10 rounded-xl bg-amber-400/10 border border-amber-400/20 flex items-center justify-center">
                   <Sparkles
@@ -223,6 +269,8 @@ export default function WishlistPage() {
                   </p>
                 </div>
               </div>
+
+              {/* Clear All Items Button */}
               <button
                 type="button"
                 onClick={handleClear}

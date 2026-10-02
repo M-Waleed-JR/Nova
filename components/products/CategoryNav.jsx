@@ -35,6 +35,18 @@ function useIsMounted() {
   );
 }
 
+/*
+  Shared dropdown classes (wishlist + cart).
+  Mobile: positioned relative to the sticky <header>, full width with 16px margins.
+  Desktop (md+): positioned under its button, fixed 380px width, aligned right.
+*/
+const dropdownBase =
+  "absolute top-full left-4 right-4 mt-2 origin-top rounded-2xl border border-white/[0.10] bg-[#0b0d12]/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-200 z-50 " +
+  "md:left-auto md:right-0 md:w-[380px] md:origin-top-right ";
+
+const dropdownOpenClass = "opacity-100 translate-y-0 pointer-events-auto";
+const dropdownClosedClass = "opacity-0 -translate-y-2 pointer-events-none";
+
 /* Round icon button used for wishlist / cart / search / menu */
 function IconLink({ href, label, count, children, className = "" }) {
   return (
@@ -279,7 +291,7 @@ export default function CategoryNav({ user = null }) {
             </IconButton>
 
             {/* Wishlist Icon with dropdown */}
-            <div className="relative" ref={wishRef}>
+            <div className="md:relative" ref={wishRef}>
               <button
                 type="button"
                 onClick={() => {
@@ -308,10 +320,8 @@ export default function CategoryNav({ user = null }) {
               {/* Wishlist Dropdown */}
               <div
                 className={
-                  "absolute top-full right-0 mt-2 w-[380px] rounded-2xl border border-white/[0.10] bg-[#0b0d12]/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-200 z-50 " +
-                  (wishOpen
-                    ? "opacity-100 translate-y-0 pointer-events-auto"
-                    : "opacity-0 -translate-y-2 pointer-events-none")
+                  dropdownBase +
+                  (wishOpen ? dropdownOpenClass : dropdownClosedClass)
                 }
               >
                 <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
@@ -344,7 +354,7 @@ export default function CategoryNav({ user = null }) {
                     </svg>
                   </button>
                 </div>
-                <div className="max-h-[320px] overflow-y-auto">
+                <div className="max-h-[260px] overflow-y-auto">
                   {!isMounted ? (
                     <div className="px-5 py-10 text-center text-white/40 text-sm">
                       No loved products yet.
@@ -358,11 +368,11 @@ export default function CategoryNav({ user = null }) {
                       {wishItems.map((item) => (
                         <div
                           key={item.id}
-                          className="flex items-center gap-3 px-5 py-3 border-b border-white/[0.05] hover:bg-white/[0.03] transition group"
+                          className="flex items-start sm:items-center gap-3 px-4 sm:px-5 py-3 border-b border-white/[0.05] hover:bg-white/[0.03] transition group"
                         >
                           <a
                             href={`/products/${item.slug || item.id}`}
-                            className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow"
+                            className="shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow"
                           >
                             <img
                               src={item.image}
@@ -385,7 +395,7 @@ export default function CategoryNav({ user = null }) {
                             type="button"
                             onClick={() => removeWish(item.id)}
                             aria-label={`Remove ${item.name}`}
-                            className="shrink-0 rounded-full p-1.5 text-white/30 hover:text-rose-400 hover:bg-rose-400/10 transition"
+                            className="shrink-0 rounded-full p-1.5 text-white/30 hover:text-rose-400 hover:bg-rose-400/10 transition self-start"
                           >
                             <Trash2 className="w-3.5 h-3.5" />
                           </button>
@@ -394,15 +404,15 @@ export default function CategoryNav({ user = null }) {
                     </>
                   )}
                 </div>
-                <div className="flex items-center justify-between border-t border-white/[0.08] px-5 py-3.5 bg-white/[0.02]">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-t border-white/[0.08] px-4 sm:px-5 py-3.5 bg-white/[0.02]">
                   <a
                     href="/wishlist"
                     onClick={() => setWishOpen(false)}
-                    className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition"
+                    className="text-xs font-medium text-cyan-300 hover:text-cyan-200 transition whitespace-nowrap"
                   >
                     View full wishlist →
                   </a>
-                  <span className="text-xs font-bold text-white">
+                  <span className="text-xs font-bold text-white whitespace-nowrap">
                     Subtotal: ${isMounted ? wishSubtotal.toLocaleString() : "0"}
                   </span>
                 </div>
@@ -432,7 +442,7 @@ export default function CategoryNav({ user = null }) {
             )}
 
             {/* Shopping Cart Button (dropdown toggle only) */}
-            <div className="relative" ref={cartRef}>
+            <div className="md:relative" ref={cartRef}>
               <button
                 type="button"
                 onClick={() => {
@@ -462,10 +472,8 @@ export default function CategoryNav({ user = null }) {
               {/* Cart Dropdown Panel */}
               <div
                 className={
-                  "absolute top-full right-0 mt-2 w-[380px] rounded-2xl border border-white/[0.10] bg-[#0b0d12]/95 backdrop-blur-2xl shadow-[0_20px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-200 z-50 " +
-                  (cartDropdownOpen
-                    ? "opacity-100 translate-y-0 pointer-events-auto"
-                    : "opacity-0 -translate-y-2 pointer-events-none")
+                  dropdownBase +
+                  (cartDropdownOpen ? dropdownOpenClass : dropdownClosedClass)
                 }
               >
                 <div className="flex items-center justify-between border-b border-white/[0.08] px-5 py-4">
@@ -513,7 +521,7 @@ export default function CategoryNav({ user = null }) {
                           <a
                             href="/cart"
                             onClick={() => setCartDropdownOpen(false)}
-                            className="shrink-0 w-12 h-12 rounded-xl overflow-hidden shadow"
+                            className="shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow"
                           >
                             <img
                               src={item.img || item.image}

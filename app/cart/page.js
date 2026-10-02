@@ -173,7 +173,7 @@ export default function CartPage() {
 
         {items.length > 0 && (
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-8 lg:gap-16 items-start">
-            {/* اليسار: المنتجات */}
+            {/* Left Column: Items */}
             <div>
               <div className="flex items-center justify-between mb-6 sm:mb-8">
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold tracking-tight flex items-center">
