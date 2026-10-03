@@ -22,13 +22,32 @@ export async function generateMetadata({ params }) {
 
 export default async function CategoryPage({ params, searchParams }) {
   const { slug } = await params;
-  const { sort = "featured", brand: selectedBrand = "all" } =
+  const { sort = "featured", brand: selectedBrand = "all", q: searchQuery = "" } =
     (await searchParams) || {};
 
   const currentCategory = categories.find(({ slug: s }) => s === slug);
   if (!currentCategory) notFound();
 
   let products = getProductsByCategory(slug) || [];
+
+  // Search filter: match query against product name, brand, description, or specs
+  // Note: search is handled globally at /search — this only applies if user lands here with q
+  if (searchQuery && searchQuery.trim()) {
+    const term = searchQuery.toLowerCase();
+    products = products.filter((p) => {
+      const text = [
+        p.name,
+        p.brand,
+        p.description,
+        p.category,
+        ...(p.specs ? Object.values(p.specs) : []),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return text.includes(term);
+    });
+  }
 
   // Extract brands dynamically from products
   const availableBrands = Array.from(
@@ -95,6 +114,20 @@ export default async function CategoryPage({ params, searchParams }) {
             </p>
           </div>
         </div>
+        {/* Search Results Banner */}
+        {searchQuery && (
+          <div className="mb-6 rounded-xl border border-cyan-400/20 bg-cyan-900/10 px-4 py-3 text-sm text-cyan-200">
+            Search results for{" "}
+            <span className="font-bold">&quot;{searchQuery}&quot;</span>
+            <Link
+              href={`/category/${slug}`}
+              className="ml-3 text-xs font-medium text-cyan-300 hover:text-white underline"
+            >
+              Clear search
+            </Link>
+          </div>
+        )}
+
         {/* Filter & Sort Bar */}
         <div className="mb-8 flex w-full max-w-full flex-col gap-3.5 rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-3.5 backdrop-blur-md md:flex-row md:items-center md:justify-between overflow-hidden">
           {/* Brand Filter */}

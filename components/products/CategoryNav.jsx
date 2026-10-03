@@ -186,8 +186,9 @@ export default function CategoryNav({ user = null }) {
     const q = query.trim();
     if (!q) return;
     setSearchOpen(false);
-    // Search route not implemented; filter locally instead
-    router.push(`/category/smartphones?q=${encodeURIComponent(q)}`);
+
+    // Search globally — do not lock to current category
+    router.push(`/search?q=${encodeURIComponent(q)}`);
   };
 
   const renderSearch = (inputRef, showShortcutHint = false) => (
