@@ -7,7 +7,7 @@ A premium electronics storefront built with Next.js, Tailwind CSS, Swiper, and L
 - `/` — product hero and featured products.
 - `/products/[category]` — statically generated category collections.
 - `lib/data.js` — normalized product catalogue and query helpers.
-- `lib/categories.js` — the shared category source used by navigation and routes.
+- `lib/data/categories.json` — the shared category source used by navigation and routes.
 
 ## Development
 
@@ -23,3 +23,6 @@ Then open [http://localhost:3000](http://localhost:3000).
 npm run lint
 npm run build
 ```
+
+Co-Authored-By: Claude Code <noreply@anthropic.com>
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
